@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Exceso de Armonía",
+    "type": "fundamento",
+    "element": [
+      "armonia"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "El exceso de Silencio durante un bloqueo se transforma en curación."
+    },
+    "evolved": {
+      "description": "Afecta a todos los aliados."
+    }
+  },
+  {
+    "name": "Coro de Amparo",
+    "type": "rudimento",
+    "element": [
+      "armonia"
+    ],
+    "coste": "2",
+    "base": {
+      "description": "Hasta 2 aliados ganan [1 + AT] de Silencio en su próxima tirada de bloqueo."
+    },
+    "evolved": {
+      "description": "Afecta a todos los aliados y el dado de Silencio pasa a ser 1d10"
+    }
+  },
+  {
+    "name": "Fuente de Resonancia",
+    "type": "rudimento",
+    "element": [
+      "armonia"
+    ],
+    "coste": "2",
+    "base": {
+      "description": "Otorga a 1 aliado [1 + AT/2] de Resonancia."
+    },
+    "evolved": {
+      "description": "El objetivo recupera todos sus puntos de Resonancia."
+    }
+  },
+  {
+    "name": "A viva voz",
+    "type": "rudimento",
+    "element": [
+      "armonia"
+    ],
+    "coste": "1",
+    "base": {
+      "description": "Crea un área de 2 casillas alrededor tuya. En este área los aliados no tienen debilidades por afinación. Si te mueves el efecto desaparece. Mantener el área cuesta 1 punto de Resonancia por ronda."
+    },
+    "evolved": {
+      "description": "Puedes moverte, el efecto no desaparece."
+    }
+  },
+  {
+    "name": "Tambores de guerra",
+    "type": "fundamento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Puedes lanzar tu acción Pulso 2 veces pero solo recuperas una vez resonancia."
+    },
+    "evolved": {
+      "description": "Ganas resonancia por cada Pulso que realices."
+    }
+  },
+  {
+    "name": "Reset",
+    "type": "fundamento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Siempre que un Rudimento de daño con multiples objetivos haga daño a 1 solo objetivo añade al daño tu AT/2 de daño."
+    },
+    "evolved": {
+      "description": "Añade tu AT completo."
+    }
+  },
+  {
+    "name": "Bonk",
+    "type": "rudimento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Reparte [1d6 + AT] de daño a todos los objetivos que se encuentren a melee."
+    },
+    "evolved": {
+      "description": "Inflinge [1d6 + AT]."
+    }
+  },
+  {
+    "name": "Redoble",
+    "type": "rudimento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Inflinge 1d2 de daño verdadero a 1 objetivo a melee. Si sale 2 vuelve a tirar. Si sale 1 se acaba el turno."
+    },
+    "evolved": {
+      "description": "Suma tu AT al daño."
+    }
+  },
+  {
+    "name": "Marcando el ritmo",
+    "type": "rudimento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Inflige [1d4+AT-T] de daño a 1 objetivo a melee."
+    },
+    "evolved": {
+      "description": "Inflige [1d4+AT+T] de daño a 1 objetivo a melee."
+    }
+  },
+  {
+    "name": "Corazón palpitante",
+    "type": "rudimento",
+    "element": [
+      "ritmo"
+    ],
+    "coste": "0",
+    "base": {
+      "description": "Mueve a 1 enemigo [1d4+AT] de casillas hacia ti. Cada casilla desplazada inflige 1 de daño verdadero."
+    },
+    "evolved": {
+      "description": "Mueve hasta 3 enemigos."
+    }
+  },
+]
