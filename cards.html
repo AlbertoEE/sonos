@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonos - Cartas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./cards.css">
+</head>
+<body>
+  <div class="page" id="cards-container"></div>
+
+  <script>
+    // Map element names to their icon files
+    const elementIcons = {
+      'armonia': 'icons/armonia.svg',
+      'ritmo': 'icons/ritmo.svg',
+      'tempo': 'icons/tempo.svg',
+      'disonancia': 'icons/disonancia.svg',
+      'contrapunto': 'icons/contrapunto.svg',
+      'melodia': 'icons/melodia.svg'
+    };
+
+    function createCard(item) {
+      const element = item.element[0];
+      const elementClass = `element-${element}`;
+      const elementName = element.charAt(0).toUpperCase() + element.slice(1);
+      const iconPath = elementIcons[element] || 'icons/armonia.svg';
+      
+      return `
+        <div class="card">
+          <div class="card-frame"></div>
+          <div class="corner corner-tl"></div>
+          <div class="corner corner-tr"></div>
+          <div class="corner corner-bl"></div>
+          <div class="corner corner-br"></div>
+          
+          <div class="card-cost">${item.coste}</div>
+          
+          <div class="card-emblem ${elementClass}">
+            <img src="${iconPath}" alt="${elementName}" class="emblem-icon"/>
+          </div>
+          
+          <div class="card-inner">
+            <div class="card-artwork">
+              <img src="image.png" alt="Artwork" class="artwork-image"/>
+            </div>
+            
+            <div class="card-element-banner ${elementClass}">
+              <div class="element-banner-bg"></div>
+              <span class="element-banner-text">${elementName}</span>
+            </div>
+            
+            <div class="card-textbox">
+              <div class="card-name">${item.name}</div>
+              <div class="card-description">${item.base.description}</div>
+              <div class="evolved-section">
+                <div class="evolved-label">✦ Evolucionado</div>
+                <div class="evolved-text">${item.evolved.description}</div>
+              </div>
+              <div class="card-type-badge">${item.type}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderCards(data) {
+      const allCards = [...data.rudimentos, ...data.fundamentos];
+      const container = document.getElementById('cards-container');
+      const pages = [];
+      
+      for (let i = 0; i < allCards.length; i += 9) {
+        const pageCards = allCards.slice(i, i + 9);
+        const pageHtml = pageCards.map(createCard).join('');
+        pages.push(pageHtml);
+      }
+
+      container.innerHTML = pages[0];
+      
+      for (let i = 1; i < pages.length; i++) {
+        const newPage = document.createElement('div');
+        newPage.className = 'page';
+        newPage.innerHTML = pages[i];
+        document.body.appendChild(newPage);
+      }
+    }
+
+    // Load data from external JSON file
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => renderCards(data))
+      .catch(error => {
+        console.error('Error loading data:', error);
+        document.getElementById('cards-container').innerHTML = 
+          '<p style="color: white; padding: 20px;">Error cargando data.json</p>';
+      });
+  </script>
+</body>
+</html>

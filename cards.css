@@ -1,0 +1,299 @@
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Crimson Text', Georgia, serif;
+  background: #0a0a0f;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  background: white;
+  margin: 0 auto 20px;
+  padding: 15mm 10.5mm;
+  display: grid;
+  grid-template-columns: repeat(3, 63mm);
+  grid-template-rows: repeat(3, 89mm);
+  gap: 0;
+}
+
+.card {
+  width: 63mm;
+  height: 89mm;
+  position: relative;
+  background: linear-gradient(145deg, #2a1f3d 0%, #1a1428 50%, #0f0a1a 100%);
+  border-radius: 3mm;
+  overflow: hidden;
+  font-size: 8pt;
+}
+
+/* Ornate frame */
+.card-frame {
+  position: absolute;
+  inset: 0;
+  border: 2.5mm solid transparent;
+  border-image: linear-gradient(
+    145deg,
+    #d4a84b 0%,
+    #f4d483 15%,
+    #c9943a 30%,
+    #8b6914 50%,
+    #c9943a 70%,
+    #f4d483 85%,
+    #d4a84b 100%
+  ) 1;
+  pointer-events: none;
+}
+
+.card-inner {
+  position: absolute;
+  inset: 2mm;
+  border: 0.3mm solid #8b6914;
+  border-radius: 2mm;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Corner decorations */
+.corner {
+  position: absolute;
+  width: 4mm;
+  height: 4mm;
+  z-index: 10;
+}
+
+.corner::before,
+.corner::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(135deg, #f4d483, #8b6914);
+}
+
+.corner-tl { top: 1mm; left: 1mm; }
+.corner-tl::before { width: 3mm; height: 0.5mm; top: 0; left: 0; border-radius: 0.5mm; }
+.corner-tl::after { width: 0.5mm; height: 3mm; top: 0; left: 0; border-radius: 0.5mm; }
+
+.corner-tr { top: 1mm; right: 1mm; }
+.corner-tr::before { width: 3mm; height: 0.5mm; top: 0; right: 0; border-radius: 0.5mm; }
+.corner-tr::after { width: 0.5mm; height: 3mm; top: 0; right: 0; border-radius: 0.5mm; }
+
+.corner-bl { bottom: 1mm; left: 1mm; }
+.corner-bl::before { width: 3mm; height: 0.5mm; bottom: 0; left: 0; border-radius: 0.5mm; }
+.corner-bl::after { width: 0.5mm; height: 3mm; bottom: 0; left: 0; border-radius: 0.5mm; }
+
+.corner-br { bottom: 1mm; right: 1mm; }
+.corner-br::before { width: 3mm; height: 0.5mm; bottom: 0; right: 0; border-radius: 0.5mm; }
+.corner-br::after { width: 0.5mm; height: 3mm; bottom: 0; right: 0; border-radius: 0.5mm; }
+
+/* Cost circle */
+.card-cost {
+  position: absolute;
+  top: 3.5mm;
+  left: 3.5mm;
+  width: 7mm;
+  height: 7mm;
+  background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
+  border: 0.4mm solid #8b6914;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cinzel', serif;
+  font-size: 12pt;
+  font-weight: 700;
+  color: #e8e8e8;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  z-index: 5;
+  box-shadow: 
+    inset 0 1px 3px rgba(255,255,255,0.3),
+    0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Top emblem */
+.card-emblem {
+  position: absolute;
+  top: 3mm;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9mm;
+  height: 9mm;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emblem-icon {
+  width: 100%;
+  height: 100%;
+  color: #c9943a;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));
+}
+
+/* Element-specific emblem colors */
+.card-emblem.element-armonia .emblem-icon { color: #c9943a; }
+.card-emblem.element-ritmo .emblem-icon { color: #c9943a; }
+.card-emblem.element-tempo .emblem-icon { color: #c9943a; }
+.card-emblem.element-disonancia .emblem-icon { color: #c9943a; }
+.card-emblem.element-contrapunto .emblem-icon { color: #c9943a; }
+.card-emblem.element-melodia .emblem-icon { color: #c9943a; }
+
+/* Artwork area */
+.card-artwork {
+  flex: 1;
+  margin: 2mm 2mm 0 2mm;
+  background: #0a1020;
+  border: 0.3mm solid #5a4a3a;
+  border-radius: 1.5mm 1.5mm 0 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 38mm;
+}
+
+.card-artwork img,
+.artwork-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Element banner */
+.card-element-banner {
+  position: relative;
+  margin: 0 2mm;
+  height: 6mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element-banner-bg {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(180deg, #e8d5a8 0%, #c9b896 50%, #b8a882 100%);
+  border-radius: 3mm;
+  border: 0.3mm solid #8b6914;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.element-banner-text {
+  position: relative;
+  font-family: 'Cinzel', serif;
+  font-size: 7pt;
+  font-weight: 600;
+  color: #2a1a0a;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+/* Text box */
+.card-textbox {
+  margin: 1mm 2mm 2mm 2mm;
+  padding: 2mm;
+  background: linear-gradient(180deg, #f4e8d0 0%, #e8d5b8 30%, #d9c4a0 100%);
+  border: 0.3mm solid #8b6914;
+  border-radius: 1.5mm;
+  flex: 0 0 auto;
+  min-height: 24mm;
+  position: relative;
+}
+
+.card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 7pt;
+  font-weight: 700;
+  color: #2a1a0a;
+  text-align: center;
+  margin-bottom: 1.5mm;
+  border-bottom: 0.2mm solid #c9a86a;
+  padding-bottom: 1mm;
+}
+
+.card-description {
+  font-size: 6.5pt;
+  line-height: 1.35;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.card-type-badge {
+  position: absolute;
+  bottom: 1.5mm;
+  right: 2mm;
+  font-family: 'Cinzel', serif;
+  font-size: 5pt;
+  color: #8b6914;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Evolved indicator */
+.evolved-section {
+  margin-top: 1.5mm;
+  padding-top: 1mm;
+  border-top: 0.2mm dashed #a08050;
+}
+
+.evolved-label {
+  font-size: 5pt;
+  color: #8b5a2b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5mm;
+}
+
+.evolved-text {
+  font-size: 6pt;
+  color: #5a3a1a;
+  font-style: italic;
+}
+
+/* Element-specific colors for banner */
+.element-armonia .element-banner-bg {
+  background: linear-gradient(180deg, #c8e8d8 0%, #98c8b0 50%, #78a890 100%);
+}
+
+.element-ritmo .element-banner-bg {
+  background: linear-gradient(180deg, #e8c8c8 0%, #c89898 50%, #a87878 100%);
+}
+
+.element-tempo .element-banner-bg {
+  background: linear-gradient(180deg, #c8e8f8 0%, #98c8e8 50%, #78a8c8 100%);
+}
+
+.element-tension .element-banner-bg {
+  background: linear-gradient(180deg, #f8e8c8 0%, #e8c898 50%, #c8a878 100%);
+}
+
+.element-silencio .element-banner-bg {
+  background: linear-gradient(180deg, #d8c8e8 0%, #b898c8 50%, #9878a8 100%);
+}
+
+@media print {
+  body {
+    background: white;
+    padding: 0;
+  }
+  .page {
+    margin: 0;
+    padding: 15mm 10.5mm;
+    page-break-after: always;
+  }
+  .page:last-child {
+    page-break-after: avoid;
+  }
+}
+
