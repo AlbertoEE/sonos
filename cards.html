@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sonos - Cartas</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./cards.css?v=6">
+  <link rel="stylesheet" href="./cards.css?v=8">
 </head>
 <body>
   <div class="page" id="cards-container"></div>
@@ -26,14 +26,20 @@
       const elementClass = `element-${element}`;
       const elementName = element.charAt(0).toUpperCase() + element.slice(1);
       const iconPath = elementIcons[element] || 'icons/armonia.svg';
+      const typeClass = `type-${item.type}`;
       
       return `
-        <div class="card">
+        <div class="card ${typeClass}">
           <div class="card-frame"></div>
           <div class="corner corner-tl"></div>
           <div class="corner corner-tr"></div>
           <div class="corner corner-bl"></div>
           <div class="corner corner-br"></div>
+          
+          <div class="card-cost">${item.coste}</div>
+          <div class="card-emblem ${elementClass}">
+            <img src="${iconPath}" alt="${elementName}" class="emblem-icon"/>
+          </div>
           
           <div class="card-inner">
             <div class="card-artwork">
@@ -41,11 +47,7 @@
             </div>
             
             <div class="card-element-banner ${elementClass}">
-              <span class="banner-cost">${item.coste}</span>
               <span class="element-banner-text">${item.name}</span>
-              <span class="banner-emblem">
-                <img src="${iconPath}" alt="${elementName}" class="emblem-icon"/>
-              </span>
             </div>
             
             <div class="card-textbox">
