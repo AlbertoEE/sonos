@@ -59,7 +59,7 @@ body {
 .card-inner {
   position: absolute;
   inset: 2mm;
-  border: 0.3mm solid #8b6914;
+
   border-radius: 2mm;
   display: flex;
   flex-direction: column;
@@ -138,13 +138,13 @@ body {
   box-shadow: 
     inset 0 1px 3px rgba(255,255,255,0.3),
     0 2px 4px rgba(0,0,0,0.5);
-  padding: 1.2mm;
+  padding: 0.6mm;
 }
 
 .card-emblem .emblem-icon {
   width: 100%;
   height: 100%;
-  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+  filter: brightness(0) invert(1) drop-shadow(0 1px 1px rgba(0,0,0,0.3));
 }
 
 /* Artwork area - 53mm × 39mm */
@@ -206,17 +206,6 @@ body {
   flex-direction: column;
 }
 
-.card-name {
-  font-family: 'Cinzel', serif;
-  font-size: 7pt;
-  font-weight: 700;
-  color: #2a1a0a;
-  text-align: center;
-  margin-bottom: 1.5mm;
-  border-bottom: 0.2mm solid #c9a86a;
-  padding-bottom: 1mm;
-}
-
 .card-description {
   font-size: 6.5pt;
   line-height: 1.35;
@@ -254,27 +243,6 @@ body {
   font-size: 6pt;
   color: #5a3a1a;
   font-style: italic;
-}
-
-/* Element-specific colors for banner */
-.element-armonia .element-banner-bg {
-  background: linear-gradient(180deg, #c8e8d8 0%, #98c8b0 50%, #78a890 100%);
-}
-
-.element-ritmo .element-banner-bg {
-  background: linear-gradient(180deg, #e8c8c8 0%, #c89898 50%, #a87878 100%);
-}
-
-.element-tempo .element-banner-bg {
-  background: linear-gradient(180deg, #c8e8f8 0%, #98c8e8 50%, #78a8c8 100%);
-}
-
-.element-tension .element-banner-bg {
-  background: linear-gradient(180deg, #f8e8c8 0%, #e8c898 50%, #c8a878 100%);
-}
-
-.element-silencio .element-banner-bg {
-  background: linear-gradient(180deg, #d8c8e8 0%, #b898c8 50%, #9878a8 100%);
 }
 
 /* Type-specific styles */
