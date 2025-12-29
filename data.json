@@ -97,6 +97,90 @@
       "evolved": {
         "description": "Mueve hasta 3 enemigos."
       }
+    },
+    {
+      "name": "Ecos del pasado",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "0",
+      "base": {
+        "description": "Obliga a 1 objetivo a repetir su tirada y restale/sumale tu AT al resultado."
+      },
+      "evolved": {
+        "description": "Añade Desventaja/Ventaja a la tirada del objetivo."
+      }
+    },
+    {
+      "name": "Interferencias cruzadas",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "0",
+      "base": {
+        "description": "Redirige el daño de 1 objetivo a otro objetivo. Recibes la mitad de los puntos de daño -AT."
+      },
+      "evolved": {
+        "description": "Reparte el daño de 1 objetivo a 1d4 de objetivos."
+      }
+    },
+    {
+      "name": "Vinculo Corrupto",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "0",
+      "base": {
+        "description": "Vínculate con un objetivo. Cualquier daño que reciban los vinculados se reparte entre ambos."
+      },
+      "evolved": {
+        "description": "Resta/Suma tu AT al daño entrante."
+      }
+    },
+    {
+      "name": "Pulso débil",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "0",
+      "base": {
+        "description": "Vínculate con un objetivo. Cualquier daño que reciban los vinculados se reparte entre ambos."
+      },
+      "evolved": {
+        "description": "Resta/Suma tu AT al daño entrante."
+      }
+    },
+    {
+      "name": "Silencio Abrupto",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "Max",
+      "base": {
+        "description": "Cancela la próxima acción declarada por 1 objetivo. Tú no puedes actuar en tu siguiente turno."
+      },
+      "evolved": {
+        "description": "Cuesta la mitad de tu Resonancia máxima."
+      }
+    },
+    {
+      "name": "Desfase",
+      "type": "rudimento",
+      "element": [
+        "disonancia"
+      ],
+      "coste": "0",
+      "base": {
+        "description": "Acumula todo el daño recibido esta ronda. Recíbelo al final de la siguiente ronda."
+      },
+      "evolved": {
+        "description": "Acumula el daño recibido de un objetivo esta ronda. Recíbelo al final de la siguiente ronda."
+      }
     }
   ],
   "fundamentos": [
