@@ -60,7 +60,19 @@
     }
 
     function renderCards(data) {
-      const allCards = [...data.rudimentos, ...data.fundamentos];
+      // Flatten the nested structure into a single array
+      const allCards = [];
+      
+      // Add all fundamentos
+      Object.values(data.fundamentos).forEach(elementCards => {
+        allCards.push(...elementCards);
+      });
+      
+      // Add all rudimentos
+      Object.values(data.rudimentos).forEach(elementCards => {
+        allCards.push(...elementCards);
+      });
+
       const container = document.getElementById('cards-container');
       const pages = [];
       
@@ -80,8 +92,8 @@
       }
     }
 
-    // Load data from external JSON file
-    fetch('data.json')
+    // Load data from external JSON file (with cache-busting)
+    fetch(`data.json?t=${Date.now()}`)
       .then(response => response.json())
       .then(data => renderCards(data))
       .catch(error => {

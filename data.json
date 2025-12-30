@@ -1,272 +1,290 @@
 {
-  "rudimentos": [
-    {
-      "name": "Coro de Amparo",
-      "type": "rudimento",
-      "element": [
-        "armonia"
-      ],
-      "coste": "2",
-      "base": {
-        "description": "Hasta 2 aliados ganan [1 + AT] de Silencio en su próxima tirada de bloqueo."
-      },
-      "evolved": {
-        "description": "Afecta a todos los aliados y el dado de Silencio pasa a ser 1d10"
+  "fundamentos": {
+    "armonia": [
+      {
+        "name": "Exceso de Armonía",
+        "type": "fundamento",
+        "element": ["armonia"],
+        "coste": "0",
+        "base": {
+          "description": "Siempre que bloquees y tengas Silencio excedente, ganas esa cantidad de vida."
+        },
+        "evolved": {
+          "description": "Esto afecta a todos los aliados."
+        }
       }
-    },
-    {
-      "name": "Fuente de Resonancia",
-      "type": "rudimento",
-      "element": [
-        "armonia"
-      ],
-      "coste": "2",
-      "base": {
-        "description": "Otorga a 1 aliado [1 + AT/2] de Resonancia."
+    ],
+    "ritmo": [
+      {
+        "name": "Tambores de guerra",
+        "type": "fundamento",
+        "element": ["ritmo"],
+        "coste": "0",
+        "base": {
+          "description": "Puedes activar Pulso dos veces cada turno. Solo recuperas Resonancia una vez."
+        },
+        "evolved": {
+          "description": "Recuperas Resonancia por cada activación de Pulso."
+        }
       },
-      "evolved": {
-        "description": "El objetivo recupera todos sus puntos de Resonancia."
-      }
-    },
-    {
-      "name": "A Viva Voz",
-      "type": "rudimento",
-      "element": [
-        "armonia"
-      ],
-      "coste": "1",
-      "base": {
-        "description": "Crea un área de 2 casillas alrededor tuya. En este área los aliados no tienen debilidades por afinación. Si te mueves el efecto desaparece. Mantener el área cuesta 1 punto de Resonancia por ronda."
+      {
+        "name": "Focus",
+        "type": "fundamento",
+        "element": ["ritmo"],
+        "coste": "0",
+        "base": {
+          "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un solo objetivo, hace +AT/2 de daño adicional."
+        },
+        "evolved": {
+          "description": "En su lugar, hace +AT de daño adicional."
+        }
       },
-      "evolved": {
-        "description": "Puedes moverte, el efecto no desaparece."
+      {
+        "name": "Inercia",
+        "type": "fundamento",
+        "element": ["ritmo"],
+        "coste": "0",
+        "base": {
+          "description": "Una vez por ronda, cuando hagas daño, puedes empujar a la criatura objetivo 1 casilla."
+        },
+        "evolved": {
+          "description": "Esto se activa siempre que hagas daño."
+        }
       }
-    },
-    {
-      "name": "Bonk",
-      "type": "rudimento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Reparte [1d6 + AT] de daño a todos los objetivos que se encuentren a melee."
+    ],
+    "tempo": [
+      {
+        "name": "Y un, dos, tres...",
+        "type": "fundamento",
+        "element": ["tempo"],
+        "coste": "0",
+        "base": {
+          "description": "Siempre que neutralices una criatura, toma un turno extra después de este."
+        },
+        "evolved": {
+          "description": "En su lugar, tu equipo toma una ronda extra."
+        }
       },
-      "evolved": {
-        "description": "Inflinge [1d6 + AT]."
+      {
+        "name": "Crescendo",
+        "type": "fundamento",
+        "element": ["tempo"],
+        "coste": "0",
+        "base": {
+          "description": "Siempre que neutralices una criatura, toma un turno extra después de este."
+        },
+        "evolved": {
+          "description": "En su lugar, tu equipo toma una ronda extra."
+        }
       }
-    },
-    {
-      "name": "Redoble",
-      "type": "rudimento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Inflinge 1d2 de daño verdadero a 1 objetivo a melee. Si sale 2 vuelve a tirar. Si sale 1 se acaba el turno."
+    ],
+    "contrapunto": [
+      {
+        "name": "Dedo en la llaga",
+        "type": "fundamento",
+        "element": ["contrapunto"],
+        "coste": "3",
+        "base": {
+          "description": "Si inflinges daño a un objetivo tenga alguna alteración de estado, recibe [+AT] de daño adicional."
+        },
+        "evolved": {
+          "description": "El daño adicional se vuelve verdadero."
+        }
+      }
+    ],
+    "disonancia": []
+  },
+  "rudimentos": {
+    "armonia": [
+      {
+        "name": "Coro de Amparo",
+        "type": "rudimento",
+        "element": ["armonia"],
+        "coste": "2",
+        "base": {
+          "description": "Elige un objetivo. Dicho objetivo obtiene +[1d4+AT] de Silencio en su próximo bloqueo."
+        },
+        "evolved": {
+          "description": "Elige hasta 3 objetivos."
+        }
       },
-      "evolved": {
-        "description": "Suma tu AT al daño."
-      }
-    },
-    {
-      "name": "Marcando el ritmo",
-      "type": "rudimento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Inflige [1d4+AT] de daño a 1 objetivo a melee. Obtén 1 carga."
+      {
+        "name": "Transfusión de Resonancia",
+        "type": "rudimento",
+        "element": ["armonia"],
+        "coste": "2",
+        "base": {
+          "description": "Cede tanta Resonancia como desees a un objetivo."
+        },
+        "evolved": {
+          "description": "Duplica el valor de cada punto de Resonancia cedido."
+        }
       },
-      "evolved": {
-        "description": "Inflige [1d4+AT+Cargas] de daño a 1 objetivo a melee. No obtienes cargas."
+      {
+        "name": "A Viva Voz",
+        "type": "rudimento",
+        "element": ["armonia"],
+        "coste": "1",
+        "base": {
+          "description": "Crea un aura de 2 casillas a tu alrededor. Los aliados en el aura ignoran debilidades de afinación. Al comienzo de cada ronda, paga 1 de Resonancia o sacrifica este efecto. Si te mueves, sacrifica este efecto."
+        },
+        "evolved": {
+          "description": "Moverte ya no sacrifica este efecto."
+        }
       }
-    },
-    {
-      "name": "Corazón palpitante",
-      "type": "rudimento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Mueve a 1 enemigo [1d4+AT] de casillas hacia ti. Cada casilla desplazada inflige 1 de daño verdadero."
+    ],
+    "ritmo": [
+      {
+        "name": "Rotación",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "0",
+        "base": {
+          "description": "Reparte [DA+AT] de daño como elijas entre cualquier cantidad de enemigos objetivo en rango cuerpo a cuerpo."
+        },
+        "evolved": {
+          "description": "En su lugar, haz [DA+AT] de daño a cada uno de esos enemigos."
+        }
       },
-      "evolved": {
-        "description": "Mueve hasta 3 enemigos."
-      }
-    },
-    {
-      "name": "Ecos del pasado",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Obliga a 1 objetivo a repetir su tirada y restale/sumale tu AT al resultado."
+      {
+        "name": "Redoble",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "0",
+        "base": {
+          "description": "Haz [1d2] de <b><i>daño verdadero</i></b> al enemigo objetivo en rango cuerpo a cuerpo. Si el resultado es 2, repite este proceso. Si el resultado es 1, termina tu turno."
+        },
+        "evolved": {
+          "description": "Añade tu AT a cada instancia de daño hecho de esta manera."
+        }
       },
-      "evolved": {
-        "description": "Añade Desventaja/Ventaja a la tirada del objetivo."
+      {
+        "name": "BONK",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "1",
+        "base": {
+          "description": "Haz 1 de daño verdadero a un enemigo objetivo en rango cuerpo a cuerpo. Obtienes un contador de carga. Por cada carga, esta habilidad hace 1 de daño verdadero adicional pero cuesta 1 de Resonancia más."
+        },
+        "evolved": {
+          "description": "Al llegar a 6 cargas, el coste fijo de este rudimento es 2 hasta que recibas daño."
+        }
       }
-    },
-    {
-      "name": "Interferencias cruzadas",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Redirige el daño de 1 objetivo a otro objetivo. Recibes la mitad de los puntos de daño -AT."
+    ],
+    "tempo": [],
+    "contrapunto": [
+      {
+        "name": "Corazón palpitante",
+        "type": "rudimento",
+        "element": ["contrapunto"],
+        "coste": "3",
+        "base": {
+          "description": "Atrae/Repele al enemigo objetivo [1d4+AT] casillas hacia ti. El objetivo recibe 1 de daño verdadero por cada casilla movida de esta manera."
+        },
+        "evolved": {
+          "description": "En su lugar, elige hasta tres enemigos objetivo."
+        }
       },
-      "evolved": {
-        "description": "Reparte el daño de 1 objetivo a 1d4 de objetivos."
-      }
-    },
-    {
-      "name": "Vinculo Corrupto",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Vínculate con un objetivo. Cualquier daño que reciban los vinculados se reparte entre ambos."
+      {
+        "name": "Descanso",
+        "type": "rudimento",
+        "element": ["contrapunto"],
+        "coste": "3",
+        "base": {
+          "description": "Obliga a un objetivo a relizar una tirada enfrentada [contrapunto] suma tu AT al resultado. Si el objetivo falla, queda inmovilizado hasta su siguiente turno, si no, su movimiento se reduce a 1 casilla hasta su siguiente turno."
+        },
+        "evolved": {
+          "description": "En su lugar, elige hasta tres enemigos objetivo."
+        }
       },
-      "evolved": {
-        "description": "Resta/Suma tu AT al daño entrante."
+      {
+        "name": "Cambio de clave",
+        "type": "rudimento",
+        "element": ["contrapunto"],
+        "coste": "3",
+        "base": {
+          "description": "Selecciona una zona de 3x3 casillas. Los enemigos que salgan de esa zona reciben [DA+AT] de daño y obtienen el estado <i><b>'Fuera de Compás'</b></i>."
+        },
+        "evolved": {
+          "description": "El daño adicional se vuelve verdadero."
+        }
       }
-    },
-    {
-      "name": "Pulso débil",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Vínculate con un objetivo. Cualquier daño que reciban los vinculados se reparte entre ambos."
+    ],
+    "disonancia": [
+      {
+        "name": "Interferencias cruzadas",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "0",
+        "base": {
+          "description": "Cambia el objetivo del daño hecho a la criatura objetivo. Redirige ese daño a otra criatura objetivo. Recibes la mitad de ese daño menos tu AT. Si no hay otra criatura objetivo, el daño se pierde."
+        },
+        "evolved": {
+          "description": "Puedes dividir ese daño entre tantas criaturas objetivo como desees."
+        }
       },
-      "evolved": {
-        "description": "Resta/Suma tu AT al daño entrante."
-      }
-    },
-    {
-      "name": "Silencio Abrupto",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "Max",
-      "base": {
-        "description": "Cancela la próxima acción declarada por 1 objetivo. Tú no puedes actuar en tu siguiente turno."
+      {
+        "name": "Vínculo Corrupto",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "0",
+        "base": {
+          "description": "Vincúlate con la criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
+        },
+        "evolved": {
+          "description": "Aplica +AT o -AT al daño hecho de esta manera."
+        }
       },
-      "evolved": {
-        "description": "Cuesta la mitad de tu Resonancia máxima."
-      }
-    },
-    {
-      "name": "Desfase",
-      "type": "rudimento",
-      "element": [
-        "disonancia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Acumula todo el daño recibido esta ronda. Recíbelo al final de la siguiente ronda."
+      {
+        "name": "Pulso débil",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "0",
+        "base": {
+          "description": "Vincúlate con la criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
+        },
+        "evolved": {
+          "description": "Aplica +AT o -AT al daño hecho de esta manera."
+        }
       },
-      "evolved": {
-        "description": "Acumula el daño recibido de un objetivo esta ronda. Recíbelo al final de la siguiente ronda."
-      }
-    }
-  ],
-  "fundamentos": [
-    {
-      "name": "Exceso de Armonía",
-      "type": "fundamento",
-      "element": [
-        "armonia"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "El exceso de Silencio durante un bloqueo se transforma en curación."
+      {
+        "name": "Silencio Abrupto",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "M",
+        "base": {
+          "description": "Contrarresta la próxima acción declarada de la criatura objetivo. Sáltate tu próximo turno."
+        },
+        "evolved": {
+          "description": "En su lugar, esto cuesta la mitad de tu Resonancia máxima."
+        }
       },
-      "evolved": {
-        "description": "Afecta a todos los aliados."
+      {
+        "name": "Desfase",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "0",
+        "base": {
+          "description": "Prevén todo el daño que te harían esta ronda. Al final de la próxima ronda, recibes ese daño."
+        },
+        "evolved": {
+          "description": "Esto solo afecta al daño de la criatura objetivo."
+        }
       }
-    },
-    {
-      "name": "Tambores de guerra",
-      "type": "fundamento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Puedes lanzar tu acción Pulso 2 veces pero solo recuperas una vez resonancia."
+    ],
+    "melodia": [
+      {
+        "name": "Ecos del pasado",
+        "type": "rudimento",
+        "element": ["disonancia"],
+        "coste": "0",
+        "base": {
+          "description": "Cuando la criatura objetivo tire, puedes hacer que vuelva a tirar. Aplica +AT o -AT al resultado."
+        },
+        "evolved": {
+          "description": "Además, esa criatura repite la tirada con Ventaja/Desventaja."
+        }
       },
-      "evolved": {
-        "description": "Ganas resonancia por cada Pulso que realices."
-      }
-    },
-    {
-      "name": "Focus",
-      "type": "fundamento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Siempre que un Rudimento de daño con multiples objetivos haga daño a 1 solo objetivo añade al daño tu AT/2 de daño."
-      },
-      "evolved": {
-        "description": "Añade tu AT completo."
-      }
-    },
-    {
-      "name": "Inercia",
-      "type": "fundamento",
-      "element": [
-        "ritmo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "La primera vez por ronda que infliges daño, puedes empujar a 1 objetivo 1 casilla."
-      },
-      "evolved": {
-        "description": "Cada vez que infliges daño."
-      }
-    },
-    {
-      "name": "Y un, dos, tres...",
-      "type": "fundamento",
-      "element": [
-        "tempo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Cada vez que neutralizas 1 objetivo, obtienes 1 turno extra."
-      },
-      "evolved": {
-        "description": "El equipo obtiene 1 ronda extra."
-      }
-    },
-    {
-      "name": "Crechendo",
-      "type": "fundamento",
-      "element": [
-        "tempo"
-      ],
-      "coste": "0",
-      "base": {
-        "description": "Cada vez que neutralizas 1 objetivo, obtienes 1 turno extra."
-      },
-      "evolved": {
-        "description": "El equipo obtiene 1 ronda extra."
-      }
-    }
-  ]
+    ]
+  }
 }
