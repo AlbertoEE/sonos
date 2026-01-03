@@ -10,7 +10,19 @@
           "description": "Siempre que bloquees y tengas Silencio excedente, ganas esa cantidad de vida."
         },
         "evolved": {
-          "description": "Esto afecta a todos los aliados."
+          "description": "Extiende este efecto a todos los aliados sobre los que lances rudimentos."
+        }
+      },
+      {
+        "name": "Momentum Armónico",
+        "type": "fundamento",
+        "element": ["armonia"],
+        "coste": "0",
+        "base": {
+          "description": "Cada vez que un aliado bloquee exitosamente con tu Silencio, acumula 1 Nota. Con 3 Notas, tu próximo Rudimento de Armonía no cuesta Resonancia."
+        },
+        "evolved": {
+          "description": "Solo necesitas 2 Notas."
         }
       }
     ],
@@ -33,10 +45,10 @@
         "element": ["ritmo"],
         "coste": "0",
         "base": {
-          "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un solo objetivo, hace +AT/2 de daño adicional."
+          "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un solo objetivo, hace +AT de daño adicional."
         },
         "evolved": {
-          "description": "En su lugar, hace +AT de daño adicional."
+          "description": "El daño adicional se vuelve verdadero."
         }
       },
       {
@@ -92,7 +104,32 @@
         }
       }
     ],
-    "disonancia": []
+    "disonancia": [
+      {
+        "name": "Tritono",
+        "type": "fundamento",
+        "element": ["disonancia"],
+        "coste": "3",
+        "base": {
+          "description": "Activable a elegir. Si fueras a recibir un un estado negativo, lanza una moneda. Si sale cara recuperas toda tu Resonancia. Si sale cruz, recibes un estado negativo aleatorio."
+        },
+        "evolved": {
+          "description": "Si sale cara, además, no recibes el estado negativo. Si sale cruz, recibes un estado aleatorio, incluyendo los positivos."
+        }
+      },
+      {
+        "name": "Contagio",
+        "type": "fundamento",
+        "element": ["disonancia"],
+        "coste": "3",
+        "base": {
+          "description": "Cualquier fuente que te inflinja daño verdadero, tiene un 50% de probabilidad de recibir un estado negativo aleatorio."
+        },
+        "evolved": {
+          "description": "El estado aleatorio es siempre negativo."
+        }
+      }
+    ]
   },
   "rudimentos": {
     "armonia": [
@@ -217,6 +254,42 @@
         "evolved": {
           "description": "Al llegar a 6 cargas, el coste fijo de este rudimento es 2 hasta que recibas daño."
         }
+      },
+      {
+        "name": "Cadena de Golpes",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "1",
+        "base": {
+          "description": "Haz [DA] de daño al enemigo objetivo en cuerpo a cuerpo. Si el ataque impacta, puedes pagar 1 de Resonancia para atacar de nuevo."
+        },
+        "evolved": {
+          "description": "Cada golpe sucesivo hace +AT de daño adicional."
+        }
+      },
+      {
+        "name": "Impulso Rítmico",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "1",
+        "base": {
+          "description": "Muévete hasta 2 casillas y haz [DA+AT] de daño al primer enemigo que encuentres en el camino."
+        },
+        "evolved": {
+          "description": "Muévete hasta 4 casillas. Haces daño a todos los enemigos en el camino."
+        }
+      },
+      {
+        "name": "Onda de Choque",
+        "type": "rudimento",
+        "element": ["ritmo"],
+        "coste": "2",
+        "base": {
+          "description": "Todos los enemigos adyacentes a ti reciben [AT] de daño y son empujados 1 casilla."
+        },
+        "evolved": {
+          "description": "Reciben [DA+AT] de daño y son empujados 2 casillas."
+        }
       }
     ],
     "tempo": [],
@@ -265,7 +338,7 @@
         "element": ["disonancia"],
         "coste": "0",
         "base": {
-          "description": "Cambia el objetivo del daño hecho a la criatura objetivo. Redirige ese daño a otra criatura objetivo. Recibes la mitad de ese daño menos tu AT. Si no hay otra criatura objetivo, el daño se pierde."
+          "description": "Cambia el objetivo del daño hecho a la criatura objetivo. Redirige ese daño a otra criatura objetivo. Recibe una condición de estado negativa aleatoria."
         },
         "evolved": {
           "description": "Puedes dividir ese daño entre tantas criaturas objetivo como desees."
@@ -273,18 +346,6 @@
       },
       {
         "name": "Vínculo Corrupto",
-        "type": "rudimento",
-        "element": ["disonancia"],
-        "coste": "0",
-        "base": {
-          "description": "Vincúlate con la criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
-        },
-        "evolved": {
-          "description": "Aplica +AT o -AT al daño hecho de esta manera."
-        }
-      },
-      {
-        "name": "Pulso débil",
         "type": "rudimento",
         "element": ["disonancia"],
         "coste": "0",
@@ -313,25 +374,187 @@
         "element": ["disonancia"],
         "coste": "0",
         "base": {
-          "description": "Prevén todo el daño que te harían esta ronda. Al final de la próxima ronda, recibes ese daño."
+          "description": "Prevén todo el daño que te harían esta ronda. Al final de la ronda, recibes ese daño como si fuera un solo ataque."
         },
         "evolved": {
-          "description": "Esto solo afecta al daño de la criatura objetivo."
+          "description": "Puedes aplicar este efecto a un objetivo que no sea tú."
         }
-      }
-    ],
-    "melodia": [
+      },
       {
         "name": "Ecos del pasado",
         "type": "rudimento",
         "element": ["disonancia"],
         "coste": "0",
         "base": {
-          "description": "Cuando la criatura objetivo tire, puedes hacer que vuelva a tirar. Aplica +AT o -AT al resultado."
+          "description": "Cuando la criatura objetivo tire, puedes hacer que vuelva a tirar. Aplica +AT o -AT al resultado. Recibes el estado 'Gafe'."
         },
         "evolved": {
           "description": "Además, esa criatura repite la tirada con Ventaja/Desventaja."
         }
+      }
+    ],
+    "melodia": [
+    ]
+  },
+  "estados": {
+    "negativos": [
+      {
+        "name": "Gafe",
+        "description": "Todas tus tiradas son con desventaja."
+      },
+      {
+        "name": "Piedra en el Zapato",
+        "description": "Tus siguientes N tiradas son con desventaja."
+      },
+      {
+        "name": "Confuso",
+        "description": "No puedes elegir objetivo, se determina aleatoriamente."
+      },
+      {
+        "name": "Envenenado",
+        "description": "Al inicio de tu turno, recibe Xd6 de daño. Cada ronda, reduce X en 1."
+      },
+      {
+        "name": "Condena",
+        "description": "Tu dado de Silencio solo bloquea si sale crítico (máximo natural)."
+      },
+      {
+        "name": "Maldecido",
+        "description": "Todo el daño que recibes es verdadero (ignora resistencias)."
+      },
+      {
+        "name": "Vulnerable",
+        "description": "El daño recibido aumenta en +[X]."
+      },
+      {
+        "name": "Agotado",
+        "description": "Tus costes de Resonancia se duplican."
+      },
+      {
+        "name": "Silenciado",
+        "description": "No puedes usar Rudimentos."
+      },
+      {
+        "name": "Lento",
+        "description": "Tu movimiento se reduce a la mitad (redondeado abajo)."
+      },
+      {
+        "name": "Aturdido",
+        "description": "Pierdes tu próxima acción."
+      },
+      {
+        "name": "Cegado",
+        "description": "Solo puedes usar Rudimentos de área o sin objetivo."
+      },
+      {
+        "name": "Inconsciente",
+        "description": "No puedes ver los puntos de vida ni estados de nadie (incluido tú)."
+      },
+      {
+        "name": "Sordo",
+        "description": "No puedes usar reacciones."
+      },
+      {
+        "name": "Inmóvil",
+        "description": "No puedes moverte."
+      },
+      {
+        "name": "Provocado",
+        "description": "Solo puedes atacar a quien te provocó."
+      },
+      {
+        "name": "Aterrorizado",
+        "description": "No puedes acercarte voluntariamente al origen del miedo."
+      },
+      {
+        "name": "Fuera de Compás",
+        "description": "Actúas último en el orden de iniciativa."
+      },
+      {
+        "name": "Disonante",
+        "description": "Tus aliados adyacentes reciben -1 a sus tiradas."
+      },
+      {
+        "name": "Diminuendo",
+        "description": "Cada acción que hagas este turno es -1 más débil que la anterior."
+      },
+      {
+        "name": "Amortiguado",
+        "description": "No puedes recuperar Resonancia por ningún medio."
+      }
+    ],
+    "positivos": [
+      {
+        "name": "Suertudo",
+        "description": "Todas tus tiradas son con ventaja."
+      },
+      {
+        "name": "Serendipia",
+        "description": "Tus siguientes N tiradas son con ventaja."
+      },
+      {
+        "name": "Inspirado",
+        "description": "Puedes repetir una tirada fallida por turno."
+      },
+      {
+        "name": "Potenciado",
+        "description": "Tu daño se convierte en verdadero."
+      },
+      {
+        "name": "Furia",
+        "description": "Tu daño aumenta en +[X]."
+      },
+      {
+        "name": "Crítico Asegurado",
+        "description": "Tu próximo ataque es crítico automático."
+      },
+      {
+        "name": "Escudo",
+        "description": "Absorbe los próximos X puntos de daño."
+      },
+      {
+        "name": "Inmune",
+        "description": "No puedes recibir estados negativos."
+      },
+      {
+        "name": "Resistente",
+        "description": "El daño recibido se reduce en [X]."
+      },
+      {
+        "name": "Intocable",
+        "description": "El próximo ataque contra ti falla automáticamente."
+      },
+      {
+        "name": "Acelerado",
+        "description": "Tu movimiento aumenta en +2 casillas."
+      },
+      {
+        "name": "Flujo",
+        "description": "Tus Rudimentos cuestan 1 menos de Resonancia (mínimo 0)."
+      },
+      {
+        "name": "Turno Extra",
+        "description": "Ganas una acción adicional este turno."
+      },
+      {
+        "name": "En Sincronía",
+        "description": "Actúas justo después de un aliado designado."
+      },
+      {
+        "name": "Armónico",
+        "description": "Tus aliados adyacentes reciben +1 a sus tiradas."
+      },
+      {
+        "name": "Eco",
+        "description": "El próximo Rudimento que uses se repite con la mitad de efecto."
+      },
+      {
+        "name": "Crescendo",
+        "description": "Cada acción que hagas este turno es +1 más fuerte que la anterior."
+      },
+      {
+        "name": "Resonante",
+        "description": "Al inicio de tu turno, recuperas 1 de Resonancia."
       }
     ]
   }
