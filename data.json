@@ -4,7 +4,9 @@
       {
         "name": "Exceso de Armonía",
         "type": "fundamento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "0",
         "base": {
           "description": "Siempre que bloquees y tengas Silencio excedente, ganas esa cantidad de vida."
@@ -16,7 +18,9 @@
       {
         "name": "Momentum Armónico",
         "type": "fundamento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "0",
         "base": {
           "description": "Cada vez que un aliado bloquee exitosamente con tu Silencio, acumula 1 Nota. Con 3 Notas, tu próximo Rudimento de Armonía no cuesta Resonancia."
@@ -30,7 +34,9 @@
       {
         "name": "Tambores de guerra",
         "type": "fundamento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "0",
         "base": {
           "description": "Puedes activar Pulso dos veces cada turno. Solo recuperas Resonancia una vez."
@@ -42,7 +48,9 @@
       {
         "name": "Focus",
         "type": "fundamento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "0",
         "base": {
           "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un solo objetivo, hace +AT de daño adicional."
@@ -54,7 +62,9 @@
       {
         "name": "Inercia",
         "type": "fundamento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "0",
         "base": {
           "description": "Una vez por ronda, cuando hagas daño, puedes empujar a la criatura objetivo 1 casilla."
@@ -68,7 +78,9 @@
       {
         "name": "Y un, dos, tres...",
         "type": "fundamento",
-        "element": ["tempo"],
+        "element": [
+          "tempo"
+        ],
         "coste": "0",
         "base": {
           "description": "Siempre que neutralices una criatura, toma un turno extra después de este."
@@ -80,7 +92,9 @@
       {
         "name": "Crescendo",
         "type": "fundamento",
-        "element": ["tempo"],
+        "element": [
+          "tempo"
+        ],
         "coste": "0",
         "base": {
           "description": "Siempre que neutralices una criatura, toma un turno extra después de este."
@@ -90,11 +104,13 @@
         }
       }
     ],
-    "contrapunto": [
+    "sincopa": [
       {
         "name": "Dedo en la llaga",
         "type": "fundamento",
-        "element": ["contrapunto"],
+        "element": [
+          "sincopa"
+        ],
         "coste": "3",
         "base": {
           "description": "Si inflinges daño a un objetivo tenga alguna alteración de estado, recibe [+AT] de daño adicional."
@@ -102,13 +118,30 @@
         "evolved": {
           "description": "El daño adicional se vuelve verdadero."
         }
+      },
+      
+      {
+        "name": "Duelo final",
+        "type": "fundamento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "-",
+        "base": {
+          "description": "Realizar daño con un Pulso a un objetivo lo marca. Dicho objetivo debe realizar una salvación de [Síncopa] al comienzo de cada ronda. Si falla, todas tus tiradas contra ese objetivo son con ventaja y solo puede atacarte a ti, si acierta se deshace de la marca. Para volver a activarla inflinge daño con un Pulso a un objetivo."
+        },
+        "evolved": {
+          "description": "Además, todas las tiradas del objetivo marcado son con desventaja."
+        }
       }
     ],
     "disonancia": [
       {
         "name": "Tritono",
         "type": "fundamento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "3",
         "base": {
           "description": "Activable a elegir. Si fueras a recibir un un estado negativo, lanza una moneda. Si sale cara recuperas toda tu Resonancia. Si sale cruz, recibes un estado negativo aleatorio."
@@ -120,7 +153,9 @@
       {
         "name": "Contagio",
         "type": "fundamento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "3",
         "base": {
           "description": "Cualquier fuente que te inflinja daño verdadero, tiene un 50% de probabilidad de recibir un estado negativo aleatorio."
@@ -136,7 +171,9 @@
       {
         "name": "Coro de Amparo",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "2",
         "base": {
           "description": "Alrededor de ti, en un área de 1 casilla, los objetivos obtienen +[DA+AT] de Silencio en su próximo bloqueo."
@@ -148,7 +185,9 @@
       {
         "name": "Transfusión de Resonancia",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "2",
         "base": {
           "description": "En un rango de cuerpo a cuerpo, cede tanta Resonancia como desees a un objetivo."
@@ -160,7 +199,9 @@
       {
         "name": "A Viva Voz",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "1",
         "base": {
           "description": "Crea un aura de 2 casillas a tu alrededor. Los aliados en el aura ignoran debilidades de afinación. Al comienzo de cada ronda, paga 1 de Resonancia o sacrifica este efecto. Si te mueves, sacrifica este efecto."
@@ -172,7 +213,9 @@
       {
         "name": "Purificación",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "1",
         "base": {
           "description": "En un rango de cuerpo a cuerpo, elimina una alteración de estado negativa de un objetivo."
@@ -184,7 +227,9 @@
       {
         "name": "Último Acorde",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "4",
         "base": {
           "description": "En un rango de 4 casillas, selecciona a un objetivo, dicho objetivo recibe una bendción que impide que caiga a 0 puntos de vida este turno en su lugar queda con 1 punto de vida."
@@ -196,7 +241,9 @@
       {
         "name": "Acorde Reconfortante",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "4",
         "base": {
           "description": "En rango de cuerpo a cuerpo, selecciona a un objetivo. Cura a dicho objetivo [DA+AT] puntos de vida."
@@ -208,7 +255,9 @@
       {
         "name": "Última oportunidad",
         "type": "rudimento",
-        "element": ["armonia"],
+        "element": [
+          "armonia"
+        ],
         "coste": "4",
         "base": {
           "description": "Si un aliado fuera a recibir daño, recibe ese daño en su lugar."
@@ -222,7 +271,9 @@
       {
         "name": "Rotación",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "0",
         "base": {
           "description": "Reparte [DA+AT] de daño como elijas entre cualquier cantidad de enemigos objetivo en rango cuerpo a cuerpo."
@@ -234,7 +285,9 @@
       {
         "name": "Redoble",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "0",
         "base": {
           "description": "Haz [1d2] de <b><i>daño verdadero</i></b> al enemigo objetivo en rango cuerpo a cuerpo. Si el resultado es 2, repite este proceso. Si el resultado es 1, termina tu turno."
@@ -246,7 +299,9 @@
       {
         "name": "BONK",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "1",
         "base": {
           "description": "Haz 1 de daño verdadero a un enemigo objetivo en rango cuerpo a cuerpo. Obtienes un contador de carga. Por cada carga, esta habilidad hace 1 de daño verdadero adicional pero cuesta 1 de Resonancia más."
@@ -258,7 +313,9 @@
       {
         "name": "Cadena de Golpes",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "1",
         "base": {
           "description": "Haz [DA] de daño al enemigo objetivo en cuerpo a cuerpo. Si el ataque impacta, puedes pagar 1 de Resonancia para atacar de nuevo."
@@ -270,7 +327,9 @@
       {
         "name": "Impulso Rítmico",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "1",
         "base": {
           "description": "Muévete hasta 2 casillas y haz [DA+AT] de daño al primer enemigo que encuentres en el camino."
@@ -282,7 +341,9 @@
       {
         "name": "Onda de Choque",
         "type": "rudimento",
-        "element": ["ritmo"],
+        "element": [
+          "ritmo"
+        ],
         "coste": "2",
         "base": {
           "description": "Todos los enemigos adyacentes a ti reciben [AT] de daño y son empujados 1 casilla."
@@ -290,14 +351,13 @@
         "evolved": {
           "description": "Reciben [DA+AT] de daño y son empujados 2 casillas."
         }
-      }
-    ],
-    "tempo": [],
-    "contrapunto": [
+      },
       {
         "name": "Corazón palpitante",
         "type": "rudimento",
-        "element": ["contrapunto"],
+        "element": [
+          "sincopa"
+        ],
         "coste": "3",
         "base": {
           "description": "Atrae/Repele al enemigo objetivo [1d4+AT] casillas hacia ti. El objetivo recibe 1 de daño verdadero por cada casilla movida de esta manera."
@@ -305,29 +365,22 @@
         "evolved": {
           "description": "En su lugar, elige hasta tres enemigos objetivo."
         }
-      },
+      }
+    ],
+    "tempo": [],
+    "sincopa": [
       {
-        "name": "Descanso",
+        "name": "Duelo",
         "type": "rudimento",
-        "element": ["contrapunto"],
+        "element": [
+          "sincopa"
+        ],
         "coste": "3",
         "base": {
-          "description": "Obliga a un objetivo a relizar una tirada enfrentada [contrapunto] suma tu AT al resultado. Si el objetivo falla, queda inmovilizado hasta su siguiente turno, si no, su movimiento se reduce a 1 casilla hasta su siguiente turno."
+          "description": "Obliga a un objetivo a relizar una tirada enfrentada [sincopa] suma tu AT al resultado. Si el objetivo falla, queda inmovilizado hasta su siguiente turno, si no, su movimiento se reduce a 1 casilla hasta su siguiente turno."
         },
         "evolved": {
           "description": "En su lugar, elige hasta tres enemigos objetivo."
-        }
-      },
-      {
-        "name": "Cambio de clave",
-        "type": "rudimento",
-        "element": ["contrapunto"],
-        "coste": "3",
-        "base": {
-          "description": "Selecciona una zona de 3x3 casillas. Los enemigos que salgan de esa zona reciben [DA+AT] de daño y obtienen el estado <i><b>'Fuera de Compás'</b></i>."
-        },
-        "evolved": {
-          "description": "El daño adicional se vuelve verdadero."
         }
       }
     ],
@@ -335,7 +388,9 @@
       {
         "name": "Interferencias cruzadas",
         "type": "rudimento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "0",
         "base": {
           "description": "Cambia el objetivo del daño hecho a la criatura objetivo. Redirige ese daño a otra criatura objetivo. Recibe una condición de estado negativa aleatoria."
@@ -347,7 +402,9 @@
       {
         "name": "Vínculo Corrupto",
         "type": "rudimento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "0",
         "base": {
           "description": "Vincúlate con la criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
@@ -359,7 +416,9 @@
       {
         "name": "Silencio Abrupto",
         "type": "rudimento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "M",
         "base": {
           "description": "Contrarresta la próxima acción declarada de la criatura objetivo. Sáltate tu próximo turno."
@@ -371,7 +430,9 @@
       {
         "name": "Desfase",
         "type": "rudimento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "0",
         "base": {
           "description": "Prevén todo el daño que te harían esta ronda. Al final de la ronda, recibes ese daño como si fuera un solo ataque."
@@ -383,7 +444,9 @@
       {
         "name": "Ecos del pasado",
         "type": "rudimento",
-        "element": ["disonancia"],
+        "element": [
+          "disonancia"
+        ],
         "coste": "0",
         "base": {
           "description": "Cuando la criatura objetivo tire, puedes hacer que vuelva a tirar. Aplica +AT o -AT al resultado. Recibes el estado 'Gafe'."
@@ -394,6 +457,20 @@
       }
     ],
     "melodia": [
+      {
+        "name": "Cambio de clave",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "3",
+        "base": {
+          "description": "Selecciona una zona de 3x3 casillas. Los enemigos que salgan de esa zona reciben [DA+AT] de daño y obtienen el estado <i><b>'Fuera de Compás'</b></i>."
+        },
+        "evolved": {
+          "description": "El daño adicional se vuelve verdadero."
+        }
+      }
     ]
   },
   "estados": {

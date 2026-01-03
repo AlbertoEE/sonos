@@ -34,7 +34,7 @@ Puede sentir cómo vibra el aire, cómo respira la tierra, cómo tiemblan las em
 Ser Cantor no es un don.  
 Es una responsabilidad.
 
-Los Cantores pueden invocar su **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él manipular Melodía, Ritmo, Contrapunto, Tempo, Armonía y Disonancia.
+Los Cantores pueden invocar su **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él manipular Melodía, Ritmo, Síncopa, Tempo, Armonía y Disonancia.
 
 Pueden sanar con acordes, empujar con ondas, romper con notas, y domar la propia Tensión del combate.
 
@@ -107,7 +107,7 @@ Tira **2d6** cinco veces y asigna cada resultado a uno de los siguientes atribut
 | **Melodía**      | Precisión, creatividad, expresividad musical. |
 | **Armonía**      | Control, protección, calma, equilibrio. |
 | **Disonancia**   | Caos, ruptura, agresividad, efectos oscuros. |
-| **Contrapunto**  | Trucos, engaño, manipulación. |
+| **Síncopa**  | Trucos, engaño, manipulación. |
 | **Tempo**        | Rapidez de reacción. Determina la iniciativa del grupo. |
 
 
@@ -143,7 +143,7 @@ el modificador base que usarás para todos tus Rudimentos.
 | Percusión           | Ritmo          |
 | Cuerda              | Melodía        |
 | Coral               | Armonía        |
-| Viento              | Contrapunto    |
+| Viento              | Síncopa    |
 | Experimental        | Disonancia     |
 | Métrica             | Tempo          |
 
@@ -161,7 +161,7 @@ Elige un Atributo Menor entre:
 - Melodía  
 - Armonía  
 - Disonancia  
-- Contrapunto  
+- Síncopa  
 - Tempo  
 
 El Atributo Menor siempre contribuye **a la mitad de su valor**, redondeando hacia abajo.
@@ -230,10 +230,10 @@ No es una “raza jugable”, sino un **arquetipo resonante**.
 
 Ejemplos:
 
-- **Búho** — sabio, introspectivo, afinado a Armonía o Contrapunto  
+- **Búho** — sabio, introspectivo, afinado a Armonía o Síncopa  
 - **Gato negro** — ágil, misterioso, afinado a Disonancia o Melodía  
 - **Perro** — leal, poderoso, afinado a Ritmo  
-- **Pulpo** — impredecible, creativo, afinado a Contrapunto o Disonancia  
+- **Pulpo** — impredecible, creativo, afinado a Síncopa o Disonancia  
 - **Jabalí** — bruto, contundente, afinado a Ritmo o Melodía
 
 ---
@@ -324,7 +324,7 @@ Todos los instrumentos comienzan en su forma más rudimentaria e incompleta lo q
 | Percusión      | Ritmo       | C        |
 | Cuerda         | Melodía     | C        |
 | Coral          | Armonía     | C        |
-| Viento         | Contrapunto | C        |
+| Viento         | Síncopa | C        |
 | Experimental   | Disonancia  | C        |
 | Métrica        | Tempo       | C        |
 
@@ -341,7 +341,7 @@ El Valor de Resonancia es el modificador base del instrumento que se usa para di
 | Ritmo       | -           | 7(+0)  | -           |
 | Melodía     | -           | 8(+1)  | -           |
 | Armonía     | D           | 10(+2) | +1          |
-| Contrapunto | -           | 7(+0)  | -           |
+| Síncopa | -           | 7(+0)  | -           |
 | Disonancia  | C           | 10(+2) | +2          |
 | Tempo       | -           | 9(+1)  | -           |
 
@@ -381,7 +381,7 @@ Un Cantor solo puede aprender Rudimentos asociados a los atributos que su Instru
 | **Melodía**     | Ofensivos Distancia · Utilidad           | Daño a distancia, daño en el tiempo                |
 | **Armonía**     | Defensivos/Apoyo · Sostenidos            | Curación, protección, auras, soporte, daño en área |
 | **Disonancia**  | Interferencias · Manipulación de Tensión | Alterar turnos, cancelar acciones                  |
-| **Contrapunto** | Control de Escena · Rituales/Finales     | Crowd control, daño explosivo, daño concentrado    |
+| **Síncopa** | Control de Escena · Rituales/Finales     | Crowd control, daño explosivo, daño concentrado    |
 | **Tempo**       | Control de Escena · Rituales/Finales     | Buffs, mejoras a aliados, debufs                   |
 
 
@@ -393,12 +393,12 @@ Cada atributo tiene una sola fortaleza y una sola debilidad según el Círculo A
 
 | Atributo       | Fuerte Contra | Débil Contra |
 |----------------|---------------|--------------|
-| **Ritmo**      | Melodía       | Contrapunto  |
+| **Ritmo**      | Melodía       | Síncopa  |
 | **Melodía**    | Armonía       | Ritmo        |
 | **Armonía**    | Disonancia    | Melodía      |
 | **Disonancia** | Tempo         | Armonía      |
-| **Tempo**      | Contrapunto   | Disonancia   |
-| **Contrapunto**| Ritmo         | Tempo        |
+| **Tempo**      | Síncopa   | Disonancia   |
+| **Síncopa**| Ritmo         | Tempo        |
 
 **Al atacar:**  
 - Fuerte → daño con ventaja  
