@@ -221,8 +221,8 @@
         "evolved": {
           "description": "Lanza 1d4, el resultado determina el número de aliados que no recibirán daño. Mínimo 2 aliados."
         }
-      },
-    ],
+      }
+    ]
   },
   "rudimentos": {
     "armonia": [
@@ -585,7 +585,7 @@
         "evolved": {
           "description": "El objetivo seleccionado recibe el estado Condena hasta recibir daño. Los objetivos dañados por la explosión también reciben este estado."
         }
-      },
+      }
     ]
   },
   "estados": {
