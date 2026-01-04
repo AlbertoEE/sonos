@@ -9,10 +9,24 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Siempre que bloquees y tengas Silencio excedente, ganas esa cantidad de vida."
+          "description": "Siempre que un escudo que otorgues absorba más daño del recibido, crea una Esquirla de Curación en una casilla aleatoria. Un aliado que ocupe la casilla recupera [1dAT] puntos de vida."
         },
         "evolved": {
-          "description": "Extiende este efecto a todos los aliados sobre los que lances rudimentos."
+          "description": "Lanza 1d4, el resultado determina el número de Esquirlas de Curación que aparecerán."
+        }
+      },
+      {
+        "name": "Resonancia Compartida",
+        "type": "fundamento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Cuando tus Reservas de resonancia lleguen a su máximo, genera en una casilla aleatoria una Esquirla de Resonancia que otorga [1dAT] de Resonancia al aliado que ocupe la casilla. 1 vez por ronda."
+        },
+        "evolved": {
+          "description": "Si llegas gastas tu máximo de Resonancia en un solo turno, también puedes generar una Esquirla de Resonancia en una casilla aleatoria. 1 vez por ronda."
         }
       },
       {
@@ -164,7 +178,51 @@
           "description": "El estado aleatorio es siempre negativo."
         }
       }
-    ]
+    ],
+    "melodia": [
+      {
+        "name": "Pulsos Adulterados",
+        "type": "fundamento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Al principio de cada ronda, lanza un dado en la tabla de efectos negativos. Los enemigos que sean atacados por tu pulso deben realizar una salvación de [Melodia]. Si fallan, reciben el estado negativo que salió de la tabla. Puedes compartir este efecto con 1d4 de objetivos."
+        },
+        "evolved": {
+          "description": "Si no te gusta el efecto negativo que salió, puedes pagar 1 de Resonancia para cambiarlo por otro efecto negativo aleatorio Los enemigos siempre fallan la salvación de [Melodía]."
+        }
+      },
+      {
+        "name": "Alcance Mejorado",
+        "type": "fundamento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Aumenta el rango y el alcance del primer Rudimento que uses en tu turno en 1 casilla."
+        },
+        "evolved": {
+          "description": "Aumenta el rango y el alcande de todos tus rudimentos en 1 casilla."
+        }
+      },
+      {
+        "name": "Dolor Selectivo",
+        "type": "fundamento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Siempre que uno de tus Rudimentos de daño en área fuera inflingir daño a un aliado, elige no hacerle daño."
+        },
+        "evolved": {
+          "description": "Lanza 1d4, el resultado determina el número de aliados que no recibirán daño. Mínimo 2 aliados."
+        }
+      },
+    ],
   },
   "rudimentos": {
     "armonia": [
@@ -369,20 +427,7 @@
     ],
     "tempo": [],
     "sincopa": [
-      {
-        "name": "Duelo",
-        "type": "rudimento",
-        "element": [
-          "sincopa"
-        ],
-        "coste": "3",
-        "base": {
-          "description": "Obliga a un objetivo a relizar una tirada enfrentada [sincopa] suma tu AT al resultado. Si el objetivo falla, queda inmovilizado hasta su siguiente turno, si no, su movimiento se reduce a 1 casilla hasta su siguiente turno."
-        },
-        "evolved": {
-          "description": "En su lugar, elige hasta tres enemigos objetivo."
-        }
-      }
+      
     ],
     "disonancia": [
       {
@@ -454,23 +499,93 @@
         "evolved": {
           "description": "Además, esa criatura repite la tirada con Ventaja/Desventaja."
         }
+      },
+      {
+        "name": "Canción de Muerte",
+        "type": "rudimento",
+        "element": [
+          "disonancia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Lanza 1dDA, el numero resultante determina la Resonancia que todos los objetivos presentes en el campo de batalla, incluido tú, deben gastar para cancelar el efecto de este rudimento. El efecto es la Muerte. Si alguien muere, este Rudimento se desactiva."
+        },
+        "evolved": {
+          "description": "Puedes pagar 2 de Resonancia para activar este rudimento de nuevo. Cada vez que lo activas, coste de activación se duplica."
+        }
       }
     ],
     "melodia": [
       {
-        "name": "Cambio de clave",
+        "name": "Sabor Agridulce",
+        "type": "rudimento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "3",
+        "base": {
+          "description": "Selecciona una zona de 3x3 casillas, en un rango de 3 casillas. Los enemigos que se encuentren en esa zona reciben el estado Envenenado [NdAT]. Lanza 1d4 para determinar N. Él área desaparece al final de la ronda."
+        },
+        "evolved": {
+          "description": "Paga 1 de Resonancia para mantener el área activa durante una ronda más. Siempre y cuando los enemigos envenenados estén en el área, el estado Envenenado no mengua."
+        }
+      },
+      {
+        "name": "Nota Punzante",
+        "type": "rudimento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "3",
+        "base": {
+          "description": "Lanza una nota en una dirección que atraviesa a todos los enemigos y hace [DA+AT]."
+        },
+        "evolved": {
+          "description": "El daño inflingido a cada enemigo se acumula para el siguiente enemigo atravesado."
+        }
+      },
+      {
+        "name": "Lluvia de Notas",
         "type": "rudimento",
         "element": [
           "sincopa"
         ],
-        "coste": "3",
+        "coste": "X",
         "base": {
-          "description": "Selecciona una zona de 3x3 casillas. Los enemigos que salgan de esa zona reciben [DA+AT] de daño y obtienen el estado <i><b>'Fuera de Compás'</b></i>."
+          "description": "Al principio de cada ronda, en un área de 3x3 casillas rango de 3 casillas, cualquier objetivo en el área recibe [AT] de daño verdadero. El efecto dura X rondas."
         },
         "evolved": {
-          "description": "El daño adicional se vuelve verdadero."
+          "description": "El área se vuelve de 4x4 casillas y el daño solo aplica a enemigos."
         }
-      }
+      },
+      {
+        "name": "Aturdidora",
+        "type": "rudimento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "M",
+        "base": {
+          "description": "Lanza una explosión de área 2 casilas y alcance máximo 4 casillas. Los objetivos en el área deben realizar una salvación de melodía, si fallan, obtienen el estado Confuso, Cegado y Sordo durante su siguiente turno."
+        },
+        "evolved": {
+          "description": "El área se vuelve de 3x3 casillas. No es necesario realizar la salvación de melodía."
+        }
+      },
+      {
+        "name": "Mal de Ojo",
+        "type": "rudimento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "M",
+        "base": {
+          "description": "Selecciona a un objetivo en un rango de 3 casillas. El objetivo al morir explota y hace [DA+AT] de daño a todos los objetivos en un área de 2x2 casillas. Cualquiera que se encuentre en el área recibe el mismo efecto."
+        },
+        "evolved": {
+          "description": "El objetivo seleccionado recibe el estado Condena hasta recibir daño. Los objetivos dañados por la explosión también reciben este estado."
+        }
+      },
     ]
   },
   "estados": {
@@ -480,7 +595,7 @@
         "description": "Todas tus tiradas son con desventaja."
       },
       {
-        "name": "Piedra en el Zapato",
+        "name": "Arritmia",
         "description": "Tus siguientes N tiradas son con desventaja."
       },
       {
@@ -545,11 +660,7 @@
       },
       {
         "name": "Fuera de Compás",
-        "description": "Actúas último en el orden de iniciativa."
-      },
-      {
-        "name": "Disonante",
-        "description": "Tus aliados adyacentes reciben -1 a sus tiradas."
+        "description": "Tus aliados adyacentes reciben desventaja en sus tiradas."
       },
       {
         "name": "Diminuendo",
