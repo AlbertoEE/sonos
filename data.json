@@ -133,7 +133,6 @@
           "description": "El daño adicional se vuelve verdadero."
         }
       },
-      
       {
         "name": "Duelo final",
         "type": "fundamento",
@@ -146,6 +145,18 @@
         },
         "evolved": {
           "description": "Además, todas las tiradas del objetivo marcado son con desventaja."
+        }
+      },
+      {
+        "name": "Riposte",
+        "type": "fundamento",
+        "element": ["sincopa, ritmo"],
+        "coste": "2",
+        "base": {
+          "description": "Si consigues bloquear todo el daño entrante de un ataque, gasta 2 de Resonancia para reflejar el daño."
+        },
+        "evolved": {
+          "description": "El objetivo debe realizar una salvación de Ritmo/Sincopa, si falla, termina su turno inmediatamente."
         }
       }
     ],
@@ -427,7 +438,78 @@
     ],
     "tempo": [],
     "sincopa": [
-      
+      {
+        "name": "Puñalada Sincopada",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "1",
+        "base": {
+          "description": "Reacción. Si estás al lado de un objetivo que está recibiendo daño suma a ese daño [DA+AT]."
+        },
+        "evolved": {
+          "description": "Tanto la fuente del daño como tú tenéis ventaja. "
+        }
+      },
+      {
+        "name": "Rematar",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "2",
+        "base": {
+          "description": "Elige como objetivo a uno que ya haya recibido daño este turno. Dicho objetivo recibe como golpe único todo el daño que no haya superado su Silencio."
+        },
+        "evolved": {
+          "description": "Añade al daño [DA+AT]."
+        }
+      },
+      {
+        "name": "Danza Letal",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "2",
+        "base": {
+          "description": "Muévete hasta 3 casillas. Por cada enemigo que pases adyacente durante el movimiento, hazle [AT] de daño verdadero. No provocas reacciones."
+        },
+        "evolved": {
+          "description": "Muévete hasta 5 casillas. Si pasas por 2 o más enemigos, todos reciben [AT] de 'Sangrado'."
+        }
+      },
+      {
+        "name": "Entrada Triunfal",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "2",
+        "base": {
+          "description": "Muévete 3 casillas en línea recta hacia un enemigo. Si terminas adyacente a él y su vida actual es igual o menor a tu DA, ejecútalo."
+        },
+        "evolved": {
+          "description": "Si ejecutas al enemigo, puedes repetir este Rudimento sin coste alguno."
+        }
+      },
+      {
+        "name": "Fuga",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "1",
+        "base": {
+          "description": "Haz [DA+AT] de daño al enemigo objetivo en cuerpo a cuerpo. Después, muévete hasta 2 casillas."
+        },
+        "evolved": {
+          "description": "Muévete hasta 4 casillas después del ataque."
+        }
+      },
+      {
+        "name": "Ejecución Oportunista",
+        "type": "rudimento",
+        "element": ["sincopa"],
+        "coste": "2",
+        "base": {
+          "description": "Por cada estado negativo que tenga el objetivo, haz +[DA] de daño."
+        },
+        "evolved": {
+          "description": "Haz [DA+AT] de daño adicional por cada estado negativo en su lugar."
+        }
+      }
     ],
     "disonancia": [
       {
