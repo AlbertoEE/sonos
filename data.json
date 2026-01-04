@@ -585,6 +585,20 @@
         "evolved": {
           "description": "El objetivo seleccionado recibe el estado Condena hasta recibir daño. Los objetivos dañados por la explosión también reciben este estado."
         }
+      },
+      {
+        "name": "Se Avecina Tormenta",
+        "type": "rudimento",
+        "element": [
+          "melodia"
+        ],
+        "coste": "X",
+        "base": {
+          "description": "Marca X casillas en el campo. Cuando un enemigo entre en una casilla marcada, recibe [DA+AT] de daño y el estado Inmovil."
+        },
+        "evolved": {
+          "description": "Además termina su turno inmediatamente."
+        }
       }
     ]
   },
