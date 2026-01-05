@@ -9,7 +9,7 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Siempre que un escudo que otorgues absorba más daño del recibido, crea una Esquirla de Curación en una casilla aleatoria. Un aliado que ocupe la casilla recupera [1dAT] puntos de vida."
+          "description": "Siempre que un escudo que otorgues absorba más daño del recibido, crea una Esquirla de Curación en una casilla aleatoria. Un aliado que ocupe la casilla recupera [1d AT] puntos de vida."
         },
         "evolved": {
           "description": "Lanza 1d4, el resultado determina el número de Esquirlas de Curación que aparecerán."
@@ -23,10 +23,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cuando tus Reservas de resonancia lleguen a su máximo, genera en una casilla aleatoria una Esquirla de Resonancia que otorga [1dAT] de Resonancia al aliado que ocupe la casilla. 1 vez por ronda."
+          "description": "Cuando tus Reservas de <b>Resonancia</b> lleguen a su máximo, genera en una casilla aleatoria una Esquirla de <b>Resonancia</b> que otorga [1d AT] de <b>Resonancia</b> al aliado que la ocupe. Una vez por ronda."
         },
         "evolved": {
-          "description": "Si llegas gastas tu máximo de Resonancia en un solo turno, también puedes generar una Esquirla de Resonancia en una casilla aleatoria. 1 vez por ronda."
+          "description": "Si agotas tus reservas de <b>Resonancia</b>, también puedes generar una Esquirla de <b>Resonancia</b> en una casilla aleatoria. Una vez por ronda."
         }
       },
       {
@@ -37,10 +37,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cada vez que un aliado bloquee exitosamente con tu Silencio, acumula 1 Nota. Con 3 Notas, tu próximo Rudimento de Armonía no cuesta Resonancia."
+          "description": "Cada vez que un aliado bloquee exitosamente con tu <b>Silencio</b>, acumula 1 <b>Nota</b>. Con 3 <b>Notas</b>, tu próximo Rudimento de Armonía no cuesta <b>Resonancia</b>."
         },
         "evolved": {
-          "description": "Solo necesitas 2 Notas."
+          "description": "Solo necesitas 2 <b>Notas</b>."
         }
       }
     ],
@@ -53,10 +53,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Puedes activar Pulso dos veces cada turno. Solo recuperas Resonancia una vez."
+          "description": "Puedes activar <b>Pulso</b> dos veces cada turno. Solo recuperas <b>Resonancia</b> una vez."
         },
         "evolved": {
-          "description": "Recuperas Resonancia por cada activación de Pulso."
+          "description": "Recuperas <b>Resonancia</b> por cada activación de <b>Pulso</b>."
         }
       },
       {
@@ -67,10 +67,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un solo objetivo, hace +AT de daño adicional."
+          "description": "Siempre que un Rudimento multiobjetivo que controlas haga daño a un único objetivo, inflige [AT] de daño adicional."
         },
         "evolved": {
-          "description": "El daño adicional se vuelve verdadero."
+          "description": "El daño adicional se vuelve <i>verdadero</i>."
         }
       },
       {
@@ -81,10 +81,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Una vez por ronda, cuando hagas daño, puedes empujar a la criatura objetivo 1 casilla."
+          "description": "Una vez por ronda, cuando inflijas daño, puedes empujar a la criatura objetivo 1 casilla."
         },
         "evolved": {
-          "description": "Esto se activa siempre que hagas daño."
+          "description": "Esto se activa siempre que inflijas daño."
         }
       }
     ],
@@ -127,10 +127,10 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Si inflinges daño a un objetivo tenga alguna alteración de estado, recibe [+AT] de daño adicional."
+          "description": "Si infliges daño a un objetivo que tenga alguna alteración de estado, inflige [AT] de daño adicional."
         },
         "evolved": {
-          "description": "El daño adicional se vuelve verdadero."
+          "description": "El daño adicional se vuelve <i>verdadero</i>."
         }
       },
       {
@@ -141,10 +141,10 @@
         ],
         "coste": "-",
         "base": {
-          "description": "Realizar daño con un Pulso a un objetivo lo marca. Dicho objetivo debe realizar una salvación de [Síncopa] al comienzo de cada ronda. Si falla, todas tus tiradas contra ese objetivo son con ventaja y solo puede atacarte a ti, si acierta se deshace de la marca. Para volver a activarla inflinge daño con un Pulso a un objetivo."
+          "description": "Infligir daño con un <b>Pulso</b> a un objetivo lo marca. El objetivo marcado debe realizar una salvación de [Síncopa] al comienzo de cada ronda. Si falla, todas tus tiradas contra él son con <i>ventaja</i> y solo puede atacarte a ti. Si acierta, se deshace de la marca. Inflige daño con un <b>Pulso</b> para volver a marcarlo."
         },
         "evolved": {
-          "description": "Además, todas las tiradas del objetivo marcado son con desventaja."
+          "description": "Además, todas las tiradas del objetivo marcado son con <i>desventaja</i>."
         }
       },
       {
@@ -153,10 +153,10 @@
         "element": ["sincopa, ritmo"],
         "coste": "2",
         "base": {
-          "description": "Si consigues bloquear todo el daño entrante de un ataque, gasta 2 de Resonancia para reflejar el daño."
+          "description": "Si consigues bloquear todo el daño entrante de un ataque, gasta 2 de <b>Resonancia</b> para reflejar el daño."
         },
         "evolved": {
-          "description": "El objetivo debe realizar una salvación de Ritmo/Sincopa, si falla, termina su turno inmediatamente."
+          "description": "El objetivo debe realizar una salvación de [Ritmo] o [Síncopa]. Si falla, termina su turno inmediatamente."
         }
       }
     ],
@@ -169,7 +169,7 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Activable a elegir. Si fueras a recibir un un estado negativo, lanza una moneda. Si sale cara recuperas toda tu Resonancia. Si sale cruz, recibes un estado negativo aleatorio."
+          "description": "<b><i>Activable.</i></b> Si fueras a recibir un estado negativo, lanza una moneda. Si sale cara, recuperas toda tu <b>Resonancia</b>. Si sale cruz, recibes un estado negativo aleatorio."
         },
         "evolved": {
           "description": "Si sale cara, además, no recibes el estado negativo. Si sale cruz, recibes un estado aleatorio, incluyendo los positivos."
@@ -183,7 +183,7 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Cualquier fuente que te inflinja daño verdadero, tiene un 50% de probabilidad de recibir un estado negativo aleatorio."
+          "description": "Cualquier fuente que te inflija <i>daño verdadero</i> tiene un 50% de probabilidad de recibir un estado negativo aleatorio."
         },
         "evolved": {
           "description": "El estado aleatorio es siempre negativo."
@@ -199,10 +199,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Al principio de cada ronda, lanza un dado en la tabla de efectos negativos. Los enemigos que sean atacados por tu pulso deben realizar una salvación de [Melodia]. Si fallan, reciben el estado negativo que salió de la tabla. Puedes compartir este efecto con 1d4 de objetivos."
+          "description": "Al principio de cada ronda, lanza un dado en la tabla de estados negativos. Los enemigos atacados por tu <b>Pulso</b> deben realizar una salvación de [Melodía]. Si fallan, reciben el estado negativo obtenido. Puedes aplicar este efecto a hasta 1d4 objetivos."
         },
         "evolved": {
-          "description": "Si no te gusta el efecto negativo que salió, puedes pagar 1 de Resonancia para cambiarlo por otro efecto negativo aleatorio Los enemigos siempre fallan la salvación de [Melodía]."
+          "description": "Si no te gusta el estado negativo obtenido, puedes pagar 1 de <b>Resonancia</b> para cambiarlo por otro aleatorio. Los enemigos siempre fallan la salvación de [Melodía]."
         }
       },
       {
@@ -216,7 +216,7 @@
           "description": "Aumenta el rango y el alcance del primer Rudimento que uses en tu turno en 1 casilla."
         },
         "evolved": {
-          "description": "Aumenta el rango y el alcande de todos tus rudimentos en 1 casilla."
+          "description": "Aumenta el rango y el alcance de todos tus Rudimentos en 1 casilla."
         }
       },
       {
@@ -227,7 +227,7 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Siempre que uno de tus Rudimentos de daño en área fuera inflingir daño a un aliado, elige no hacerle daño."
+          "description": "Siempre que uno de tus Rudimentos de daño en área fuera a infligir daño a un aliado, puedes elegir no hacerle daño."
         },
         "evolved": {
           "description": "Lanza 1d4, el resultado determina el número de aliados que no recibirán daño. Mínimo 2 aliados."
@@ -245,7 +245,7 @@
         ],
         "coste": "2",
         "base": {
-          "description": "Alrededor de ti, en un área de 1 casilla, los objetivos obtienen +[DA+AT] de Silencio en su próximo bloqueo."
+          "description": "Los objetivos en un área de 1 casilla a tu alrededor obtienen [DA+AT] de <b>Silencio</b> adicional en su próximo bloqueo."
         },
         "evolved": {
           "description": "En un área de hasta 3 casillas."
@@ -259,10 +259,10 @@
         ],
         "coste": "2",
         "base": {
-          "description": "En un rango de cuerpo a cuerpo, cede tanta Resonancia como desees a un objetivo."
+          "description": "Selecciona un objetivo en cuerpo a cuerpo. Cede tanta <b>Resonancia</b> como desees a ese objetivo."
         },
         "evolved": {
-          "description": "Duplica el valor de cada punto de Resonancia cedido."
+          "description": "Duplica el valor de cada punto de <b>Resonancia</b> cedido."
         }
       },
       {
@@ -273,7 +273,7 @@
         ],
         "coste": "1",
         "base": {
-          "description": "Crea un aura de 2 casillas a tu alrededor. Los aliados en el aura ignoran debilidades de afinación. Al comienzo de cada ronda, paga 1 de Resonancia o sacrifica este efecto. Si te mueves, sacrifica este efecto."
+          "description": "Crea un aura de 2 casillas a tu alrededor. Los aliados en el aura ignoran debilidades de afinación. Al comienzo de cada ronda, paga 1 de <b>Resonancia</b> o sacrifica este efecto. Si te mueves, sacrifica este efecto."
         },
         "evolved": {
           "description": "Moverte ya no sacrifica este efecto."
@@ -287,10 +287,10 @@
         ],
         "coste": "1",
         "base": {
-          "description": "En un rango de cuerpo a cuerpo, elimina una alteración de estado negativa de un objetivo."
+          "description": "Selecciona un objetivo en cuerpo a cuerpo. Elimina un estado negativo de ese objetivo."
         },
         "evolved": {
-          "description": "Elimina todas las alteraciones de estado negativas."
+          "description": "Elimina todos los estados negativos del objetivo."
         }
       },
       {
@@ -301,7 +301,7 @@
         ],
         "coste": "4",
         "base": {
-          "description": "En un rango de 4 casillas, selecciona a un objetivo, dicho objetivo recibe una bendción que impide que caiga a 0 puntos de vida este turno en su lugar queda con 1 punto de vida."
+          "description": "Selecciona un objetivo en un rango de 4 casillas. El objetivo recibe una bendición que impide que caiga a 0 puntos de vida este turno; en su lugar, queda con 1 punto de vida."
         },
         "evolved": {
           "description": "El aliado recupera [AT] puntos de vida adicionales."
@@ -315,7 +315,7 @@
         ],
         "coste": "4",
         "base": {
-          "description": "En rango de cuerpo a cuerpo, selecciona a un objetivo. Cura a dicho objetivo [DA+AT] puntos de vida."
+          "description": "Selecciona un objetivo en cuerpo a cuerpo. El objetivo recupera [DA+AT] puntos de vida."
         },
         "evolved": {
           "description": "Reparte la curación entre hasta 3 objetivos."
@@ -329,10 +329,10 @@
         ],
         "coste": "4",
         "base": {
-          "description": "Si un aliado fuera a recibir daño, recibe ese daño en su lugar."
+          "description": "<b><i>Reacción.</i></b> Cuando un aliado fuera a recibir daño, recibes ese daño en su lugar."
         },
         "evolved": {
-          "description": "Puedes usar tu Silencio para reducir el daño entrante."
+          "description": "Puedes usar tu <b>Silencio</b> para reducir el daño entrante."
         }
       }
     ],
@@ -345,10 +345,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Reparte [DA+AT] de daño como elijas entre cualquier cantidad de enemigos objetivo en rango cuerpo a cuerpo."
+          "description": "Reparte [DA+AT] de daño como elijas entre cualquier cantidad de enemigos en cuerpo a cuerpo."
         },
         "evolved": {
-          "description": "En su lugar, haz [DA+AT] de daño a cada uno de esos enemigos."
+          "description": "En su lugar, inflige [DA+AT] de daño a cada uno de esos enemigos."
         }
       },
       {
@@ -359,10 +359,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Haz [1d2] de <b><i>daño verdadero</i></b> al enemigo objetivo en rango cuerpo a cuerpo. Si el resultado es 2, repite este proceso. Si el resultado es 1, termina tu turno."
+          "description": "Inflige [1d2] de <i>daño verdadero</i> al enemigo objetivo en cuerpo a cuerpo. Si el resultado es 2, repite este proceso. Si el resultado es 1, termina tu turno."
         },
         "evolved": {
-          "description": "Añade tu AT a cada instancia de daño hecho de esta manera."
+          "description": "Añade [AT] a cada instancia de daño hecho de esta manera."
         }
       },
       {
@@ -373,10 +373,10 @@
         ],
         "coste": "1",
         "base": {
-          "description": "Haz 1 de daño verdadero a un enemigo objetivo en rango cuerpo a cuerpo. Obtienes un contador de carga. Por cada carga, esta habilidad hace 1 de daño verdadero adicional pero cuesta 1 de Resonancia más."
+          "description": "Inflige 1 de <i>daño verdadero</i> a un enemigo en cuerpo a cuerpo. Obtienes un contador de carga. Por cada carga, este Rudimento inflige 1 de <i>daño verdadero</i> adicional pero cuesta 1 de <b>Resonancia</b> más."
         },
         "evolved": {
-          "description": "Al llegar a 6 cargas, el coste fijo de este rudimento es 2 hasta que recibas daño."
+          "description": "Al llegar a 6 cargas, el coste fijo de este Rudimento es 2 hasta que recibas daño."
         }
       },
       {
@@ -387,10 +387,10 @@
         ],
         "coste": "1",
         "base": {
-          "description": "Haz [DA] de daño al enemigo objetivo en cuerpo a cuerpo. Si el ataque impacta, puedes pagar 1 de Resonancia para atacar de nuevo."
+          "description": "Inflige [DA] de daño al enemigo objetivo en cuerpo a cuerpo. Si el ataque impacta, puedes pagar 1 de <b>Resonancia</b> para atacar de nuevo."
         },
         "evolved": {
-          "description": "Cada golpe sucesivo hace +AT de daño adicional."
+          "description": "Cada golpe sucesivo inflige [AT] de daño adicional."
         }
       },
       {
@@ -401,10 +401,10 @@
         ],
         "coste": "1",
         "base": {
-          "description": "Muévete hasta 2 casillas y haz [DA+AT] de daño al primer enemigo que encuentres en el camino."
+          "description": "Muévete hasta 2 casillas e inflige [DA+AT] de daño al primer enemigo que encuentres en el camino."
         },
         "evolved": {
-          "description": "Muévete hasta 4 casillas. Haces daño a todos los enemigos en el camino."
+          "description": "Muévete hasta 4 casillas. Infliges daño a todos los enemigos en el camino."
         }
       },
       {
@@ -415,10 +415,10 @@
         ],
         "coste": "2",
         "base": {
-          "description": "Todos los enemigos adyacentes a ti reciben [AT] de daño y son empujados 1 casilla."
+          "description": "Inflige [AT] de daño a todos los enemigos adyacentes y empújalos 1 casilla."
         },
         "evolved": {
-          "description": "Reciben [DA+AT] de daño y son empujados 2 casillas."
+          "description": "Inflige [DA+AT] de daño y empújalos 2 casillas."
         }
       },
       {
@@ -429,7 +429,7 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Atrae/Repele al enemigo objetivo [1d4+AT] casillas hacia ti. El objetivo recibe 1 de daño verdadero por cada casilla movida de esta manera."
+          "description": "Atrae o repele al enemigo objetivo [1d4+AT] casillas. El objetivo recibe 1 de <i>daño verdadero</i> por cada casilla que se mueva de esta manera."
         },
         "evolved": {
           "description": "En su lugar, elige hasta tres enemigos objetivo."
@@ -444,10 +444,10 @@
         "element": ["sincopa"],
         "coste": "1",
         "base": {
-          "description": "Reacción. Si estás al lado de un objetivo que está recibiendo daño suma a ese daño [DA+AT]."
+          "description": "<b><i>Reacción.</i></b> Si estás adyacente a un objetivo que está recibiendo daño, suma [DA+AT] a ese daño."
         },
         "evolved": {
-          "description": "Tanto la fuente del daño como tú tenéis ventaja. "
+          "description": "Tanto la fuente del daño como tú tenéis <i>ventaja</i> en vuestras tiradas."
         }
       },
       {
@@ -456,7 +456,7 @@
         "element": ["sincopa"],
         "coste": "2",
         "base": {
-          "description": "Elige como objetivo a uno que ya haya recibido daño este turno. Dicho objetivo recibe como golpe único todo el daño que no haya superado su Silencio."
+          "description": "Elige como objetivo a una criatura que ya haya recibido daño este turno. Inflige como golpe único todo el daño que no haya superado su <b>Silencio</b>."
         },
         "evolved": {
           "description": "Añade al daño [DA+AT]."
@@ -468,10 +468,10 @@
         "element": ["sincopa"],
         "coste": "2",
         "base": {
-          "description": "Muévete hasta 3 casillas. Por cada enemigo que pases adyacente durante el movimiento, hazle [AT] de daño verdadero. No provocas reacciones."
+          "description": "Muévete hasta 3 casillas. Por cada enemigo adyacente que pases durante el movimiento, inflige [AT] de <i>daño verdadero</i>. Este movimiento no provoca reacciones."
         },
         "evolved": {
-          "description": "Muévete hasta 5 casillas. Si pasas por 2 o más enemigos, todos reciben [AT] de 'Sangrado'."
+          "description": "Muévete hasta 5 casillas. Si pasas por 2 o más enemigos, todos reciben el estado <i>Herido</i> [AT]."
         }
       },
       {
@@ -480,7 +480,7 @@
         "element": ["sincopa"],
         "coste": "2",
         "base": {
-          "description": "Muévete 3 casillas en línea recta hacia un enemigo. Si terminas adyacente a él y su vida actual es igual o menor a tu DA, ejecútalo."
+          "description": "Muévete 3 casillas en línea recta hacia un enemigo. Si terminas adyacente a él y su vida actual es igual o menor a [DA], ejecútalo."
         },
         "evolved": {
           "description": "Si ejecutas al enemigo, puedes repetir este Rudimento sin coste alguno."
@@ -492,7 +492,7 @@
         "element": ["sincopa"],
         "coste": "1",
         "base": {
-          "description": "Haz [DA+AT] de daño al enemigo objetivo en cuerpo a cuerpo. Después, muévete hasta 2 casillas."
+          "description": "Inflige [DA+AT] de daño al enemigo objetivo en cuerpo a cuerpo. Después, muévete hasta 2 casillas."
         },
         "evolved": {
           "description": "Muévete hasta 4 casillas después del ataque."
@@ -504,10 +504,10 @@
         "element": ["sincopa"],
         "coste": "2",
         "base": {
-          "description": "Por cada estado negativo que tenga el objetivo, haz +[DA] de daño."
+          "description": "Inflige [DA] de daño adicional por cada estado negativo que tenga el objetivo."
         },
         "evolved": {
-          "description": "Haz [DA+AT] de daño adicional por cada estado negativo en su lugar."
+          "description": "Inflige [DA+AT] de daño adicional por cada estado negativo en su lugar."
         }
       }
     ],
@@ -520,7 +520,7 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cambia el objetivo del daño hecho a la criatura objetivo. Redirige ese daño a otra criatura objetivo. Recibe una condición de estado negativa aleatoria."
+          "description": "Redirige el daño que recibiría una criatura objetivo hacia otra criatura objetivo. Recibes un estado negativo aleatorio."
         },
         "evolved": {
           "description": "Puedes dividir ese daño entre tantas criaturas objetivo como desees."
@@ -534,10 +534,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Vincúlate con la criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
+          "description": "Vincúlate con una criatura objetivo. Siempre que cualquiera de las criaturas vinculadas reciba daño, divide ese daño entre ambas."
         },
         "evolved": {
-          "description": "Aplica +AT o -AT al daño hecho de esta manera."
+          "description": "Aplica [AT] o [-AT] al daño recibido de esta manera."
         }
       },
       {
@@ -548,10 +548,10 @@
         ],
         "coste": "M",
         "base": {
-          "description": "Contrarresta la próxima acción declarada de la criatura objetivo. Sáltate tu próximo turno."
+          "description": "Contrarresta la próxima acción declarada de una criatura objetivo. Pierdes tu próximo turno."
         },
         "evolved": {
-          "description": "En su lugar, esto cuesta la mitad de tu Resonancia máxima."
+          "description": "En su lugar, esto cuesta la mitad de tu <b>Resonancia</b> máxima."
         }
       },
       {
@@ -565,7 +565,7 @@
           "description": "Prevén todo el daño que te harían esta ronda. Al final de la ronda, recibes ese daño como si fuera un solo ataque."
         },
         "evolved": {
-          "description": "Puedes aplicar este efecto a un objetivo que no sea tú."
+          "description": "Puedes aplicar este efecto a otro objetivo en su lugar."
         }
       },
       {
@@ -576,10 +576,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cuando la criatura objetivo tire, puedes hacer que vuelva a tirar. Aplica +AT o -AT al resultado. Recibes el estado 'Gafe'."
+          "description": "Cuando la criatura objetivo tire, puedes forzarla a repetir la tirada. Aplica [AT] o [-AT] al resultado. Recibes el estado <i>Gafe</i>."
         },
         "evolved": {
-          "description": "Además, esa criatura repite la tirada con Ventaja/Desventaja."
+          "description": "Además, esa criatura repite la tirada con <i>ventaja</i> o <i>desventaja</i> (a tu elección)."
         }
       },
       {
@@ -590,10 +590,10 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Lanza 1dDA, el numero resultante determina la Resonancia que todos los objetivos presentes en el campo de batalla, incluido tú, deben gastar para cancelar el efecto de este rudimento. El efecto es la Muerte. Si alguien muere, este Rudimento se desactiva."
+          "description": "Lanza [1d DA]. El resultado determina la <b>Resonancia</b> que todos los objetivos en el campo de batalla (incluido tú) deben gastar para cancelar este efecto. Si no pagan, mueren. Si alguien muere, este Rudimento se desactiva."
         },
         "evolved": {
-          "description": "Puedes pagar 2 de Resonancia para activar este rudimento de nuevo. Cada vez que lo activas, coste de activación se duplica."
+          "description": "Puedes pagar 2 de <b>Resonancia</b> para activar este Rudimento de nuevo. Cada vez que lo activas, el coste de activación se duplica."
         }
       }
     ],
@@ -606,10 +606,10 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Selecciona una zona de 3x3 casillas, en un rango de 3 casillas. Los enemigos que se encuentren en esa zona reciben el estado Envenenado [NdAT]. Lanza 1d4 para determinar N. Él área desaparece al final de la ronda."
+          "description": "Selecciona una zona de 3x3 casillas en un rango de 3 casillas. Los enemigos en esa zona reciben el estado <i>Envenenado</i> [Nd AT], donde N es el resultado de lanzar 1d4. El área desaparece al final de la ronda."
         },
         "evolved": {
-          "description": "Paga 1 de Resonancia para mantener el área activa durante una ronda más. Siempre y cuando los enemigos envenenados estén en el área, el estado Envenenado no mengua."
+          "description": "Paga 1 de <b>Resonancia</b> para mantener el área activa durante una ronda más. Siempre y cuando los enemigos envenenados estén en el área, el estado <i>Envenenado</i> no mengua."
         }
       },
       {
@@ -620,10 +620,10 @@
         ],
         "coste": "3",
         "base": {
-          "description": "Lanza una nota en una dirección que atraviesa a todos los enemigos y hace [DA+AT]."
+          "description": "Lanza una nota en una dirección. Atraviesa a todos los enemigos en su camino e inflige [DA+AT] de daño a cada uno."
         },
         "evolved": {
-          "description": "El daño inflingido a cada enemigo se acumula para el siguiente enemigo atravesado."
+          "description": "El daño infligido a cada enemigo se acumula para el siguiente enemigo atravesado."
         }
       },
       {
@@ -634,7 +634,7 @@
         ],
         "coste": "X",
         "base": {
-          "description": "Al principio de cada ronda, en un área de 3x3 casillas rango de 3 casillas, cualquier objetivo en el área recibe [AT] de daño verdadero. El efecto dura X rondas."
+          "description": "Crea un área de 3x3 casillas en un rango de 3 casillas. Al principio de cada ronda, cualquier objetivo en el área recibe [AT] de <i>daño verdadero</i>. El efecto dura X rondas."
         },
         "evolved": {
           "description": "El área se vuelve de 4x4 casillas y el daño solo aplica a enemigos."
@@ -648,10 +648,10 @@
         ],
         "coste": "M",
         "base": {
-          "description": "Lanza una explosión de área 2 casilas y alcance máximo 4 casillas. Los objetivos en el área deben realizar una salvación de melodía, si fallan, obtienen el estado Confuso, Cegado y Sordo durante su siguiente turno."
+          "description": "Crea una explosión en un área de 2 casillas con alcance máximo de 4 casillas. Los objetivos en el área deben realizar una salvación de [Melodía]. Si fallan, obtienen los estados <i>Confuso</i>, <i>Cegado</i> y <i>Sordo</i> hasta su siguiente turno."
         },
         "evolved": {
-          "description": "El área se vuelve de 3x3 casillas. No es necesario realizar la salvación de melodía."
+          "description": "El área se vuelve de 3x3 casillas. Los objetivos no realizan salvación de [Melodía]."
         }
       },
       {
@@ -662,10 +662,10 @@
         ],
         "coste": "M",
         "base": {
-          "description": "Selecciona a un objetivo en un rango de 3 casillas. El objetivo al morir explota y hace [DA+AT] de daño a todos los objetivos en un área de 2x2 casillas. Cualquiera que se encuentre en el área recibe el mismo efecto."
+          "description": "Selecciona un objetivo en un rango de 3 casillas. Cuando el objetivo muera, explota e inflige [DA+AT] de daño a todos los objetivos en un área de 2x2 casillas. Cualquiera dañado por la explosión recibe el mismo efecto."
         },
         "evolved": {
-          "description": "El objetivo seleccionado recibe el estado Condena hasta recibir daño. Los objetivos dañados por la explosión también reciben este estado."
+          "description": "El objetivo seleccionado recibe el estado <i>Condena</i> hasta recibir daño. Los objetivos dañados por la explosión también reciben este estado."
         }
       },
       {
@@ -676,7 +676,7 @@
         ],
         "coste": "X",
         "base": {
-          "description": "Marca X casillas en el campo. Cuando un enemigo entre en una casilla marcada, recibe [DA+AT] de daño y el estado Inmovil."
+          "description": "Marca X casillas en el campo. Cuando un enemigo entre en una casilla marcada, recibe [DA+AT] de daño y el estado <i>Inmóvil</i>."
         },
         "evolved": {
           "description": "Además termina su turno inmediatamente."
@@ -688,11 +688,11 @@
     "negativos": [
       {
         "name": "Gafe",
-        "description": "Todas tus tiradas son con desventaja."
+        "description": "Todas tus tiradas son con <i>desventaja</i>."
       },
       {
         "name": "Arritmia",
-        "description": "Tus siguientes N tiradas son con desventaja."
+        "description": "Tus siguientes N tiradas son con <i>desventaja</i>."
       },
       {
         "name": "Confuso",
@@ -703,20 +703,24 @@
         "description": "Al inicio de tu turno, recibe Xd6 de daño. Cada ronda, reduce X en 1."
       },
       {
+        "name": "Herido",
+        "description": "Al inicio de tu turno, recibe X de <i>daño verdadero</i>. Cada ronda, reduce X en 1."
+      },
+      {
         "name": "Condena",
-        "description": "Tu dado de Silencio solo bloquea si sale crítico (máximo natural)."
+        "description": "Tu dado de <b>Silencio</b> solo bloquea si sale crítico (máximo natural)."
       },
       {
         "name": "Maldecido",
-        "description": "Todo el daño que recibes es verdadero (ignora resistencias)."
+        "description": "Todo el daño que recibes es <i>verdadero</i> (ignora resistencias)."
       },
       {
         "name": "Vulnerable",
-        "description": "El daño recibido aumenta en +[X]."
+        "description": "El daño recibido aumenta en [X]."
       },
       {
         "name": "Agotado",
-        "description": "Tus costes de Resonancia se duplican."
+        "description": "Tus costes de <b>Resonancia</b> se duplican."
       },
       {
         "name": "Silenciado",
@@ -756,7 +760,7 @@
       },
       {
         "name": "Fuera de Compás",
-        "description": "Tus aliados adyacentes reciben desventaja en sus tiradas."
+        "description": "Tus aliados adyacentes reciben <i>desventaja</i> en sus tiradas."
       },
       {
         "name": "Diminuendo",
@@ -764,17 +768,17 @@
       },
       {
         "name": "Amortiguado",
-        "description": "No puedes recuperar Resonancia por ningún medio."
+        "description": "No puedes recuperar <b>Resonancia</b> por ningún medio."
       }
     ],
     "positivos": [
       {
         "name": "Suertudo",
-        "description": "Todas tus tiradas son con ventaja."
+        "description": "Todas tus tiradas son con <i>ventaja</i>."
       },
       {
         "name": "Serendipia",
-        "description": "Tus siguientes N tiradas son con ventaja."
+        "description": "Tus siguientes N tiradas son con <i>ventaja</i>."
       },
       {
         "name": "Inspirado",
@@ -782,11 +786,11 @@
       },
       {
         "name": "Potenciado",
-        "description": "Tu daño se convierte en verdadero."
+        "description": "Tu daño se convierte en <i>verdadero</i>."
       },
       {
         "name": "Furia",
-        "description": "Tu daño aumenta en +[X]."
+        "description": "Tu daño aumenta en [X]."
       },
       {
         "name": "Crítico Asegurado",
@@ -814,7 +818,7 @@
       },
       {
         "name": "Flujo",
-        "description": "Tus Rudimentos cuestan 1 menos de Resonancia (mínimo 0)."
+        "description": "Tus Rudimentos cuestan 1 menos de <b>Resonancia</b> (mínimo 0)."
       },
       {
         "name": "Turno Extra",
@@ -838,7 +842,7 @@
       },
       {
         "name": "Resonante",
-        "description": "Al inicio de tu turno, recuperas 1 de Resonancia."
+        "description": "Al inicio de tu turno, recuperas 1 de <b>Resonancia</b>."
       }
     ]
   }
