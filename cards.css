@@ -33,7 +33,6 @@ body {
   height: 89mm;
   position: relative;
   background: linear-gradient(145deg, #2a1f3d 0%, #1a1428 50%, #0f0a1a 100%);
-  border-radius: 3mm;
   overflow: hidden;
   font-size: 8pt;
 }
@@ -60,7 +59,6 @@ body {
   position: absolute;
   inset: 2mm;
 
-  border-radius: 2mm;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -100,8 +98,8 @@ body {
 /* Cost circle - top right */
 .card-cost {
   position: absolute;
-  top: 3.5mm;
-  right: 3.5mm;
+  top: 4mm;
+  right: 2mm;
   width: 7mm;
   height: 7mm;
   background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
@@ -124,8 +122,8 @@ body {
 /* Element emblem - top left */
 .card-emblem {
   position: absolute;
-  top: 3.5mm;
-  left: 3.5mm;
+  top: 4mm;
+  left: 2mm;
   width: 7mm;
   height: 7mm;
   background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
@@ -150,7 +148,7 @@ body {
 /* Artwork area - 53mm × 39mm */
 .card-artwork {
   width: 53mm;
-  height: 39mm;
+  height: 50mm;
   flex: none;
   margin: 2mm auto 1mm auto;
   background: #0a1020;
@@ -198,7 +196,6 @@ body {
   padding: 2mm;
   background: linear-gradient(180deg, #f4e8d0 0%, #e8d5b8 30%, #d9c4a0 100%);
   border: 0.3mm solid #8b6914;
-  border-radius: 0 0 1.5mm 1.5mm;
   flex: 1;
   position: relative;
   overflow: hidden;

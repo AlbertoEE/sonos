@@ -1,0 +1,264 @@
+@page {
+    size: A4;
+    margin: 10mm;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Crimson Text', Georgia, serif;
+    background: #0a0a0f;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .page {
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    margin: 0 auto 20px;
+    padding: 15mm 10.5mm;
+    display: grid;
+    grid-template-columns: repeat(3, 63mm);
+    grid-template-rows: repeat(3, 89mm);
+    gap: 0;
+  }
+  
+.card {
+  width: 63mm;
+  height: 89mm;
+  position: relative;
+  background: linear-gradient(145deg, #2a1f3d 0%, #1a1428 50%, #0f0a1a 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-size: 8pt;
+}
+  
+  /* Ornate frame - hidden in full artwork version */
+  .card-frame {
+    display: none;
+  }
+  
+  .card-inner {
+    position: absolute;
+    inset: 2mm;
+  
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* Corner decorations */
+  .corner {
+    position: absolute;
+    width: 4mm;
+    height: 4mm;
+    z-index: 10;
+  }
+  
+  .corner::before,
+  .corner::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(135deg, #f4d483, #8b6914);
+  }
+  
+  .corner-tl { top: 1mm; left: 1mm; }
+  .corner-tl::before { width: 3mm; height: 0.5mm; top: 0; left: 0; border-radius: 0.5mm; }
+  .corner-tl::after { width: 0.5mm; height: 3mm; top: 0; left: 0; border-radius: 0.5mm; }
+  
+  .corner-tr { top: 1mm; right: 1mm; }
+  .corner-tr::before { width: 3mm; height: 0.5mm; top: 0; right: 0; border-radius: 0.5mm; }
+  .corner-tr::after { width: 0.5mm; height: 3mm; top: 0; right: 0; border-radius: 0.5mm; }
+  
+  .corner-bl { bottom: 1mm; left: 1mm; }
+  .corner-bl::before { width: 3mm; height: 0.5mm; bottom: 0; left: 0; border-radius: 0.5mm; }
+  .corner-bl::after { width: 0.5mm; height: 3mm; bottom: 0; left: 0; border-radius: 0.5mm; }
+  
+  .corner-br { bottom: 1mm; right: 1mm; }
+  .corner-br::before { width: 3mm; height: 0.5mm; bottom: 0; right: 0; border-radius: 0.5mm; }
+  .corner-br::after { width: 0.5mm; height: 3mm; bottom: 0; right: 0; border-radius: 0.5mm; }
+  
+  /* Cost circle - top right */
+  .card-cost {
+    position: absolute;
+    top: 4mm;
+    right: 4mm;
+    width: 7mm;
+    height: 7mm;
+    background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
+    border: 0.4mm solid #8b6914;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #e8e8e8;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    z-index: 5;
+    box-shadow: 
+      inset 0 1px 3px rgba(255,255,255,0.3),
+      0 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  /* Element emblem - top left */
+  .card-emblem {
+    position: absolute;
+    top: 4mm;
+    left: 4mm;
+    width: 7mm;
+    height: 7mm;
+    background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
+    border: 0.4mm solid #8b6914;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    box-shadow: 
+      inset 0 1px 3px rgba(255,255,255,0.3),
+      0 2px 4px rgba(0,0,0,0.5);
+    padding: 0.6mm;
+  }
+  
+  .card-emblem .emblem-icon {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) invert(1) drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+  }
+  
+/* Artwork area - hidden but maintains space for layout */
+.card-artwork {
+  border-radius: 2mm;
+  width: 53mm;
+  height: 50mm;
+  flex: none;
+  margin: 2mm auto 1mm auto;
+  visibility: hidden;
+}
+  
+  /* Element banner */
+  .card-element-banner {
+    position: relative;
+    width: 53mm;
+    margin: 0 auto;
+    margin-top: 4mm;
+    height: 7mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2mm;
+    background: linear-gradient(180deg, rgba(232, 213, 168, 0.50) 0%, rgba(201, 184, 150, 0.50) 50%, rgba(184, 168, 130, 0.50) 100%);
+    border-top: 0.3mm solid #8b6914;
+    border-right: 0.3mm solid #8b6914;
+    border-left: 0.3mm solid #8b6914;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+  }
+  
+  .element-banner-text {
+    font-family: 'Cinzel', serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: #2a1a0a;
+    text-align: center;
+  }
+  
+  /* Text box */
+  .card-textbox {
+    width: 53mm;
+    margin: 0 auto 2mm auto;
+    padding: 2mm;
+    background: linear-gradient(180deg, rgba(244, 232, 208, 0.50) 0%, rgba(232, 213, 184, 0.50) 30%, rgba(217, 196, 160, 0.50) 100%);
+    border: 0.3mm solid #8b6914;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+  }
+  
+  .card-description {
+    font-size: 6.5pt;
+    line-height: 1.35;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  
+  .card-type-badge {
+    position: absolute;
+    bottom: 1.5mm;
+    right: 2mm;
+    font-family: 'Cinzel', serif;
+    font-size: 5pt;
+    color: #8b6914;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Evolved indicator */
+  .evolved-section {
+    margin-top: 1.5mm;
+    padding-top: 1mm;
+    border-top: 0.2mm dashed #a08050;
+  }
+  
+  .evolved-label {
+    font-size: 5pt;
+    color: #8b5a2b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5mm;
+  }
+  
+  .evolved-text {
+    font-size: 6pt;
+    color: #5a3a1a;
+    font-style: italic;
+  }
+  
+  /* Type-specific styles */
+  /* Frame styles removed - artwork is full card background */
+  
+  .type-fundamento .card-cost,
+  .type-fundamento .card-emblem {
+    border-color: #405070;
+  }
+  
+  .type-fundamento .card-element-banner {
+    border-color: #405070;
+  }
+  
+  .type-fundamento .card-textbox {
+    border-color: #405070;
+  }
+  
+  .type-fundamento .card-artwork {
+    border-color: #405070;
+  }
+  
+  @media print {
+    body {
+      background: white;
+      padding: 0;
+    }
+    .page {
+      margin: 0;
+      padding: 15mm 10.5mm;
+      page-break-after: always;
+    }
+    .page:last-child {
+      page-break-after: avoid;
+    }
+  }
+  
+  

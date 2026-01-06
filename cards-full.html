@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sonos - Cartas</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./cards.css?v=9">
+  <link rel="stylesheet" href="./cards-full.css?v=8">
 </head>
 <body>
   <div class="page" id="cards-container"></div>
@@ -49,18 +49,23 @@
           <div class="card-emblem ${elementClass}">
             <img src="${iconPath}" alt="${elementName}" class="emblem-icon"/>
           </div>
-          
+            
+          <div class="card-element-banner ${elementClass}">
+            <span class="element-banner-text">${item.name}</span>
+          </div>
+
           <div class="card-inner">
             <div class="card-artwork">
               <img src="${artworkPath}" alt="${item.name}" class="artwork-image" onerror="this.src='artwork/exceso-de-armonia.png';"/>
             </div>
             
-            <div class="card-element-banner ${elementClass}">
-              <span class="element-banner-text">${item.name}</span>
-            </div>
-            
             <div class="card-textbox">
               <div class="card-description">${item.base.description}</div>
+              <div class="evolved-section">
+                <div class="evolved-label">✦ Evolucionado</div>
+                <div class="evolved-text">${item.evolved.description}</div>
+              </div>
+              <div class="card-type-badge">${item.type}</div>
             </div>
           </div>
         </div>
