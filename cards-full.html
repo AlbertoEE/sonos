@@ -42,7 +42,7 @@
       const artworkPath = `artwork/${getArtworkPath(item.name)}`;
       
       return `
-        <div class="card ${typeClass}" style="background-image: url('${artworkPath}'), url('artwork/exceso-de-armonia-full.png');">
+        <div class="card ${typeClass}" style="background-image: url('${artworkPath}'), url('artwork/default.png');">
           <div class="card-frame"></div>
           
           <div class="card-cost">${item.coste}</div>
@@ -56,7 +56,7 @@
           
           <div class="card-inner">
             <div class="card-artwork">
-              <img src="${artworkPath}" alt="${item.name}" class="artwork-image" onerror="this.src='artwork/exceso-de-armonia-full.png';"/>
+              <img src="${artworkPath}" alt="${item.name}" class="artwork-image" onerror="this.src='artwork/default.png';"/>
             </div>
             
             <div class="card-textbox">
