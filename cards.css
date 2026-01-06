@@ -99,7 +99,7 @@ body {
 .card-cost {
   position: absolute;
   top: 4mm;
-  right: 2mm;
+  right: 4mm;
   width: 7mm;
   height: 7mm;
   background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
@@ -123,7 +123,7 @@ body {
 .card-emblem {
   position: absolute;
   top: 4mm;
-  left: 2mm;
+  left: 4mm;
   width: 7mm;
   height: 7mm;
   background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);

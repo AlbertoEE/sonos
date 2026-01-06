@@ -22,7 +22,7 @@
       'sincopa': 'icons/sincopa.svg'
     };
 
-    // Convert card name to artwork filename
+    // Convert card name to artwork filename (full version)
     function getArtworkPath(cardName) {
       return cardName
         .toLowerCase()
@@ -30,7 +30,7 @@
         .replace(/[\u0300-\u036f]/g, '') // Remove diacritics (tildes)
         .replace(/\s+/g, '-') // Replace spaces with hyphens
         .replace(/[^a-z0-9-]/g, '') // Remove special characters
-        + '.png';
+        + '-full.png';
     }
 
     function createCard(item) {
@@ -42,21 +42,21 @@
       const artworkPath = `artwork/${getArtworkPath(item.name)}`;
       
       return `
-        <div class="card ${typeClass}">
+        <div class="card ${typeClass}" style="background-image: url('${artworkPath}'), url('artwork/exceso-de-armonia-full.png');">
           <div class="card-frame"></div>
           
           <div class="card-cost">${item.coste}</div>
           <div class="card-emblem ${elementClass}">
             <img src="${iconPath}" alt="${elementName}" class="emblem-icon"/>
           </div>
-            
+
           <div class="card-element-banner ${elementClass}">
             <span class="element-banner-text">${item.name}</span>
           </div>
-
+          
           <div class="card-inner">
             <div class="card-artwork">
-              <img src="${artworkPath}" alt="${item.name}" class="artwork-image" onerror="this.src='artwork/exceso-de-armonia.png';"/>
+              <img src="${artworkPath}" alt="${item.name}" class="artwork-image" onerror="this.src='artwork/exceso-de-armonia-full.png';"/>
             </div>
             
             <div class="card-textbox">
