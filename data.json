@@ -23,7 +23,7 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cuando tus Reservas de <b>Resonancia</b> lleguen a su máximo, genera en una casilla aleatoria una Esquirla de <b>Resonancia</b> que otorga [1d AT] de <b>Resonancia</b> al aliado que la ocupe. Una vez por ronda."
+          "description": "Si tus reservas de <b>Resonancia</b> llegaran a superar tu máximo, genera en una casilla aleatoria una Esquirla de <b>Resonancia</b> que otorga [1d AT] de <b>Resonancia</b> al aliado que la ocupe. Una vez por ronda."
         },
         "evolved": {
           "description": "Si agotas tus reservas de <b>Resonancia</b>, también puedes generar una Esquirla de <b>Resonancia</b> en una casilla aleatoria. Una vez por ronda."
