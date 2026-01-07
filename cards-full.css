@@ -94,7 +94,7 @@
     height: 7mm;
     background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
     border: 0.4mm solid #8b6914;
-    border-radius: 50%;
+    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +118,7 @@
     height: 7mm;
     background: radial-gradient(circle at 30% 30%, #6b8cae, #2a4a6b 60%, #1a2a3b);
     border: 0.4mm solid #8b6914;
-    border-radius: 50%;
+    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;

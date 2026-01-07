@@ -33,7 +33,7 @@ No realism.
 
 <<THEME HERE>>
 
-A wounded human smiling, placing his hand in the wound while a monster is kneel down suffocating from poison
+<<SCENE DESCRIPTION>>
 ```
 
 ## Sizes
