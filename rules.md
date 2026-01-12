@@ -1,6 +1,6 @@
 <div style="text-align:center; margin-top:80px;">
 
-# **SONOS**
+# **SONOS SISTEMA**
 
 ### *Un Juego de Aventura y Combate Musical*
 
@@ -13,34 +13,46 @@
 
 </div>
 
-\page
-# Introducción a Sonos
-Sonos una vibración eterna.  
-Cada roca, cada hoja, cada criatura y cada silencio está tejido con música.  
-La Resonancia fluye como un río invisible, moldeando la vida, la magia y el destino.
+# Introducción a Sonos como Sistema
+En este documento explicaremos todo lo relacionado con mecánicas de Sonos, cualquier información sobre el mundo de Sonos como  su historia y su ambientación queda explicado en el tomo de "Sonos Planeta".
 
-Durante siglos, los habitantes de Sonos vivieron en armonía con la música.  
-Escuchaban sus pulsos, respondían a sus ritmos y elevaban canciones que movían montañas.
+Como pequeña acalaración Sonos es un planeta cuyas mecánicas giran alrededor de la música completamente.
 
-Pero ahora, algo ha cambiado.
+# Las clases en Sonos
+En Sonos los aventureros de alguna manera acabarán terminando como Cantores, seres capaces de sentir la música latente de Sonos y su energía. Los Cantores son capaces de aprovecharse de esta energía y la pueden manifestar de diferentes maneras.
 
-El Silencio avanza.
+Cualquier ser que se convierta en un Cantor al manifestar su forma más poderosa, forma en la que tienen acceso a su Instrumento Vital, se transforma en un Animal humanoide.
+
+Dicho Animal representa el alma del Cantor.
+
+# Los Cantores
+
+Si eres un cantor lo primero que tendrás que entender son los conceptos básicos que forman a un cantor:
+
+## Atributos de un Cantor
+Los Cantores se definen en base a 6 atributos, cada uno de ellos determina la capacidad del Cantor a la hora de impactar en Sonos de diferentes maneras.
+
+| Atributo         | En Combate | En Rol |
+|------------------|-------------| --------------------------| --------------------------|
+| **Ritmo**        | Potencia física, velocidad, impacto directo. | --------------------------|
+| **Melodía**      | Precisión, creatividad, expresividad musical. | --------------------------|
+| **Armonía**      | Control, protección, calma, equilibrio. | --------------------------|
+| **Disonancia**   | Caos, ruptura, agresividad, efectos oscuros. | --------------------------|
+| **Síncopa**      | Trucos, engaño, manipulación. | --------------------------|
+| **Tempo**        | Rapidez de reacción. Determina la iniciativa del grupo. | --------------------------|
 
 
-## ¿Qué es un Cantor?
-Un **Cantor** es alguien que aún puede escuchar la melodía viva del mundo.  
-Puede sentir cómo vibra el aire, cómo respira la tierra, cómo tiemblan las emociones.
+## Instrumento Vital
+Los Cantores pueden invocar un **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él influir en Sonos.
 
-Ser Cantor no es un don.  
-Es una responsabilidad.
+Los Instrumetos Vitales, también mencionados en esta guía como IVs, son el centro del juego, podría decirse que un Instrumento Vital es la varita de un mago.
 
-Los Cantores pueden invocar su **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él manipular Melodía, Ritmo, Síncopa, Tempo, Armonía y Disonancia.
+Los Instumentos Vitales están compuestos por 3 características básicas: atributos, daño base, tipo.
 
-Pueden sanar con acordes, empujar con ondas, romper con notas, y domar la propia Tensión del combate.
+### Atributos de un insrumento Vital
+Los Instumentos Vitales, no tienen Atributos como tal pero si que se aprovechan de los atributos de su portador. Cada instrumento puede aprovecharse mejor o peor depende del atributo.
 
-En Sonos, la música no acompaña la historia.
-
-La música **es** la historia.
+La capacidad de que tiene un IV de aprovecharse de un atributo va determinado por una letra
 
 
 ## Conceptos Fundamentales
@@ -88,7 +100,7 @@ Solo quienes aceptan el llamado de la Resonancia pueden devolver la armonía al 
 
 La aventura comienza cuando las primeras notas despiertan.
 
-\page
+
 # Creación de Personajes
 
 Ser un Cantor es más que empuñar un instrumento.  
@@ -193,7 +205,7 @@ La lista completa de instrumentos disponibles, junto a sus Fundamentos y Rudimen
 > **Sección 3: Instrumentos Vitales*
 
 
-\page
+
 
 
 ## Paso 4: Describe tu Cantor
@@ -292,7 +304,7 @@ Su triángulo suena como el destello afilado de unas uñas metálicas.
 | **6. Rudimentos Iniciales** | Nota Pura · Melisma · Contracanto · Vocis Luminis | Acciones musicales de combate |
 | **7. Identidad y Personalidad** | Cantora serena, espiritual, protectora | Su voz se manifiesta como un resplandor dorado |
 }}
-\page
+
 
 # Sección 3: Instrumentos Vitales
 
@@ -385,7 +397,7 @@ Un Cantor solo puede aprender Rudimentos asociados a los atributos que su Instru
 | **Tempo**       | Control de Escena · Rituales/Finales     | Buffs, mejoras a aliados, debufs                   |
 
 
-\page
+
 
 ## 3.4 Relación de Tipos
 
@@ -457,7 +469,7 @@ Cada atributo tiene un **nivel de escalado**.
 | A → S | 12    |
 
 
-\page
+
 
 
 # 4. El Combate en Sonos
@@ -504,7 +516,7 @@ El espacio se abstrae en **tres zonas compartidas** por jugadores y enemigos:
 - No se puede pasar de Cercano a Lejano sin pasar por Medio  
 - Empujes y atracciones mueven entre zonas
 
-\column
+
 
 ## 4.4 Acciones por Turno
 
@@ -545,7 +557,7 @@ Si a la hora de lanzar el dado de Silencio, el resultado es el máximo posible d
 Si a la hora de lanzar el dado de Silencio, el resultado es el máximo posible dadas las caras del dado, es decir, una pifia. Todo el daño entrante es verdadero y no puede ser evitado (por Silencio, pero sí por otras posibles fuentes).
 
 
-\page
+
 
 ## 4.7 La Tensión
 
@@ -591,7 +603,7 @@ Bajar Tensión implica **ceder iniciativa y presión ofensiva**.
 | **9** | Umbral | Todas las tiradas de **Silencio se hacen con desventaja** | El contraataque se vuelve pasivo y se activa con un 2 |
 | **10** | Resolución Final | Ejecutan el colapso decidido por el DJ. | La Tensión vuelve a **0** tras el colapso. |
 
-\column
+
 
 ### Resolución Final (Tensión 10)
 
