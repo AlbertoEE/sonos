@@ -35,16 +35,12 @@ En Sonos los dados usados serán los siguientes, siendo el más grande considera
 | 1d20 | 7 |
 | 1d10 | 8 |
 
-# Las clases en Sonos
+# Los Cantores
 En Sonos los aventureros de alguna manera acabarán terminando como Cantores, seres capaces de sentir la música latente de Sonos y su energía. Los Cantores son capaces de aprovecharse de esta energía y la pueden manifestar de diferentes maneras.
 
 Cualquier ser que se convierta en un Cantor al manifestar su forma más poderosa, forma en la que tienen acceso a su Instrumento Vital, se transforma en un Animal humanoide.
 
 Dicho Animal representa el alma del Cantor.
-
-# Los Cantores
-
-Si eres un cantor lo primero que tendrás que entender son los conceptos básicos que forman a un cantor:
 
 ## Atributos de un Cantor
 Los Cantores se definen en base a 6 atributos, cada uno de ellos determina la capacidad del Cantor a la hora de impactar en Sonos de diferentes maneras.
@@ -109,4 +105,38 @@ El daño de un Pulso de un instrumento vital en su forma básica será el siguie
 #### Rudimentos
 Si el Pulso es la forma más básica de inflingir daño el Rudimento es la forma más refinada. Los rudimentos son las habilidades que un Instrumento Vital puede ejecutar.
 
-Un Instrumento Vital puede contener hasta 4 Rudimentos a la vez.
+Cada Rudimento necesita de una cantidad de Resonancia concreta para poder ser ejecutado. La cantidad depende del Rudimento.
+
+##### Límite de Rudimentos
+Un Instrumento Vital puede contener como máximo hasta 3 Rudimentos básicos y 1 Rudimento evolucionado. 
+
+El Cantor puede intercambiar los Rudimentos fuera de Combate durante cualquier descanso o puede hacerlo durante el combate gastando una acción para extraer un Rudimento y otra acción para insertar un nuevo Rudimento. Sin embargo hacerlo durante el comabte contrae el riesgo de recibir una marca de Desafinación.
+
+##### Afinación De Rudimento
+Todos los Rudimentos tienen mínimo una Afinación, pero pueden llegar a tener varias.
+
+La Afinación del Rudimento determina el tipo de daño y también limita que Instrumentos pueden contener ese Rudimento. 
+
+Por ejemplo un Rudimento afinado a Disonancia solo podrá ser contenido por un Instrumento Vital con clase D o superior en el Atributo Disonancia.
+
+##### Forma de Rudimento
+Un Rudimento puede tener dos posibles formas, su forma básica donde no hay nada más especial más allá del rudimento y la forma evolucionada.
+
+La forma Evolucionada de un Rudimento se consigue a través del uso continuo de ese mismo Rudimento, tras un número determinado de usos se desbloquea una condición que cataliza esta evolución.
+
+Por ejemplo, un Rudimento que aumente el Silencio de un aliado después de haberse usado 10 veces puede desbloquear una condición de Evolución que indique el Rudimento evolucionará cuando gracias a ese Silencio extra el aliado bloqué todo el daño entrante.
+
+Esto indica que cada Rudimento tendrá su propia condición de Evolución.
+
+Es importante recordar que un Instrumento Vital solo podrá portar 1 Rudimento Evolucioando.
+
+Como Cantores siempre podemos elegir usar un Rudimento Evolucionado en su forma Base.
+
+#### Fundamentos
+Un Fundamento es similar a un Rudimento la diferencia es que no necesita de Resonancia para ser ejecutado. Los Fundamentos son habilidades innatas que también pueden ser contenidas por el Instrumento Vital.
+
+A diferencia de los Rudimentos, solo 2 Fundamentos podrán ser acoplados en un Instrumento Vital.
+
+Los Fundametos a diferencia de los Rudimentos no tienen Afinación, es decir, no tienen tipo y cualquier Instrumento Vital independientemente de sus atributos podrá equipárselo.
+
+Los 
