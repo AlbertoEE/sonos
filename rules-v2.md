@@ -62,14 +62,14 @@ Dicho Animal representa el alma del Cantor.
 ## Atributos de un Cantor
 Los Cantores se definen en base a 6 atributos, cada uno de ellos determina la capacidad del Cantor a la hora de impactar en Sonos de diferentes maneras.
 
-| Atributo         | En Combate | En Rol |
-|------------------|-------------| --------------------------|
-| **Ritmo**        | Potencia física, velocidad, impacto directo. | --------------------------|
-| **Melodía**      | Precisión, creatividad, expresividad musical. | --------------------------|
-| **Armonía**      | Control, protección, calma, equilibrio. | --------------------------|
-| **Disonancia**   | Caos, ruptura, agresividad, efectos oscuros. | --------------------------|
-| **Síncopa**      | Trucos, engaño, manipulación. | --------------------------|
-| **Tempo**        | Rapidez de reacción. Determina la iniciativa del grupo. | --------------------------|
+| Atributo       | En Combate                                              | En Rol                                                                 | Equivalente D&D                     | Equivalente Draw Steel        |
+|----------------|---------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------|-------------------------------|
+| Ritmo          | Potencia física, velocidad, impacto directo             | Fuerza bruta, esfuerzo físico, resistencia, acciones demandantes        | Strength + Constitution             | Might + Endurance             |
+| Melodía        | Precisión, creatividad, expresividad musical            | Sensibilidad artística, percepción fina, intuición creativa             | Dexterity + (algo de Charisma)      | Agility + Presence            |
+| Armonía        | Control, protección, calma, equilibrio                  | Empatía, autocontrol emocional, liderazgo sereno, cuidado de otros      | Wisdom + Charisma                   | Will + Presence               |
+| Disonancia     | Caos, ruptura, agresividad, efectos oscuros             | Crueldad, temeridad, pulsiones destructivas, decisiones arriesgadas     | Constitution (oscura) + Charisma    | Endurance + Will (corrupto)   |
+| Síncopa        | Trucos, engaño, manipulación                            | Engaño social, astucia, lectura de intenciones, oportunismo             | Dexterity + Charisma                | Agility + Presence            |
+| Tempo          | Rapidez de reacción, iniciativa del grupo               | Reflejos mentales, rapidez de decisión, lectura del momento adecuado    | Dexterity                           | Agility                       |
 
 Los atributos en Sonos van del -5 al 5. Todos los cantores comienzan con un valor fijo que tan solo puede ser modificado con equipamiento o modificadores externos como Rudimentos y Fundamentos.
 
@@ -170,10 +170,28 @@ Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu
 Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento.
 
 ### Vitalidad
+La Vitalidad es lo que permite a un Cantor seguir adelante, una vez el Cantor llega a 0 de Vitalidad pueden ocurrir dos cosas:
+- Si el Cantor se encontraba en forma animal: vuelve a su forma original con 1 punto de vitalidad
+- Si el Cantor se encontraba en su forma original: queda inconsciente
+- Si el Cantor queda inconsciente en su forma original y recibe la mitad de daño de su Vitalidad máxima en forma animal, muere.
+
+Los cantores comienzan con diferente Vitalidad dependiendo de su atributo más fuerte:
+
+| Atributo        | Base | Progresión |
+|-----------------|------|------------|
+| **Ritmo**       | 21   | +10        |
+| **Melodía**     | 16   | +5         |
+| **Armonía**     | 16   | +5         |
+| **Disonancia**  | 18   | +7         |
+| **Síncopa**     | 18   | +7         |
+| **Tempo**       | 16   | +5         |
 
 ### Silencio
+El Silencio es uno de los recursos
 
 ### Resonancia
+
+### Auralium
 
 ## Instrumento Vital
 Los Cantores pueden invocar un **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él influir en Sonos.
