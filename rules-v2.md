@@ -13,16 +13,16 @@
 
 </div>
 
-# Introducción a Sonos como Sistema
+# 1. Sonos como Sistema
 En este documento explicaremos todo lo relacionado con mecánicas de Sonos, cualquier información sobre el mundo de Sonos como su historia y su ambientación queda explicado en el tomo de "Sonos Planeta".
 
 Como pequeña acalaración Sonos es un planeta cuyas mecánicas giran alrededor de la música completamente.
 
-# Unidades de medidas en Sonos
+## 1.1 Unidades de medidas en Sonos
 En Sonos se usa tablero como cualquier TTRPG y una casilla equivale a 1'5 metros. Los que no usan el sistema imperial dirían que son 5 pies (ft).
 
-# Categorías de dado
-En Sonos los dados usados serán los siguientes, siendo el más grande considerado el de mayor categoría y el más pequeño el de menor categoría
+## 1.2 Categorías de dado
+En Sonos los dados usados serán los siguientes, siendo el más grande considerado el de mayor categoría y el más pequeño el de menor categoría. Es importante identificar estos dados como categorías para muchas habilidades especiales e interacciones.
 
 | Dado | Categoría |
 | --- | --- |
@@ -35,7 +35,7 @@ En Sonos los dados usados serán los siguientes, siendo el más grande considera
 | 1d20 | 7 |
 | 1d100 | 8 |
 
-# Checks de Habilidades en Rol
+## 1.3 Checks de Habilidades en Rol
 Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 
 | Tier | Total del power roll |
@@ -52,14 +52,14 @@ Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 
 Natural 19 o 20 (antes de mods) en un test = Éxito con recompensa, incluso en Medium/Hard.
 
-# Los Cantores
+# 2. Los Cantores
 En Sonos los aventureros de alguna manera acabarán terminando como Cantores, seres capaces de sentir la música latente de Sonos y su energía. Los Cantores son capaces de aprovecharse de esta energía y la pueden manifestar de diferentes maneras.
 
 Cualquier ser que se convierta en un Cantor al manifestar su forma más poderosa, forma en la que tienen acceso a su Instrumento Vital, se transforma en un Animal humanoide.
 
 Dicho Animal representa el alma del Cantor.
 
-## Atributos de un Cantor
+## 2.1 Atributos de un Cantor
 Los Cantores se definen en base a 6 atributos, cada uno de ellos determina la capacidad del Cantor a la hora de impactar en Sonos de diferentes maneras.
 
 | Atributo       | En Combate                                              | En Rol                                                                 | Equivalente D&D                     | Equivalente Draw Steel        |
@@ -80,49 +80,27 @@ Para elegir los valores iniciales selecciona una de las siguientes opciones
 - 2, 2, 1, 0, 0, -2
 - 2, 1, 1, 1, 0, -2
 
-## Habilidades de un Cantor
-Las habilidades de un cantor tienen varios niveles. Todas comienzan al 0. 
+## 2.2 Habilidades de un Cantor
 
-| Nivel | Significado narrativo | Mod |
-| ----- | --------------------- |-----|
-| 0-20  | No entrenado          | -1  |
-| 21-40 | Iniciado              |  0  |
-| 41-60 | Competente            |  1  |
-| 61-80 | Experto               |  2  |
-| 81-99 | Maestro               |  3  |
-| 100   | Eminencia             |  4  |
+### 2.2.1 Habilidades
+Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 
-Al crear un Cantor elige 4 habilidades nivel "Competente".
+#### Crafting
+| Skill         | Uso principal                                      |
+| ------------- | ---------------------------------------------------|
+| Alchemy       | Crear bombas y pociones                            |
+| Architecture  | Diseñar edificios y vehículos                      |
+| Blacksmithing | Forjar armas y armaduras de metal                  |
+| Carpentry     | Crear objetos de madera                            |
+| Cooking       | Preparar comida elaborada                          |
+| Fletching     | Fabricar armas y munición a distancia              |
+| Forgery       | Crear documentos y credenciales falsas             |
+| Jewelry       | Crear joyas y objetos preciosos                    |
+| Luthiering    | Fabricar, reparar y mejorar instrumentos musicales |
+| Mechanics     | Construir máquinas y mecanismos                    |
+| Tailoring     | Confeccionar ropa y armaduras ligeras              |
 
-### Progresión de Habilidades
-
-#### Primeros pasos
-Para progresar en una habilidad primero tienes que tener el rango de Iniciado que se consigue bajo la tutela de un Profesor con rango "Experto". Cada sesión con un profesor con un profesor realiza una tirada de 2d6+3. Con el Profesor nunca se puede superar 21, al llegar a 21 el profesor te ha enseñado todo lo posible y comienza el camino autodidacta.
-
-También puedes adquirir el nivel de "Iniciado" por tu cuenta, pero será más lento e impredecible. Necesitarás los materiales de práctica relacionados con la habilidad. Una vez por "downtime" lanza 1d6 y súmalo a la habilidad. 
-- Si sale un 1 pierdes la mitad del progreso. 
-- Si sale un 6 duplica tu progreso.
-
-#### Elevando conocimientos
-De los errores se aprende, cada vez que obtengas tier 1, de una habilidad al nivel "Iniciado" o superior sube un punto esa habilidad.
-
-Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu habilidad.
-
-### Crafting
-| Skill         | Uso principal                          |
-| ------------- | -------------------------------------- |
-| Alchemy       | Crear bombas y pociones                |
-| Architecture  | Diseñar edificios y vehículos          |
-| Blacksmithing | Forjar armas y armaduras de metal      |
-| Carpentry     | Crear objetos de madera                |
-| Cooking       | Preparar comida elaborada              |
-| Fletching     | Fabricar armas y munición a distancia  |
-| Forgery       | Crear documentos y credenciales falsas |
-| Jewelry       | Crear joyas y objetos preciosos        |
-| Mechanics     | Construir máquinas y mecanismos        |
-| Tailoring     | Confeccionar ropa y armaduras ligeras  |
-
-### Exploration
+#### Exploration
 | Skill      | Uso principal                                  |
 | ---------- | ---------------------------------------------- |
 | Climb      | Trepar superficies verticales                  |
@@ -136,7 +114,7 @@ Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu
 | Ride       | Montar y controlar monturas                    |
 | Swim       | Nadar y moverse en líquidos                    |
 
-### Interpersonal
+#### Interpersonal
 | Skill          | Uso principal                    |
 | -------------- | -------------------------------- |
 | Brag           | Presumir, impresionar, alardear  |
@@ -146,7 +124,7 @@ Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu
 | Perform        | Actuar, tocar música, entretener |
 | Persuade       | Convencer mediante argumentos    |
 
-### Intrigue Skills
+#### Intrigue Skills
 | Skill       | Uso principal                  |
 | ----------- | ------------------------------ |
 | Hide        | Ocultarse físicamente          |
@@ -156,7 +134,7 @@ Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu
 | Shadow      | Seguir a alguien sin ser visto |
 | Sneak       | Moverse sigilosamente          |
 
-### Lore Skills
+#### Lore Skills
 | Skill    | Uso principal                        |
 | -------- | ------------------------------------ |
 | History  | Historia, culturas y eventos pasados |
@@ -165,17 +143,50 @@ Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu
 | Psionics | Poderes mentales y lo psíquico       |
 | Religion | Dioses, cultos y mitología           |
 
+### 2.2.2 Nivel de Habilidad
+Las habilidades de un cantor tienen varios niveles. Todas comienzan al 0. 
 
-## Recursos de un Cantor
-Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento.
+| Nivel | Significado narrativo | Mod |
+| ----- | --------------------- |-----|
+| 0-20  | No entrenado          | -1  |
+| 21-40 | Iniciado              |  0  |
+| 41-60 | Competente            |  1  |
+| 61-80 | Experto               |  2  |
+| 81-99 | Maestro               |  3  |
+| 100   | Eminencia             |  4  |
 
-### Vitalidad
+Al crear un Cantor se recomienda comenzar con máximo 4 hablidades nivel "Competente".
+
+### 2.2.3 Progresión de Habilidades
+
+#### Primeros pasos
+Para progresar en una habilidad primero tienes que tener el rango de Iniciado que se consigue bajo la tutela de un Profesor con rango "Experto". Cada sesión con un profesor con un profesor realiza una tirada de 2d6+3. Con el Profesor nunca se puede superar 21, al llegar a 21 el profesor te ha enseñado todo lo posible y comienza el camino autodidacta.
+
+También puedes adquirir el nivel de "Iniciado" por tu cuenta, pero será más lento e impredecible. Necesitarás los materiales de práctica relacionados con la habilidad. Una vez por "downtime" lanza 1d6 y súmalo a la habilidad. 
+- Si sale un 1 pierdes la mitad del progreso. 
+- Si sale un 6 duplica tu progreso.
+
+#### Elevando conocimientos
+De los errores se aprende, cada vez que obtengas tier 1, de una habilidad al nivel "Iniciado" o superior sube un punto esa habilidad.
+
+Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu habilidad.
+
+## 2.3 Recursos de un Cantor
+Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Los siguientes recursos pueden ser mejorados de manera "temporal" o "permanente".
+
+- Las mejoras "temporales" pueden venir de Rudimentos, Fundamentos o Partituras y normalemente tienen una duración limitad o se pierden al usarse.
+
+- Las mejoras "permanentes" siempre vienen de equipamiento. Puede que un recurso avance de diferente manera dependiendo de los atributos más fuertes del Instrumento Vital, por ejemplo, una pieza de armadura puede ofrecer +2 de Vitalidad que para un Cantor de Ritmo significará una mejora de 20 de Vitalidad, sin embargo, para un Cantor de Armonía implicará una mejora de 10 de vitalidad.
+
+Mucho de los recursos de un Cantor, están ligados al atributo más fuerte de su Instrumento Vital, en que caso de que cambiaran, de manera permanente, habría que recalcularlos, sin embargo si estos cambian de manera temporal en el transcurso de un enfrentamiento, no hace falta.
+
+### 2.3.1 Vitalidad
 La Vitalidad es lo que permite a un Cantor seguir adelante, una vez el Cantor llega a 0 de Vitalidad pueden ocurrir dos cosas:
 - Si el Cantor se encontraba en forma animal: vuelve a su forma original con 1 punto de vitalidad
 - Si el Cantor se encontraba en su forma original: queda inconsciente
 - Si el Cantor queda inconsciente en su forma original y recibe la mitad de daño de su Vitalidad máxima en forma animal, muere.
 
-Los cantores comienzan con diferente Vitalidad dependiendo de su atributo más fuerte:
+Los cantores comienzan con diferente Vitalidad dependiendo del atributo más fuerte de su Instrumento Vital:
 
 | Atributo        | Base | Progresión |
 |-----------------|------|------------|
@@ -186,21 +197,68 @@ Los cantores comienzan con diferente Vitalidad dependiendo de su atributo más f
 | **Síncopa**     | 18   | +7         |
 | **Tempo**       | 16   | +5         |
 
-### Silencio
-El Silencio es uno de los recursos
+### 2.3.2 Silencio
+El Silencio es el recurso defensivo más importante de un Cantor. Cualquier daño que reciba un Cantor se verá reducido por su dado de Silencio.
 
-### Resonancia
+Los cantores comienzan con diferentes dados de silencio dependiendo del atributo más fuerte de su Instrumento Vital:
 
-### Auralium
+| Atributo        | Dado | Progresión |
+|-----------------|------|------------|
+| **Ritmo**       | 3d4  | +3         |
+| **Melodía**     | 1d10 | +1         |
+| **Armonía**     | 1d10 | +1         |
+| **Disonancia**  | 2d6  | +2         |
+| **Síncopa**     | 2d6  | +2         |
+| **Tempo**       | 1d10 | +1         |
 
-## Instrumento Vital
+#### Resultados de Silencio
+- En caso de obtener una pifia, el daño se considera daño verdadero.
+- En caso de obtener un crítico, se bloquea completamente el daño entrante.
+
+#### Silencio en Enemigos
+Normalmente los enemigos no podrán hacer uso del Silencio ya que es una caraterística propia de los jugadores, sin embargo, ciertos bosses podrían hacer uso de esta mecánica.
+
+### 2.3.3 Resonancia
+La Resonancia es lo que le permite a un Cantor ejecutar sus Rudimentos. Todos los Rudimentos tienen un coste de Resonancia asociado.
+
+Todos los Cantores tienen el mismo dado de Resonancia 1d4 pero diferentes valores máximos
+
+| Atributo        | Valor máximo | Progresión |
+|-----------------|--------------|------------|
+| **Ritmo**       | 4            | 1/6        |
+| **Melodía**     | 6            | 1/4        |
+| **Armonía**     | 6            | 1/4        |
+| **Disonancia**  | 4            | 1/6        |
+| **Síncopa**     | 4            | 1/6        |
+| **Tempo**       | 6            | 1/4        |
+
+Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo. 
+
+Existen diferentes maneras de recuperar Resonancia:
+
+- Al ejecutar a un enemigo lanza tu dado de Resonancia
+- Al realizar un Silencio perfecto lanza tu dado de Resonancia
+- Al realizar un Pulso lanza tu dado de Resonancia
+
+### 2.3.4 Auralium
+Todos los Cantores invocan su Instrumento Vital desde una pieza de Auralita a la que han dado forma y personalizado, esta pieza se considera su catalizador, también llamada Auralium.
+
+Pero además de invocar el Instrumento Vital también tiene una función curativa. 
+
+El Auralium puede regenerar la mitad de la Vitalidad de un Cantor y puede ser usado hasta 3 veces antes de necesitar ser recargado de nuevo.
+
+El ritual de recarga consiste en dormir durante al menos 8 horas junta al Auralium tras haber tatareado la Nana de la Súplica. Esto recuperará 1 carga del Auralium.
+
+Para recuperar todas las cargas del Auralium haría falta dedicar 24 horas de relajación y meditación.
+
+## 2.4 Instrumento Vital
 Los Cantores pueden invocar un **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él influir en Sonos.
 
 Los Instrumetos Vitales, también mencionados en esta guía como IVs, son el centro del juego, podría decirse que un Instrumento Vital es la varita de un mago.
 
 Los Instumentos Vitales están compuestos por 3 características básicas: atributos, daño base, tipo.
 
-### Atributos de un insrumento Vital
+### 2.4.1 Atributos de un insrumento Vital
 Los Instumentos Vitales, no tienen Atributos como tal pero si que se aprovechan de los atributos de su portador. Cada instrumento puede aprovecharse mejor o peor depende del atributo.
 
 La capacidad de que tiene un IV de aprovecharse de un atributo va determinado por una letra que va desde la S a la D, siendo la S una capacidad por encima de lo normal para aprovecharse de un atributo y la D la ineficiencia absoluta.
@@ -215,12 +273,14 @@ La capacidad de que tiene un IV de aprovecharse de un atributo va determinado po
 
 Gracias a esta tabla seremos capaces de calcular el Atributo Total de nuestro Instrumento Vital, este valor será muy importante más adelante.
 
-### Daño de un Instrumento Vital
+Se recomienda que el Instrumento Vital inicial de los Jugadores comience en rango C en uno de los Atributos (a elegir por el jugador), mientras que los demás atributos no tengan categoría.
+
+### 2.4.2 Daño de un Instrumento Vital
 El Instrumento Vital es nuestra arma principal a la hora de enfrentarnos a desafíos en Sonos ya sean en Combate, Rol o Investigación.
 
 Hablando especificamente de combate, nuestro IV puede ejecutar 3 tipos de magias que nos servirán para enfrentarnos a enemigos.
 
-#### Pulsos
+#### A) Pulsos
 Un Pulso es la forma más básica que tiene nuestro IV de inflingir daño a un enemigo. El daño de nuestro Pulso está determinado por el Dado de Instrumento + Atributo Total.
 
 Dependiendo del Instrumento Vital el Pulso tendrá un alcance u otro, sin embargo, la norma estándar indica que el Pulso de cualquier instrumento tendrá por defecto un rango máximo de 6 metros / 20 ft / 4 casillas.
@@ -231,14 +291,14 @@ Durante una campaña en Sonos un Cantor podrá encontrar diferentes maneras de m
 
 El daño de un Pulso de un instrumento vital en su forma básica será el siguiente:
 | Daño | Alcance |
-| --- | --- |
-| 1d8 | Cuerpo a cuerpo |
-| 1d6 | 5ft / 1,5m / 1 casilla  |
-| 1d4 | 10ft / 3m / 2 casilla |
-| 1d2 | 15ft / 4,5m / 3 casilla |
-| 1   | 20ft / 6m / 4 casilla |
+| ---- | ------- |
+| 1d8  | Cuerpo a cuerpo |
+| 1d6  | 5ft / 1,5m / 1 casilla  |
+| 1d4  | 10ft / 3m / 2 casilla |
+| 1d2  | 15ft / 4,5m / 3 casilla |
+| 1    | 20ft / 6m / 4 casilla |
 
-#### Rudimentos
+#### B) Rudimentos
 Si el Pulso es la forma más básica de inflingir daño el Rudimento es la forma más refinada. Los rudimentos son las habilidades que un Instrumento Vital puede ejecutar.
 
 Cada Rudimento necesita de una cantidad de Resonancia concreta para poder ser ejecutado. La cantidad depende del Rudimento.
@@ -268,7 +328,7 @@ Es importante recordar que un Instrumento Vital solo podrá portar 1 Rudimento E
 
 Como Cantores siempre podemos elegir usar un Rudimento Evolucionado en su forma Base.
 
-#### Fundamentos
+#### C) Fundamentos
 Un Fundamento es similar a un Rudimento la diferencia es que no necesita de Resonancia para ser ejecutado. Los Fundamentos son habilidades innatas que también pueden ser contenidas por el Instrumento Vital.
 
 ##### Límite de Fundamentos
@@ -281,3 +341,9 @@ Los Fundametos se rigen por los mismas normas que los Rudimentos a la hora de de
 
 ##### Forma De Fundamento
 Los Fundamentos tienen las mismas formas que los Rudimentos, una básica y una evolucionada. Además siguen los mismos principios de evolución que los Rudimentos.
+
+### 2.4.3 Mejoras del Instrumento Vital
+A lo largo de la campaña, los jugadores obtendrán recursos para mejorar su Instrumento Vital, en concreto Auralita Refinada.
+
+Para mejorar el Instrumento Vital será necesario disponer de la Auralita Refinada necesaria además de un
+
