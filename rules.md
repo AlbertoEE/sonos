@@ -336,7 +336,7 @@ Todos los instrumentos comienzan en su forma más rudimentaria e incompleta lo q
 | Percusión      | Ritmo       | C        |
 | Cuerda         | Melodía     | C        |
 | Coral          | Armonía     | C        |
-| Viento         | Síncopa | C        |
+| Viento         | Síncopa     | C        |
 | Experimental   | Disonancia  | C        |
 | Métrica        | Tempo       | C        |
 
