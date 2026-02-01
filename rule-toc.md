@@ -1,11 +1,64 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [**SONOS SISTEMA**](#sonos-sistema)
+      + [*Un Juego de Aventura y Combate Musical*](#un-juego-de-aventura-y-combate-musical)
+      + [**Creado por Alberto**](#creado-por-alberto)
+- [1. Sonos como Sistema](#1-sonos-como-sistema)
+   * [1.1 Unidades de medidas en Sonos](#11-unidades-de-medidas-en-sonos)
+   * [1.2 Categorías de dado](#12-categorías-de-dado)
+   * [1.3 Checks de Habilidades en Rol](#13-checks-de-habilidades-en-rol)
+- [2. Los Cantores](#2-los-cantores)
+   * [2.1 Atributos de un Cantor](#21-atributos-de-un-cantor)
+   * [2.2 Habilidades de un Cantor](#22-habilidades-de-un-cantor)
+      + [2.2.1 Habilidades](#221-habilidades)
+         - [Crafting](#crafting)
+         - [Exploration](#exploration)
+         - [Interpersonal](#interpersonal)
+         - [Intrigue Skills](#intrigue-skills)
+         - [Lore Skills](#lore-skills)
+      + [2.2.2 Nivel de Habilidad](#222-nivel-de-habilidad)
+      + [2.2.3 Progresión de Habilidades](#223-progresión-de-habilidades)
+         - [Primeros pasos](#primeros-pasos)
+         - [Elevando conocimientos](#elevando-conocimientos)
+   * [2.3 Recursos de un Cantor](#23-recursos-de-un-cantor)
+      + [2.3.1 Vitalidad](#231-vitalidad)
+      + [2.3.2 Silencio](#232-silencio)
+         - [Resultados de Silencio](#resultados-de-silencio)
+         - [Silencio en Enemigos](#silencio-en-enemigos)
+      + [2.3.3 Resonancia](#233-resonancia)
+      + [2.3.4 Auralium](#234-auralium)
+   * [2.4 Instrumento Vital](#24-instrumento-vital)
+      + [2.4.1 Atributos de un insrumento Vital](#241-atributos-de-un-insrumento-vital)
+      + [2.4.2 Daño de un Instrumento Vital](#242-daño-de-un-instrumento-vital)
+         - [A) Pulsos](#a-pulsos)
+         - [B) Rudimentos](#b-rudimentos)
+            * [Límite de Rudimentos](#límite-de-rudimentos)
+            * [Afinación De Rudimento](#afinación-de-rudimento)
+            * [Forma de Rudimento](#forma-de-rudimento)
+         - [C) Fundamentos](#c-fundamentos)
+            * [Límite de Fundamentos](#límite-de-fundamentos)
+            * [Afinación De Fundamento](#afinación-de-fundamento)
+            * [Forma De Fundamento](#forma-de-fundamento)
+      + [2.4.3 Mejoras del Instrumento Vital](#243-mejoras-del-instrumento-vital)
+         - [Luthiering para mejoras](#luthiering-para-mejoras)
+         - [Mejoras](#mejoras)
+         - [Escalado  de Atributos de Instrumento Vital](#escalado-de-atributos-de-instrumento-vital)
+         - [Mejoras corruptas](#mejoras-corruptas)
+      + [2.4.4 Desafinación](#244-desafinación)
+
+<!-- TOC end -->
+
 <div style="text-align:center; margin-top:80px;">
 
+<!-- TOC --><a name="sonos-sistema"></a>
 # **SONOS SISTEMA**
 
+<!-- TOC --><a name="un-juego-de-aventura-y-combate-musical"></a>
 ### *Un Juego de Aventura y Combate Musical*
 
 <img src="INSERT_YOUR_IMAGE_URL_HERE" style="width:60%; margin-top:40px; border:0;">
 
+<!-- TOC --><a name="creado-por-alberto"></a>
 ### **Creado por Alberto**
 
 **Versión Alpha 0.1**  
@@ -13,14 +66,17 @@
 
 </div>
 
+<!-- TOC --><a name="1-sonos-como-sistema"></a>
 # 1. Sonos como Sistema
 En este documento explicaremos todo lo relacionado con mecánicas de Sonos, cualquier información sobre el mundo de Sonos como su historia y su ambientación queda explicado en el tomo de "Sonos Planeta".
 
 Como pequeña acalaración Sonos es un planeta cuyas mecánicas giran alrededor de la música completamente.
 
+<!-- TOC --><a name="11-unidades-de-medidas-en-sonos"></a>
 ## 1.1 Unidades de medidas en Sonos
 En Sonos se usa tablero como cualquier TTRPG y una casilla equivale a 1'5 metros. Los que no usan el sistema imperial dirían que son 5 pies (ft).
 
+<!-- TOC --><a name="12-categorías-de-dado"></a>
 ## 1.2 Categorías de dado
 En Sonos los dados usados serán los siguientes, siendo el más grande considerado el de mayor categoría y el más pequeño el de menor categoría. Es importante identificar estos dados como categorías para muchas habilidades especiales e interacciones.
 
@@ -35,6 +91,7 @@ En Sonos los dados usados serán los siguientes, siendo el más grande considera
 | 1d20 | 7 |
 | 1d100 | 8 |
 
+<!-- TOC --><a name="13-checks-de-habilidades-en-rol"></a>
 ## 1.3 Checks de Habilidades en Rol
 Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 
@@ -52,6 +109,7 @@ Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 
 Natural 19 o 20 (antes de mods) en un test = Éxito con recompensa, incluso en Medium/Hard.
 
+<!-- TOC --><a name="2-los-cantores"></a>
 # 2. Los Cantores
 En Sonos los aventureros de alguna manera acabarán terminando como Cantores, seres capaces de sentir la música latente de Sonos y su energía. Los Cantores son capaces de aprovecharse de esta energía y la pueden manifestar de diferentes maneras.
 
@@ -59,6 +117,7 @@ Cualquier ser que se convierta en un Cantor al manifestar su forma más poderosa
 
 Dicho Animal representa el alma del Cantor.
 
+<!-- TOC --><a name="21-atributos-de-un-cantor"></a>
 ## 2.1 Atributos de un Cantor
 Los Cantores se definen en base a 6 atributos, cada uno de ellos determina la capacidad del Cantor a la hora de impactar en Sonos de diferentes maneras.
 
@@ -80,11 +139,14 @@ Para elegir los valores iniciales selecciona una de las siguientes opciones
 - 2, 2, 1, 0, 0, -2
 - 2, 1, 1, 1, 0, -2
 
+<!-- TOC --><a name="22-habilidades-de-un-cantor"></a>
 ## 2.2 Habilidades de un Cantor
 
+<!-- TOC --><a name="221-habilidades"></a>
 ### 2.2.1 Habilidades
 Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 
+<!-- TOC --><a name="crafting"></a>
 #### Crafting
 | Skill         | Uso principal                                      |
 | ------------- | ---------------------------------------------------|
@@ -100,6 +162,7 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Mechanics     | Construir máquinas y mecanismos                    |
 | Tailoring     | Confeccionar ropa y armaduras ligeras              |
 
+<!-- TOC --><a name="exploration"></a>
 #### Exploration
 | Skill      | Uso principal                                  |
 | ---------- | ---------------------------------------------- |
@@ -114,6 +177,7 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Ride       | Montar y controlar monturas                    |
 | Swim       | Nadar y moverse en líquidos                    |
 
+<!-- TOC --><a name="interpersonal"></a>
 #### Interpersonal
 | Skill          | Uso principal                    |
 | -------------- | -------------------------------- |
@@ -124,6 +188,7 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Perform        | Actuar, tocar música, entretener |
 | Persuade       | Convencer mediante argumentos    |
 
+<!-- TOC --><a name="intrigue-skills"></a>
 #### Intrigue Skills
 | Skill       | Uso principal                  |
 | ----------- | ------------------------------ |
@@ -134,6 +199,7 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Shadow      | Seguir a alguien sin ser visto |
 | Sneak       | Moverse sigilosamente          |
 
+<!-- TOC --><a name="lore-skills"></a>
 #### Lore Skills
 | Skill    | Uso principal                        |
 | -------- | ------------------------------------ |
@@ -143,6 +209,7 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Psionics | Poderes mentales y lo psíquico       |
 | Religion | Dioses, cultos y mitología           |
 
+<!-- TOC --><a name="222-nivel-de-habilidad"></a>
 ### 2.2.2 Nivel de Habilidad
 Las habilidades de un cantor tienen varios niveles. Todas comienzan al 0. 
 
@@ -157,8 +224,10 @@ Las habilidades de un cantor tienen varios niveles. Todas comienzan al 0.
 
 Al crear un Cantor se recomienda comenzar con máximo 4 hablidades nivel "Competente".
 
+<!-- TOC --><a name="223-progresión-de-habilidades"></a>
 ### 2.2.3 Progresión de Habilidades
 
+<!-- TOC --><a name="primeros-pasos"></a>
 #### Primeros pasos
 Para progresar en una habilidad primero tienes que tener el rango de Iniciado que se consigue bajo la tutela de un Profesor con rango "Experto". Cada sesión con un profesor con un profesor realiza una tirada de 2d6+3. Con el Profesor nunca se puede superar 21, al llegar a 21 el profesor te ha enseñado todo lo posible y comienza el camino autodidacta.
 
@@ -166,11 +235,13 @@ También puedes adquirir el nivel de "Iniciado" por tu cuenta, pero será más l
 - Si sale un 1 pierdes la mitad del progreso. 
 - Si sale un 6 duplica tu progreso.
 
+<!-- TOC --><a name="elevando-conocimientos"></a>
 #### Elevando conocimientos
 De los errores se aprende, cada vez que obtengas tier 1, de una habilidad al nivel "Iniciado" o superior sube un punto esa habilidad.
 
 Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu habilidad.
 
+<!-- TOC --><a name="23-recursos-de-un-cantor"></a>
 ## 2.3 Recursos de un Cantor
 Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Los siguientes recursos pueden ser mejorados de manera "temporal" o "permanente".
 
@@ -180,6 +251,7 @@ Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Lo
 
 Mucho de los recursos de un Cantor, están ligados al atributo más fuerte de su Instrumento Vital, en que caso de que cambiaran, de manera permanente, habría que recalcularlos, sin embargo si estos cambian de manera temporal en el transcurso de un enfrentamiento, no hace falta.
 
+<!-- TOC --><a name="231-vitalidad"></a>
 ### 2.3.1 Vitalidad
 La Vitalidad es lo que permite a un Cantor seguir adelante, una vez el Cantor llega a 0 de Vitalidad pueden ocurrir dos cosas:
 - Si el Cantor se encontraba en forma animal: vuelve a su forma original con 1 punto de vitalidad
@@ -197,6 +269,7 @@ Los cantores comienzan con diferente Vitalidad dependiendo del atributo más fue
 | **Síncopa**     | 18   | +7         |
 | **Tempo**       | 16   | +5         |
 
+<!-- TOC --><a name="232-silencio"></a>
 ### 2.3.2 Silencio
 El Silencio es el recurso defensivo más importante de un Cantor. Cualquier daño que reciba un Cantor se verá reducido por su dado de Silencio.
 
@@ -211,13 +284,16 @@ Los cantores comienzan con diferentes dados de silencio dependiendo del atributo
 | **Síncopa**     | 2d6  | +2         |
 | **Tempo**       | 1d10 | +1         |
 
+<!-- TOC --><a name="resultados-de-silencio"></a>
 #### Resultados de Silencio
 - En caso de obtener una pifia, el daño se considera daño verdadero.
 - En caso de obtener un crítico, se bloquea completamente el daño entrante.
 
+<!-- TOC --><a name="silencio-en-enemigos"></a>
 #### Silencio en Enemigos
 Normalmente los enemigos no podrán hacer uso del Silencio ya que es una caraterística propia de los jugadores, sin embargo, ciertos bosses podrían hacer uso de esta mecánica.
 
+<!-- TOC --><a name="233-resonancia"></a>
 ### 2.3.3 Resonancia
 La Resonancia es lo que le permite a un Cantor ejecutar sus Rudimentos. Todos los Rudimentos tienen un coste de Resonancia asociado.
 
@@ -240,6 +316,7 @@ Existen diferentes maneras de recuperar Resonancia:
 - Al realizar un Silencio perfecto lanza tu dado de Resonancia
 - Al realizar un Pulso lanza tu dado de Resonancia
 
+<!-- TOC --><a name="234-auralium"></a>
 ### 2.3.4 Auralium
 Todos los Cantores invocan su Instrumento Vital desde una pieza de Auralita a la que han dado forma y personalizado, esta pieza se considera su catalizador, también llamada Auralium.
 
@@ -251,6 +328,7 @@ El ritual de recarga consiste en dormir durante al menos 8 horas junta al Aurali
 
 Para recuperar todas las cargas del Auralium haría falta dedicar 24 horas de relajación y meditación.
 
+<!-- TOC --><a name="24-instrumento-vital"></a>
 ## 2.4 Instrumento Vital
 Los Cantores pueden invocar un **Instrumento Vital**, una manifestación espiritual creada a partir de una gema de Auralita, y a través de él influir en Sonos.
 
@@ -258,6 +336,7 @@ Los Instrumetos Vitales, también mencionados en esta guía como IVs, son el cen
 
 Los Instumentos Vitales están compuestos por 3 características básicas: atributos, daño base, tipo.
 
+<!-- TOC --><a name="241-atributos-de-un-insrumento-vital"></a>
 ### 2.4.1 Atributos de un insrumento Vital
 Los Instumentos Vitales, no tienen Atributos como tal pero si que se aprovechan de los atributos de su portador. Cada instrumento puede aprovecharse mejor o peor depende del atributo.
 
@@ -275,11 +354,13 @@ Gracias a esta tabla seremos capaces de calcular el Atributo Total de nuestro In
 
 Se recomienda que el Instrumento Vital inicial de los Jugadores comience en rango C en uno de los Atributos (a elegir por el jugador), mientras que los demás atributos no tengan categoría.
 
+<!-- TOC --><a name="242-daño-de-un-instrumento-vital"></a>
 ### 2.4.2 Daño de un Instrumento Vital
 El Instrumento Vital es nuestra arma principal a la hora de enfrentarnos a desafíos en Sonos ya sean en Combate, Rol o Investigación.
 
 Hablando especificamente de combate, nuestro IV puede ejecutar 3 tipos de magias que nos servirán para enfrentarnos a enemigos.
 
+<!-- TOC --><a name="a-pulsos"></a>
 #### A) Pulsos
 Un Pulso es la forma más básica que tiene nuestro IV de inflingir daño a un enemigo. El daño de nuestro Pulso está determinado por el Dado de Instrumento + Atributo Total.
 
@@ -298,16 +379,19 @@ El daño de un Pulso de un instrumento vital en su forma básica será el siguie
 | 1d2  | 15ft / 4,5m / 3 casilla |
 | 1    | 20ft / 6m / 4 casilla |
 
+<!-- TOC --><a name="b-rudimentos"></a>
 #### B) Rudimentos
 Si el Pulso es la forma más básica de inflingir daño el Rudimento es la forma más refinada. Los rudimentos son las habilidades que un Instrumento Vital puede ejecutar.
 
 Cada Rudimento necesita de una cantidad de Resonancia concreta para poder ser ejecutado. La cantidad depende del Rudimento.
 
+<!-- TOC --><a name="límite-de-rudimentos"></a>
 ##### Límite de Rudimentos
 Un Instrumento Vital puede contener como máximo hasta 3 Rudimentos básicos y 1 Rudimento evolucionado. 
 
 El Cantor puede intercambiar los Rudimentos fuera de Combate durante cualquier descanso o puede hacerlo durante el combate gastando una acción para extraer un Rudimento y otra acción para insertar un nuevo Rudimento. Sin embargo hacerlo durante el combate contrae el riesgo de recibir una marca de Desafinación.
 
+<!-- TOC --><a name="afinación-de-rudimento"></a>
 ##### Afinación De Rudimento
 Todos los Rudimentos tienen mínimo una Afinación, pero pueden llegar a tener varias.
 
@@ -315,6 +399,7 @@ La Afinación del Rudimento determina el tipo de daño y también limita que Ins
 
 Por ejemplo un Rudimento afinado a Disonancia solo podrá ser contenido por un Instrumento Vital con clase D o superior en el Atributo Disonancia.
 
+<!-- TOC --><a name="forma-de-rudimento"></a>
 ##### Forma de Rudimento
 Un Rudimento puede tener dos posibles formas, su forma básica donde no hay nada más especial más allá del rudimento y la forma evolucionada.
 
@@ -328,23 +413,29 @@ Es importante recordar que un Instrumento Vital solo podrá portar 1 Rudimento E
 
 Como Cantores siempre podemos elegir usar un Rudimento Evolucionado en su forma Base.
 
+<!-- TOC --><a name="c-fundamentos"></a>
 #### C) Fundamentos
 Un Fundamento es similar a un Rudimento la diferencia es que no necesita de Resonancia para ser ejecutado. Los Fundamentos son habilidades innatas que también pueden ser contenidas por el Instrumento Vital.
 
+<!-- TOC --><a name="límite-de-fundamentos"></a>
 ##### Límite de Fundamentos
 A diferencia de los Rudimentos, solo 2 Fundamentos podrán ser acoplados en un Instrumento Vital.
 
 Los Fundamentos, no pueden ser intercambiados en combate, solo pueden ser cambiados durante descansos.
 
+<!-- TOC --><a name="afinación-de-fundamento"></a>
 ##### Afinación De Fundamento
 Los Fundametos se rigen por los mismas normas que los Rudimentos a la hora de determinar su tipo.
 
+<!-- TOC --><a name="forma-de-fundamento"></a>
 ##### Forma De Fundamento
 Los Fundamentos tienen las mismas formas que los Rudimentos, una básica y una evolucionada. Además siguen los mismos principios de evolución que los Rudimentos.
 
+<!-- TOC --><a name="243-mejoras-del-instrumento-vital"></a>
 ### 2.4.3 Mejoras del Instrumento Vital
 A lo largo de la campaña, los jugadores obtendrán recursos para mejorar su Instrumento Vital, en concreto Auralita Refinada.
 
+<!-- TOC --><a name="luthiering-para-mejoras"></a>
 #### Luthiering para mejoras
 Para mejorar el Instrumento Vital será necesario disponer de la Auralita Refinada necesaria además de un aliado PC/NPC que cuente con la habilidad "Luthiering".
 
@@ -357,6 +448,7 @@ Para relizar una mejora a un Instrumento vital se requerirá de una tirada de Ha
 | Tier 3    | La mejora ocurre y recuperas la mitad de la Auralita |
 
 
+<!-- TOC --><a name="mejoras"></a>
 #### Mejoras
 Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 
@@ -372,6 +464,7 @@ Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 | **Purificación de Desafinación** | **2 Auralita** |
 | **+1 Resonancia (Hasta 4 veces)** | **10 Auralita** |
 
+<!-- TOC --><a name="escalado-de-atributos-de-instrumento-vital"></a>
 #### Escalado  de Atributos de Instrumento Vital
 Los Cantores también pueden usar la Auralita Refinada con el fin de mejorar los atributos de los Instrumentos Vitales para hacer de sus Rudimentos y Fundamentos habilidades más efectivas.
 
@@ -382,6 +475,7 @@ Los Cantores también pueden usar la Auralita Refinada con el fin de mejorar los
 | B → A | 8     |
 | A → S | 12    |
 
+<!-- TOC --><a name="mejoras-corruptas"></a>
 #### Mejoras corruptas
 Los Cantores pueden decidir que las mejoras convencionales no son suficiente y necesitan más poder. En ese caso pueden intentar forzar una mejora prohíbida. 
 
@@ -395,6 +489,7 @@ Este proceso es conocido como Corrupción del Instrumento Vital no todos los Lut
 | Tier 2    | La mejora no ocurre                                                  |
 | Tier 3    | La mejora ocurre y ganas 1d8 de Desafinación                         |
 
+<!-- TOC --><a name="244-desafinación"></a>
 ### 2.4.4 Desafinación
 La desafinación es un estado negativo que un Instrumento Vital puede adquirir ya sea por una mejora mal ejecutada como por efectos externos de enemigos.
 
@@ -402,97 +497,6 @@ Cada vez que lances cualquier tirada ya sea en combate, rol o investigación, re
 
 Ejemplo: tras mejorar mi instrumento vital varias veces he obtenido 3d4 de desafinación, en mi siguiente tirada intento abrir una puerta así que uso lock pick y le resto 1d4, ahora solo me quedan 2d4 de desafinación, así hasta descartar todos los dados de Desafinación.
 
-Con 2 de Auralita Refinada, un Luthier puede descartar toda la Desafinación de un Instrumento Vital.
+También se puede pagar 2 de Auralita Refinada a un Luthier para descartar toda la Desafinación de un Instrumento Vital.
 
-# 3. Combate
-En esta seccióne entraremos en todas los detalles que componen una batalla en Sonos
-
-## 3.1 Iniciativa
-En Sonos, la iniciativa siempre es la misma, a no ser que el DM indique lo contrario.
-
-Primero actuan los jugadores y después actúan los enemigos.
-
-Los jugadores deciden entre ellos en que orden actúan y cual es el plan, después su plan es ejecutado. Una vez los jugadores han ejecutado todos los movimientos, llega el turno de los enemigos.
-
-Se considera el "final de una ronda" cuando ambos bandos han ejecutado sus turnos.
-
-## 3.2 Acciones por Turno
-
-En su turno, cada Cantor puede realizar **1 Acción** de las siguientes:
-
-| Acción             | Descripción                                                            |
-|:------------------:|:-----------------------------------------------------------------------|
-| Pulso              | Inflinge daño a un objetivo y recupera  Resonancia                     |
-| Resintonía         | Ayuda a un aliado a recuperar su forma de Cantor                       |
-| Defenderse         | Obtén 2 dados de Silencio durante la siguiente ronda                   |
-| Acompañamiento     | Otorga ventaja un dado a un aliado                                     |
-| On Garde           | Durante la siguiente ronda, tu silencio Perfecto devuelve todo el daño |
-| Miscelanea         | Acciones no recogidas en esta tabla                                    |
-| Rudimento          | Usa Rudimentos en base a la Resonancia restante                        |
-| Súplica            | Usa una carga de tu Auralium para recuperar vida                       |
-| Resolver           | Usa una carga de tu Auralium para recuperar vida                       |
-
-### 3.2.1 Resintonía
-Cuando un Cantor llega 0 puntos de Vitalidad vuelve a su forma orignal abandonando su forma Animal. 
-
-Para volver a su forma Animal necesitará 10 minutos de concentración, o en su defecto, un compañero puede ayudar a un Cantor a volver a su forma Animal potenciando la melodía oculta en Sonos con su Instrumento Vital.
-
-Existen dos procedimientos:
-
-#### Resintonía Simple
-El Cantor ayudante simplemente gasta su turno en Resintonizar a un Cantor aliado, el Cantor aliado vuelve a su forma animal con 1d4 de Vitalidad.
-
-#### Resintonía Compleja
-El DM otorgará al Cantor que esté ejecutando la acción Resintonía un serie de notas que tendrá que hacer sonar con un instrumento de su elección.
-
-Por cada nota que se capaz de reconocer el Cantor caído, recupera 1d6 de Vitalidad, cada nota que el Cantor Caído no pueda reconocer hará perder 1 de Resonancia al Cantor ayudante hasta llegar a 0.
-
-### 3.2.2 Rudimentos en Combate
-Si usas la acción Rudimento, no podrás elegir ninguna otra acción, sin embargo podrás lanzar tantos Rudimentos como tu Resonancia te lo permita hasta llegar a 0. Puedes intercalar Rudimentos con movimiento.
-
-## 3.3 Movimiento
-El movimiento durante un combate en Sonos está restringido, a no ser que algún efecto diga lo contrario, todos los jugadores pueden moverse hasta 5 casillas durante su turno.
-
-## 3.4 Malicia
-Cada vez que pasa un Turno el Dungeon Master obtiene 1 de Malicia, los jugadores siempre tienen visión sobre la Malicia acumulada por el DM.
-
-La Malicia sirve para activar efectos medioambientales, de mapa o funciones especiales de los enemigos. 
-
-Por ejemplo, durante una batalla en un bosque contra lobos, al acumular 5 de Malicia el DM podría llamar a un lobo más.
-
-## 3.5 Tensión
-La Tensión es un marcador global que representa la presión acumulada del combate.
-
-- Rango: **0 a 10**
-- Empieza siempre en **0**
-- Nunca baja de 0 ni sube de 10
-
-La Tensión **sube** o **baja** de manera natural pero también puede ser afectada por los Cantores directamente con Rudimentos. Aquí las maneras naturales del flujo de la tensión:
-
-### Subidas de Tensión
-| Evento                                 | Tensión |
-|----------------------------------------|---------|
-| Fin de cada ronda                      | +1      |
-| Un enemigo consigue un crítico natural | +1      |
-| Un jugador obtiene una pifia           | +1      |
-| Un Cantor cae a 0 HP                   | +1      |
-
-### Bajada de Tensión
-| Acción                                | Efecto      |
-|---------------------------------------|-------------|
-| Un enemigo lanza una pifia            | −1          |
-| Un jugador consigue un crítico        | −1          |
-| Afinar (Acción Principal)             | −1          |
-| Resolver (acción de grupo, 1/combate) | Tensión a 0 |
-
-### Efectos de la Tensión
-| Tensión | Efecto negativo | Efecto positivo |
-|---------|--------------------------|--------------------------|
-| **2** | Las pifias finalizan el turno. | Los críticos devuelven 1 acción adicional al Cantor. |
-| **3** | Cada ronda, el primer enemigo en actuar obtiene **1 acción adicional**. | El **primer Rudimento** de una ronda cuesta **la mitad de Resonancia**. |
-| **4** | Cada ronda, el primer enemigo en actuar obtiene **2 acciones adicionales**. | El **primer Rudimento** de una ronda cuesta **0 de Resonancia**. |
-| **5** | Las pifias finalizan el turno de todos los Cantores. | Los críticos comienzan la ronda de nuevo para los Cantores. |
-| **6-7** | La Resonancia de todos los Cantores se vuelve 1 | "On Garde" se encuentra pasivo constantemente. |
-| **8-9** | Los enemigos obtienen Daño Verdadero | El contraataque se vuelve pasivo y se activa con un 2 |
-| **10**  | Todas las criaturas reciben la mitad de su vida como daño verdadero. | La Tensión vuelve a **0** tras el colapso. |
-
+####

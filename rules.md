@@ -556,9 +556,6 @@ Si a la hora de lanzar el dado de Silencio, el resultado es el máximo posible d
 
 Si a la hora de lanzar el dado de Silencio, el resultado es el máximo posible dadas las caras del dado, es decir, una pifia. Todo el daño entrante es verdadero y no puede ser evitado (por Silencio, pero sí por otras posibles fuentes).
 
-
-
-
 ## 4.7 La Tensión
 
 La Tensión es un marcador global que representa la presión acumulada del combate.
