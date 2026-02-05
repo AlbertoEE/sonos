@@ -1,0 +1,536 @@
+/* ============================================
+   Hoja de personaje Cantor — Sonos
+   Optimizada para impresión A4 una sola cara
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 10pt;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* Contenedor A4 — una sola cara, usa toda la altura */
+.sheet {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 8mm 10mm 6mm;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabecera (sin línea divisoria) */
+.header {
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+  flex-shrink: 0;
+}
+
+.header h1 {
+  margin: 0 0 4px 0;
+  font-size: 12pt;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.header-fields {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.header .field {
+  flex: 1;
+  min-width: 80px;
+}
+
+.header .field label {
+  display: block;
+  font-size: 7pt;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #555;
+  margin-bottom: 1px;
+}
+
+/* Líneas y cajas para rellenar */
+.line {
+  display: block;
+  min-height: 16px;
+  border-bottom: 1pt solid #333;
+}
+
+.line.short {
+  display: inline-block;
+  width: 28px;
+  min-width: 28px;
+  vertical-align: middle;
+}
+
+.box {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  border: 1pt solid #333;
+  vertical-align: middle;
+}
+
+.box.tiny {
+  width: 16px;
+  height: 14px;
+}
+
+.box.lvl {
+  width: 28px;
+  flex-shrink: 0;
+}
+
+.check {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1pt solid #333;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* Grid principal — IV un poco menos alto, Habilidades un poco más */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 0.85fr 1.15fr;
+  gap: 10px 12px;
+  align-content: stretch;
+  flex: 1;
+  min-height: 0;
+}
+
+.panel {
+  border: 1pt solid #333;
+  padding: 6px 8px;
+  break-inside: avoid;
+  min-height: 0;
+}
+
+.panel.full-width {
+  grid-column: 1 / -1;
+}
+
+/* Paneles en filas flexibles */
+.grid .panel.iv,
+.grid .panel.habilidades {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.grid .panel.iv {
+  justify-content: flex-start;
+}
+
+.grid .panel.habilidades .skills-grid {
+  flex: 1;
+  min-height: 0;
+  align-content: space-evenly;
+}
+
+.panel h2 {
+  margin: 0 0 4px 0;
+  font-size: 9pt;
+  font-weight: 700;
+  border-bottom: 1pt solid #333;
+  padding-bottom: 2px;
+}
+
+.panel h3 {
+  margin: 4px 0 2px 0;
+  font-size: 7.5pt;
+  font-weight: 600;
+}
+
+.hint {
+  margin: 0 0 4px 0;
+  font-size: 6.5pt;
+  color: #555;
+  line-height: 1.2;
+}
+
+/* Atributos — tabla 2 columnas × 3 filas; en cada celda: nombre + dos cajas apiladas */
+.atributos-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1pt solid #333;
+  font-size: 8pt;
+}
+
+.atributos-tabla td {
+  border: 1pt solid #333;
+  padding: 6px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.atributos-tabla .attr-cell {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.atributos-tabla .attr-label {
+  flex: 0 0 72px;
+  font-weight: 500;
+  line-height: 15px;
+  padding-top: 2px;
+}
+
+.atributos-tabla .attr-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.atributos-tabla .attr-boxes .box {
+  width: 22px;
+  height: 15px;
+}
+
+.atributos-tabla .attr-boxes .box-temp {
+  margin-left: 0;
+}
+
+/* Recursos — contenido repartido en el eje vertical */
+.panel.recursos {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.panel.recursos .recursos-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+}
+
+.recurso {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.panel.recursos .recursos-body > * {
+  margin-bottom: 0;
+}
+
+.recurso label {
+  flex: 0 0 95px;
+  font-size: 8pt;
+}
+
+.recurso .line {
+  flex: 1;
+  min-height: 16px;
+}
+
+/* Instrumento Vital — compacto */
+.iv-dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px 16px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.iv-title {
+  margin-bottom: 120px;
+}
+
+.iv-di {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iv-di label {
+  display: inline-block;
+  font-size: 8pt;
+  width: 70px;
+  flex: 0 0 auto;
+}
+
+.iv-di .line.short {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Grid 2×2: Atributos | Mejoras, Alcance | Efectos — filas igual altura para que tablas midan lo mismo */
+.iv-atributos-mejoras-alcance-efectos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6px 12px;
+  margin-top: 4px;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.iv-atributos-mejoras-alcance-efectos .iv-atributos,
+.iv-atributos-mejoras-alcance-efectos .pulsos {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.iv-atributos-mejoras-alcance-efectos .iv-atributos .iv-atributos-tabla,
+.iv-atributos-mejoras-alcance-efectos .pulsos .tabla-pulsos {
+  flex: 1;
+  min-height: 0;
+}
+
+.iv-atributos-mejoras-alcance-efectos .iv-atributos .iv-atributos-tabla {
+  height: 100%;
+}
+
+.iv-atributos-mejoras-alcance-efectos .pulsos .tabla-pulsos {
+  height: 100%;
+}
+
+.iv-mejoras-block,
+.iv-efectos-block {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.iv-mejoras-block h3,
+.iv-efectos-block h3 {
+  margin: 0 0 2px 0;
+}
+
+.iv-mejoras-hint {
+  font-size: 6pt;
+  color: #555;
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+
+.iv-mejoras-lineas .line,
+.iv-efectos-lineas .line {
+  min-height: 14px;
+  margin-bottom: 2px;
+}
+
+.iv-mejoras-lineas .line:last-child,
+.iv-efectos-lineas .line:last-child {
+  margin-bottom: 0;
+}
+
+.iv-atributos {
+  margin-bottom: 4px;
+}
+
+.iv-label {
+  font-size: 6.5pt;
+  color: #555;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Tabla de atributos IV — 2 columnas × 3 filas */
+.iv-atributos-tabla {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1pt solid #333;
+  font-size: 8pt;
+}
+
+.iv-atributos-tabla col {
+  width: 50%;
+}
+
+.iv-atributos-tabla td {
+  border: 1pt solid #333;
+  padding: 4px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.iv-atributos-tabla .iv-attr-cell {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.iv-atributos-tabla .iv-attr-label {
+  flex: 0 0 28px;
+  font-weight: 600;
+  font-size: 7pt;
+  letter-spacing: 0.02em;
+}
+
+.iv-atributos-tabla .iv-box {
+  width: 22px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+/* Tabla Pulsos / Alcance */
+.tabla-pulsos {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 7pt;
+  margin-bottom: 6px;
+}
+
+.tabla-pulsos th,
+.tabla-pulsos td {
+  border: 1pt solid #333;
+  padding: 4px 6px;
+}
+
+.tabla-pulsos th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.tabla-pulsos .line {
+  min-height: 14px;
+}
+
+/* Habilidades (todas las Skills) */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px 12px;
+}
+
+.skill-group {
+  margin-bottom: 4px;
+}
+
+.skill-group strong {
+  display: block;
+  font-size: 6.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+  border-bottom: 1pt solid #333;
+}
+
+.skill-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  margin-bottom: 3px;
+}
+
+.skill-label {
+  font-size: 6.5pt;
+  flex: 1;
+  min-width: 0;
+}
+
+.skill-line .box.lvl {
+  width: 22px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Perks */
+.perks-section {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1pt solid #ccc;
+  flex-shrink: 0;
+}
+
+.perks-section h3 {
+  margin-bottom: 4px;
+}
+
+.perks-lineas .line {
+  min-height: 16px;
+  margin-bottom: 4px;
+}
+
+.perks-lineas .line:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 6px;
+  padding-top: 4px;
+  border-top: 1pt solid #333;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 6.5pt;
+  color: #555;
+}
+
+/* ========== Impresión ========== */
+@media print {
+  body {
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    margin: 0;
+    padding: 8mm 10mm 6mm;
+    overflow: hidden;
+    box-shadow: none;
+  }
+
+  .panel {
+    break-inside: avoid;
+  }
+
+  .line,
+  .box,
+  .check {
+    border-color: #000 !important;
+  }
+
+  .header h1,
+  .panel h2,
+  .panel h3 {
+    color: #000;
+  }
+}
+
+@media screen {
+  .sheet {
+    box-shadow: 0 0 0 1px #ccc;
+  }
+}

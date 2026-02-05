@@ -115,37 +115,37 @@ Las Habilidades en Sonos están muy especializadas y dividas en grupos.
 | Swim       | Nadar y moverse en líquidos                    |
 
 #### Interpersonal
-| Skill       | Uso principal                                                           |
-| ----------- | ------------------------------------------------------------------------|
-| Brag        | Impress others with stories of your deeds                               |
-| Empathize   | Relate to someone on a personal level                                   |
-| Flirt       | Attract romantic attention from someone                                 |
-| Gamble      | Make bets with others                                                   |
-| Handle      | Animals Interact with nonsapient animal wildlife                        |
-| Interrogate | Obtain information from a creature withholding it                       |
-| Intimidate  | Awe or scare a creature                                                 |
-| Lead        | Inspire people to action                                                |
-| Lie         | Convince someone that a falsehood is true                               |
-| Music       | Perform music vocally or with an instrument                             |
-| Perform     | Engage in dance, oratory, acting, or some other physical performance    |
-| Persuade    | Convince someone to agree with you through use of your charms and grace |                                                         |
-| Read        | Person Read the emotions and body language of other creatures           |
+| Skill          | Uso principal                                                           |
+| -------------- | ------------------------------------------------------------------------|
+| Brag           | Impress others with stories of your deeds                               |
+| Empathize      | Relate to someone on a personal level                                   |
+| Flirt          | Attract romantic attention from someone                                 |
+| Gamble         | Make bets with others                                                   |
+| Handle Animals | Animals Interact with nonsapient animal wildlife                        |
+| Interrogate    | Obtain information from a creature withholding it                       |
+| Intimidate     | Awe or scare a creature                                                 |
+| Lead           | Inspire people to action                                                |
+| Lie            | Convince someone that a falsehood is true                               |
+| Music          | Perform music vocally or with an instrument                             |
+| Perform        | Engage in dance, oratory, acting, or some other physical performance    |
+| Persuade       | Convince someone to agree with you through use of your charms and grace |                                                         |
+| Read Person    | Read the emotions and body language of other creatures           |
 
 #### Intrigue Skills
-| Skill       | Uso principal                                                                                      |
-| ----------- | -------------------------------------------------------------------------------------------------- |
-| Alertness   | Intuitively sense the details of your surroundings                                                 |
-| Conceal     | Object Hide an object on your person or in your environment                                        |
-| Disguise    | Change your appearance to look like a different person                                             |
-| Eavesdrop   | Actively listen to something that is hard to hear, such as a whispered conversation through a door |
-| Escape      | Artist Escape from bonds such as rope or manacles                                                  |
-| Hide        | Conceal yourself from others’ observation                                                          |
-| Pick Lock   | Open a lock without using the key                                                                  |
-| Pick Pocket | Steal an item that another person wears or carries without them noticing                           |
-| Sabotage    | Disable a mechanical device such as a trap                                                         |
-| Search      | Actively search an environment for important details and items                                     |
-| Sneak       | Move silently                                                                                      |
-| Track       | Follow a trail that another creature has left behind                                               |
+| Skill          | Uso principal                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------------- |
+| Alertness      | Intuitively sense the details of your surroundings                                                 |
+| Conceal Object | Hide an object on your person or in your environment                                        |
+| Disguise       | Change your appearance to look like a different person                                             |
+| Eavesdrop      | Actively listen to something that is hard to hear, such as a whispered conversation through a door |
+| Escape Artist  | Escape from bonds such as rope or manacles                                                  |
+| Hide           | Conceal yourself from others’ observation                                                          |
+| Pick Lock      | Open a lock without using the key                                                                  |
+| Pick Pocket    | Steal an item that another person wears or carries without them noticing                           |
+| Sabotage       | Disable a mechanical device such as a trap                                                         |
+| Search         | Actively search an environment for important details and items                                     |
+| Sneak          | Move silently                                                                                      |
+| Track          | Follow a trail that another creature has left behind                                               |
 
 #### Lore Skills
 | Skill               | Uso principal                                                                              |
@@ -297,25 +297,29 @@ Se recomienda que el Instrumento Vital inicial de los Jugadores comience en rang
 ### 2.4.2 Daño de un Instrumento Vital
 El Instrumento Vital es nuestra arma principal a la hora de enfrentarnos a desafíos en Sonos ya sean en Combate, Rol o Investigación.
 
-Hablando especificamente de combate, nuestro IV puede ejecutar 3 tipos de magias que nos servirán para enfrentarnos a enemigos.
+Hablando especificamente de combate, nuestro IV puede ejecutar 3 tipos de magias que nos servirán para enfrentarnos a enemigos. Independientemente de los tipos de daños concretos un Instrumento siempre tendrá asociado un dado de daño al que llamaremos DI (Dado de Instrumento).
+
+Un Instrumento Vital en su forma más básica tendrá 1d8 de DI.
 
 #### A) Pulsos
 Un Pulso es la forma más básica que tiene nuestro IV de inflingir daño a un enemigo. El daño de nuestro Pulso está determinado por el Dado de Instrumento + Atributo Total.
 
-Dependiendo del Instrumento Vital el Pulso tendrá un alcance u otro, sin embargo, la norma estándar indica que el Pulso de cualquier instrumento tendrá por defecto un rango máximo de 6 metros / 20 ft / 4 casillas.
+Un Instrumento Vital tendrá tres modos de Pulso:
 
-El daño del Pulso menguará en 1 categoría de dado por cada 1,5m /5ft. 
+| Tipo            | Alcance Óptimo  | Alcance Máximo |
+| --------------- | --------------- | -------------- |
+| Corta Distancia | Cuerpo a cuerpo | 1 Casilla      |
+| Media Distancia | 1 Casilla       | 3 Casillas     |
+| Larga Distancia | 3 Casillas      | 6 Casillas     |
 
-Durante una campaña en Sonos un Cantor podrá encontrar diferentes maneras de modificar/mejorar su Instrumento Vital e incluso nuevos Instrumentos Vitales. Cuanto más poderoso sea el Instrumento Vital mayor será su Dado de Instrumento.
+El alcance se tiene en cuenta al calcular el daño:
+- Cualquier objetivo por debajo del alcaance Óptimo reciberá 0 de daño
+- Cualquier objetivo por encima del alcance máximo reciberá 0 de daño.
 
-El daño de un Pulso de un instrumento vital en su forma básica será el siguiente:
-| Daño | Alcance |
-| ---- | ------- |
-| 1d8  | Cuerpo a cuerpo |
-| 1d6  | 5ft / 1,5m / 1 casilla  |
-| 1d4  | 10ft / 3m / 2 casilla |
-| 1d2  | 15ft / 4,5m / 3 casilla |
-| 1    | 20ft / 6m / 4 casilla |
+El Cantor puede elegir el modo de su pulso al invocar su Instrumento Vital, durante el combate puede usar su acción principal en reinvocar su Instrumento Vital en otro modo.
+
+El equipamiento de un Cantor puede afectar a las características de alcance del Puslo.
+
 
 #### B) Rudimentos
 Si el Pulso es la forma más básica de inflingir daño el Rudimento es la forma más refinada. Los rudimentos son las habilidades que un Instrumento Vital puede ejecutar.
