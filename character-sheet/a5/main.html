@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <style>
+    /* Página A5 imprimible */
+    @page {
+      size: A5;
+      margin: 10mm;
+    }
+
+    /* Contenedor A5 con tamaños específicos en mm */
+    .sheet {
+      width: 148mm;
+      height: 210mm;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* Ajustes para impresión */
+    @media print {
+      .sheet {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body class="bg-white m-0 p-0">
+  <div class="sheet bg-white text-black shadow-sm mx-auto my-3 p-3 box-border">
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    <!-- Aquí irá el contenido de la ficha en formato A5 -->
+  </div>
+</body>
+</html>
