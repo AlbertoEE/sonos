@@ -1,0 +1,258 @@
+{
+  "main": {
+    "id": "ba60b11cd14070f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1917b9b3a3b67924",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b246891e3789d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c65505355804241e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa1a86dcaa7c719c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "909b150803f6f0ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "9597eab251c14059",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "097d32d762a20ba9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "right": {
+    "id": "e964f95bc6941afb",
+    "type": "split",
+    "children": [
+      {
+        "id": "35c21f963f604e74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c51cef9738d1eb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TTRPGS/campañas/Sonos/sistema/items/Resonancia Embotellada 1.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Resonancia Embotellada 1"
+            }
+          },
+          {
+            "id": "0c65006a89c5a657",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "69d26bb046970cf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "107a2c4e4e082e2b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "91d75353b27246fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "2323c621d27ca178",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "6e283a1b54c54313",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "3b246891e3789d9e",
+  "lastOpenFiles": [
+    "Sonos/1. Empieza Aquí/1. Sonos Sistema.md",
+    "Sonos/4. Otros/rules/Unidades de medida.md",
+    "Sonos/4. Otros/rules/Categorías de dado.md",
+    "Sonos/1. Empieza Aquí/2. Tienda.md",
+    "Sonos/1. Empieza Aquí/Sonos Base.base",
+    "Sonos/1. Empieza Aquí/3. Sonos Planeta.md",
+    "Sonos/2. Jugadores/Rodri.md",
+    "Sonos/2. Jugadores/Raquel.md",
+    "Sonos/2. Jugadores/Juan.md",
+    "Sonos/2. Jugadores/Cae.md",
+    "Sonos/2. Jugadores/Ángeles.md",
+    "Sonos/3. Recaps/1. Cantos de Sirena.md",
+    "Sonos/3. Recaps/2. Buscando Respuestas.md",
+    "Sonos/3. Recaps/3. Propósito.md",
+    "Sonos/4. Otros/items/Agua de Luna.md",
+    "Sonos/4. Otros/lore/lugares/Veneas.md",
+    "Sonos/4. Otros/lore/lugares/Sonos.md",
+    "Sonos/4. Otros/lore/lugares/Klaos.md",
+    "Sonos/4. Otros/lore/lugares/Acaris.md",
+    "Sonos/4. Otros/lore/Cantores.md",
+    "Sonos/4. Otros/lore/La Guardia.md",
+    "Sonos/AI Prompts/PROMPT crear ítem desde receta.md",
+    "Sonos/cheatsheets/Tensión.md",
+    "Sonos/cheatsheets/Recursos.md",
+    "Sonos/cheatsheets/Checks y Dificultad.md",
+    "Sonos/cheatsheets/Atributos.md",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md",
+    "Sonos/campaña/sesiones/4 - Secretos.md.tmp.201633.1777579681883",
+    "Sonos/campaña/sesiones/4 - Secretos.md.tmp.201633.1777579510092",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md.tmp.201633.1777579413705",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md.tmp.201633.1777579206296",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md.tmp.201633.1777578709693",
+    "Sonos/campaña/sesiones/4 - Secretos.md.tmp.201633.1777557888565",
+    "Sonos/campaña/sesiones/4 - Secretos.md.tmp.201633.1777557880610",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md.tmp.201633.1777557687570",
+    "Sonos/campaña/sesiones/5 - El Basilisco.md.tmp.201633.1777557606602",
+    "Telegram/images/section_photos.png",
+    "Telegram/images/section_other@2x.png",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/merged.png",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/merged.webp",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/merged.jpg",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/level_sub_1.webp",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/level_0.webp",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/level_1.webp",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/level_2.webp",
+    "TAI/sesiones/Abismo del Gigante/other/refactor mapa/level_3.webp"
+  ]
+}

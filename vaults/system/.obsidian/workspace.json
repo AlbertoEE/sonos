@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "80fe9446573e5913",
+    "type": "split",
+    "children": [
+      {
+        "id": "58bd14ecac543ee1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be28b2c9b83d84c7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ddd1fcc21ea2074a",
+    "type": "split",
+    "children": [
+      {
+        "id": "37d60215431afddb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8290b035eb369de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "57e4e015ab4cb932",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "e3db2d2ee334ab36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "019a642934dff93f",
+    "type": "split",
+    "children": [
+      {
+        "id": "25d71202d4b193ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bf2072ab171a24f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "5c849d760a5581a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "e4d6518f5824a14b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "39bfad1c50e81345",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "56427dd20558e3fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "be28b2c9b83d84c7",
+  "lastOpenFiles": [
+    "cards/rudimentos/se-avecina-tormenta.md",
+    "cards/rudimentos/se-avecina-tormenta.md.tmp.997.1777813508435",
+    "cards/rudimentos/mal-de-ojo.md",
+    "cards/rudimentos/mal-de-ojo.md.tmp.997.1777813505757",
+    "cards/rudimentos/aturdidora.md",
+    "cards/rudimentos/aturdidora.md.tmp.997.1777813503429",
+    "cards/rudimentos/lluvia-de-notas.md",
+    "cards/rudimentos/lluvia-de-notas.md.tmp.997.1777813500757",
+    "cards/rudimentos/nota-punzante.md",
+    "cards/rudimentos/nota-punzante.md.tmp.997.1777813498093",
+    "cards/rudimentos/sabor-agridulce.md",
+    "cards/rudimentos/sabor-agridulce.md.tmp.997.1777813495800",
+    "cards/rudimentos/cancion-de-muerte.md",
+    "cards/rudimentos/cancion-de-muerte.md.tmp.997.1777813492807",
+    "cards/rudimentos/ecos-del-pasado.md",
+    "cards/rudimentos/ecos-del-pasado.md.tmp.997.1777813489174",
+    "cards/rudimentos/desfase.md",
+    "cards/rudimentos/desfase.md.tmp.997.1777813486528",
+    "cards/rudimentos/silencio-abrupto.md",
+    "cards/rudimentos/silencio-abrupto.md.tmp.997.1777813484568",
+    "cards/rudimentos/vinculo-corrupto.md",
+    "cards/rudimentos/interferencias-cruzadas.md",
+    "cards/rudimentos/ejecucion-oportunista.md",
+    "cards/rudimentos/fuga.md",
+    "cards/rudimentos/entrada-triunfal.md",
+    "cards/rudimentos/danza-letal.md",
+    "cards/rudimentos/rematar.md",
+    "cards/rudimentos/punalada-sincopada.md",
+    "cards/rudimentos/corazon-palpitante.md",
+    "cards/rudimentos/onda-de-choque.md",
+    "cards/rudimentos/impulso-ritmico.md",
+    "cards/rudimentos/cadena-de-golpes.md",
+    "cards/rudimentos/bonk.md",
+    "cards/rudimentos/redoble.md",
+    "cards/rudimentos/rotacion.md",
+    "cards/rudimentos/ultima-oportunidad.md"
+  ]
+}
