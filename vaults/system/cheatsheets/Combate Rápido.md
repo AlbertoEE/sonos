@@ -4,7 +4,8 @@
 
 | Acción | Coste | Qué Hace |
 |--------|-------|----------|
-| **Pulso** | 1 PA | Inflige daño + Recupera 1 Resonancia |
+| **Pulso** | 1 PA | Inflige daño + Recupera 1 Resonancia (siempre) |
+| **Meditar** | 2 PA | Recupera 1dAT de Resonancia sin atacar |
 | **Defenderse** | 2 PA | Duplica Silencio en la siguiente ronda |
 | **On Garde** | 2 PA | Si Silencio cubre todo el daño, devuelve todo como daño verdadero |
 | **Resintonía** | 2 PA | Ayuda a un aliado a recuperar forma de Cantor |
@@ -35,7 +36,7 @@
 | Recurso | Inicio Combate | Máximo | Recuperación |
 |---------|---|---|---|
 | **Vitalidad** | 100% | Depende de atributo IV | Auralium, Curación |
-| **Resonancia** | 50% del máximo | 4-6 según atributo | Pulso, Crítico, Ejecutar |
+| **Resonancia** | 50% del máximo | 4-6 según atributo | Pulso, Crítico, Ejecutar, Meditar |
 | **Auralium** | 3 cargas | 3 cargas | Descanso (refresca) |
 | **Silencio** | Dinámico | Dinámico | Se tira cada turno |
 

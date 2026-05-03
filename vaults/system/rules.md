@@ -345,8 +345,8 @@ Existen diferentes maneras de recuperar Resonancia:
 
 - Al ejecutar a un enemigo → recupera 1 de Resonancia
 - Al realizar un Silencio Perfecto (crítico) → recupera 1 de Resonancia
-- Al realizar tu primer Pulso del turno → recupera 1 de Resonancia
-- Al realizar un Pulso que no sea el primero, si consigues hacer daño → recupera 1 de Resonancia
+- Al realizar cualquier Pulso → recupera 1 de Resonancia
+- Al usar Meditar (2 PA) → recupera 1dAT de Resonancia
 
 ### 2.3.4 Auralium
 Todos los Cantores invocan su Instrumento Vital desde una pieza de Auralita a la que han dado forma y personalizado, esta pieza se considera su catalizador, también llamada Auralium.
@@ -534,8 +534,8 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 
 | Acción             | Coste | Descripción                                                                                                    |
 |:------------------:|:-----:|:---------------------------------------------------------------------------------------------------------------|
-| **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera Resonancia                                                               |
-| **Pulso Adicional**| 1 PA  | En caso de no ser tu primer Pulso del turno, recupera Resonancia si consigues infligir daño                    |
+| **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia                                                             |
+| **Meditar**        | 2 PA  | Recupera 1dAT de Resonancia sin atacar                                                                         |
 | **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
 | **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
 | **Acompañamiento** | 1 PA  | Otorgas ventaja de un dado a un aliado                                                                         |

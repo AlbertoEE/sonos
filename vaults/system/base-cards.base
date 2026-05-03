@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("cards")
+        - '!file.inFolder("cards/legacy")'
     order:
       - file.name
       - set
