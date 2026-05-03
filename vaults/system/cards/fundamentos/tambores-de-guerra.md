@@ -9,5 +9,3 @@ coste: "0"
 ## Base
 Puedes activar **Pulso** dos veces cada turno. Solo recuperas **Resonancia** una vez.
 
-## Evolucionado
-Recuperas **Resonancia** por cada activación de **Pulso**.

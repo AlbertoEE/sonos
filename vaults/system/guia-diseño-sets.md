@@ -75,7 +75,6 @@ Si una habilidad de coste 3 se siente igual que una de coste 1, hay un problema 
 - **Un combo obvio.** Tiene que existir una secuencia natural de 2-3 habilidades que el jugador quiera ejecutar. Si no hay un combo, el set se siente como habilidades sueltas.
 - **Al menos un rudimento de coste 0 o 1.** Para que el set sea jugable cuando la Resonancia escasea.
 - **Nombres con sabor.** Los nombres son parte del juego. "Eco Resonante" es mejor que "Ataque de Área 2". El universo Sonos tiene vocabulario musical — úsalo.
-- **El Evolucionado amplía, no reemplaza.** La versión evolucionada debe hacer que la habilidad base siga siendo reconocible. Si cambia completamente, es otra habilidad.
 
 ## Qué no hacer ✗
 

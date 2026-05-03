@@ -60,9 +60,6 @@ coste: "0"              # coste de Resonancia (string)
 
 ## Base
 Descripción de la habilidad base. Usa **negrita** para términos de juego e *cursiva* para tipos de daño.
-
-## Evolucionado
-Descripción de la versión evolucionada.
 ```
 
 **Convenciones de formato:**

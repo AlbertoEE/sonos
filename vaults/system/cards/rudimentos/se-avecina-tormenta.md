@@ -9,5 +9,3 @@ coste: "X"
 ## Base
 Marca X casillas en el campo. Cuando un enemigo entre en una casilla marcada, recibe [DA+AT] de daño y el estado *Inmóvil*.
 
-## Evolucionado
-Además termina su turno inmediatamente.

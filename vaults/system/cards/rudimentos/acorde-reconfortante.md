@@ -9,5 +9,3 @@ coste: "4"
 ## Base
 Selecciona un objetivo en cuerpo a cuerpo. El objetivo recupera [DA+AT] puntos de vida.
 
-## Evolucionado
-Reparte la curación entre hasta 3 objetivos.

@@ -179,5 +179,4 @@ Para cada elemento, antes de cerrar el set:
 - [ ] Todos usan notación `[DI]` y `[DI+AT]`
 - [ ] Mecánica central descrita en una frase
 - [ ] Existe un combo natural de 2-3 habilidades
-- [ ] Ningún Evolucionado es peor que la base
 - [ ] Sin habilidades que hagan lo mismo entre sí

@@ -167,16 +167,38 @@ Las habilidades de un cantor tienen varios niveles. Todas comienzan al 0.
 
 | Nivel | Significado narrativo | Mod |
 | ----- | --------------------- |-----|
-| 0-20  | No entrenado          | -1  |
-| 21-40 | Iniciado              |  0  |
-| 41-60 | Competente            |  1  |
-| 61-80 | Experto               |  2  |
-| 81-99 | Maestro               |  3  |
+| 0-19  | No entrenado          | -1  |
+| 20-39 | Iniciado              |  0  |
+| 40-59 | Competente            |  1  |
+| 60-79 | Experto               |  2  |
+| 80-99 | Maestro               |  3  |
 | 100   | Eminencia             |  4  |
 
 Al crear un Cantor se recomienda comenzar con máximo 4 hablidades nivel "Competente".
 
 ### 2.2.3 Progresión de Habilidades
+
+#### Aprender una Habilidad Nueva
+
+Para progresar en una habilidad primero necesitas el rango **Iniciado**:
+
+- **Con un Profesor** (rango "Experto"): cada sesión tira **2d6+3**. Con el profesor no se puede superar 20; al llegar a 20 empieza el camino autodidacta.
+- **Por tu cuenta**: necesitas materiales de práctica. Una vez por **downtime** tira **1d6** y súmalo a la habilidad:
+  - **1**: pierdes la mitad del progreso.
+  - **2, 3, 4, 5, 6**: súmalo a tu progreso actual.
+  - **6**: duplica tu progreso o suma 6.
+
+#### Subir de Nivel una Habilidad
+
+Cada vez que uses una habilidad en partida (skill check), el resultado determina cuántos puntos ganas:
+
+| Tier    | Puntos a la Habilidad |
+| ------- | --------------------- |
+| Pifia   | +3d4                  |
+| Tier 1  | +3                    |
+| Tier 2  | +2                    |
+| Tier 3  | +1                    |
+| Crítico | +0                    |
 
 ### 2.2.4 Perks
 Las "perks" son rasgos especiales que amplían lo que un Cantor puede hacer fuera (y a veces dentro) del combate. Abajo se listan todas las perks del capítulo oficial, con resúmenes breves en español para uso rápido del Director.
@@ -296,8 +318,9 @@ Los cantores comienzan con diferentes dados de silencio dependiendo del atributo
 | **Tempo**       | 1d10 | +1         |
 
 #### Resultados de Silencio
-- En caso de obtener una pifia, el daño se considera daño verdadero.
-- En caso de obtener un crítico, se bloquea completamente el daño entrante.
+- **Chirrido**: Al obtener una pifia en la tirada de Silencio el daño entrante se considera daño verdadero.
+- **Silencio Perfecto**: Al obtener un crítico en la tirada de Silencio se bloquea completamente el daño entrante.
+- **Parry**: Si el daño entrante pre-modificadores es igual al Silencio pre-modificadores, devuelves todo el daño como daño verdadero.
 
 #### Silencio en Enemigos
 Normalmente los enemigos no podrán hacer uso del Silencio ya que es una caraterística propia de los jugadores, sin embargo, ciertos bosses podrían hacer uso de esta mecánica.
@@ -320,9 +343,10 @@ Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo.
 
 Existen diferentes maneras de recuperar Resonancia:
 
-- Al ejecutar a un enemigo lanza tu dado de Resonancia
-- Al realizar un Silencio perfecto lanza tu dado de Resonancia
-- Al realizar un Pulso lanza tu dado de Resonancia
+- Al ejecutar a un enemigo → recupera 1 de Resonancia
+- Al realizar un Silencio Perfecto (crítico) → recupera 1 de Resonancia
+- Al realizar tu primer Pulso del turno → recupera 1 de Resonancia
+- Al realizar un Pulso que no sea el primero, si consigues hacer daño → recupera 1 de Resonancia
 
 ### 2.3.4 Auralium
 Todos los Cantores invocan su Instrumento Vital desde una pieza de Auralita a la que han dado forma y personalizado, esta pieza se considera su catalizador, también llamada Auralium.
@@ -378,8 +402,8 @@ Un Instrumento Vital tendrá tres modos de Pulso:
 | Larga Distancia | 3 Casillas      | 6 Casillas     |
 
 El alcance se tiene en cuenta al calcular el daño:
-- Cualquier objetivo por debajo del alcaance Óptimo reciberá 0 de daño
-- Cualquier objetivo por encima del alcance máximo reciberá 0 de daño.
+- Cualquier objetivo por debajo del alcance Óptimo recibirá la mitad de daño.
+- Cualquier objetivo por encima del alcance máximo recibirá la mitad de daño.
 
 El Cantor puede elegir el modo de su pulso al invocar su Instrumento Vital, durante el combate puede usar su acción principal en reinvocar su Instrumento Vital en otro modo.
 
@@ -506,19 +530,23 @@ Se considera el "final de una ronda" cuando ambos bandos han ejecutado sus turno
 
 ## 3.2 Acciones por Turno
 
-En su turno, cada Cantor puede realizar **1 Acción** de las siguientes:
+En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede gastar como quiera. Puede repetir acciones si tiene PA suficientes.
 
-| Acción             | Descripción                                                            |
-|:------------------:|:-----------------------------------------------------------------------|
-| Pulso              | Inflinge daño a un objetivo y recupera  Resonancia                     |
-| Resintonía         | Ayuda a un aliado a recuperar su forma de Cantor                       |
-| Defenderse         | Obtén 2 dados de Silencio durante la siguiente ronda                   |
-| Acompañamiento     | Otorga ventaja un dado a un aliado                                     |
-| On Garde           | Durante la siguiente ronda, tu silencio Perfecto devuelve todo el daño |
-| Miscelanea         | Acciones no recogidas en esta tabla                                    |
-| Rudimento          | Usa Rudimentos en base a la Resonancia restante                        |
-| Súplica            | Usa una carga de tu Auralium para recuperar vida                       |
-| Resolver           | Usa una carga de tu Auralium para recuperar vida                       |
+| Acción             | Coste | Descripción                                                                                                    |
+|:------------------:|:-----:|:---------------------------------------------------------------------------------------------------------------|
+| **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera Resonancia                                                               |
+| **Pulso Adicional**| 1 PA  | En caso de no ser tu primer Pulso del turno, recupera Resonancia si consigues infligir daño                    |
+| **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
+| **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
+| **Acompañamiento** | 1 PA  | Otorgas ventaja de un dado a un aliado                                                                         |
+| **On Garde**       | 2 PA  | En la siguiente ronda, si tu Silencio cubre todo el daño entrante de un ataque, devuelve todo el daño como daño verdadero |
+| **Consumible**     | 1 PA  | Acciones no recogidas en esta tabla                                                                            |
+| **Uso de Equipo**  | 1 PA  | Activables                                                                                                     |
+| **Rudimento**      | 1 PA  | Usa Rudimentos según la Resonancia restante                                                                    |
+| **Súplica**        | 2 PA  | Usa una carga de tu Auralium para recuperar vida                                                               |
+| **Resolver**       | 0 PA  | Acción de grupo decidida por mayoría absoluta; solo 1 vez por combate; baja la Tensión a 0                     |
+| **Afinar**         | 2 PA  | Reduce la Tensión en 1                                                                                         |
+| **Movimiento**     | 1 PA  | Desplázate hasta el máximo de tu movimiento base                                                               |
 
 ### 3.2.1 Resintonía
 Cuando un Cantor llega 0 puntos de Vitalidad vuelve a su forma orignal abandonando su forma Animal. 
@@ -530,16 +558,13 @@ Existen dos procedimientos:
 #### Resintonía Simple
 El Cantor ayudante simplemente gasta su turno en Resintonizar a un Cantor aliado, el Cantor aliado vuelve a su forma animal con 1d4 de Vitalidad.
 
-#### Resintonía Compleja
-El DM otorgará al Cantor que esté ejecutando la acción Resintonía un serie de notas que tendrá que hacer sonar con un instrumento de su elección.
+#### Resintonía Interactiva
+El DM otorgará al Cantor que esté ejecutando la acción Resintonía una serie de notas que tendrá que hacer sonar con un instrumento de su elección.
 
-Por cada nota que se capaz de reconocer el Cantor caído, recupera 1d6 de Vitalidad, cada nota que el Cantor Caído no pueda reconocer hará perder 1 de Resonancia al Cantor ayudante hasta llegar a 0.
-
-### 3.2.2 Rudimentos en Combate
-Si usas la acción Rudimento, no podrás elegir ninguna otra acción, sin embargo podrás lanzar tantos Rudimentos como tu Resonancia te lo permita hasta llegar a 0. Puedes intercalar Rudimentos con movimiento.
+Por cada nota que el Cantor caído sea capaz de reconocer, recupera 1d6 de Vitalidad. Por cada nota que el Cantor caído no pueda reconocer, el Cantor ayudante perderá 1 de Resonancia hasta llegar a 0.
 
 ## 3.3 Movimiento
-El movimiento durante un combate en Sonos está restringido, a no ser que algún efecto diga lo contrario, todos los jugadores pueden moverse hasta 5 casillas durante su turno.
+El movimiento durante un combate en Sonos cuesta **1 PA** y permite desplazarse hasta el máximo del movimiento base del Cantor (normalmente 5 casillas), salvo que algún efecto indique lo contrario.
 
 ## 3.4 Malicia
 Cada vez que pasa un Turno el Dungeon Master obtiene 1 de Malicia, los jugadores siempre tienen visión sobre la Malicia acumulada por el DM.
@@ -583,6 +608,59 @@ La Tensión **sube** o **baja** de manera natural pero también puede ser afecta
 | **6-7** | La Resonancia de todos los Cantores se vuelve 1 | "On Garde" se encuentra pasivo constantemente. |
 | **8-9** | Los enemigos obtienen Daño Verdadero | El contraataque se vuelve pasivo y se activa con un 2 |
 | **10**  | Todas las criaturas reciben la mitad de su vida como daño verdadero. | La Tensión vuelve a **0** tras el colapso. |
+
+## 3.6 Estados
+
+Los estados son condiciones temporales que afectan a un Cantor o enemigo durante el combate. Se dividen en **negativos** y **positivos**.
+
+### Estados Negativos
+
+| Estado              | Efecto                                                                        |
+| ------------------- | ----------------------------------------------------------------------------- |
+| **Gafe**            | Todas tus tiradas son con *desventaja*.                                       |
+| **Arritmia**        | Tus siguientes N tiradas son con *desventaja*.                                |
+| **Confuso**         | No puedes elegir objetivo; se determina aleatoriamente.                       |
+| **Envenenado**      | Al inicio de tu turno, recibe Xd6 de daño. Cada ronda, reduce X en 1.         |
+| **Herido**          | Al inicio de tu turno, recibe X de daño verdadero. Cada ronda, reduce X en 1. |
+| **Condena**         | Tu dado de Silencio solo bloquea si sale crítico (máximo natural).            |
+| **Maldecido**       | Todo el daño que recibes es verdadero (ignora resistencias).                  |
+| **Vulnerable**      | El daño recibido aumenta en X.                                                |
+| **Agotado**         | Tus costes de Resonancia se duplican.                                         |
+| **Silenciado**      | No puedes usar Rudimentos.                                                    |
+| **Lento**           | Tu movimiento se reduce a la mitad (redondeado abajo).                        |
+| **Aturdido**        | Pierdes tu próxima acción.                                                    |
+| **Cegado**          | Solo puedes usar Rudimentos de área o sin objetivo.                           |
+| **Inconsciente**    | No puedes ver los puntos de vida ni estados de nadie (incluido tú).           |
+| **Sordo**           | No puedes usar reacciones.                                                    |
+| **Inmóvil**         | No puedes moverte.                                                            |
+| **Provocado**       | Solo puedes atacar a quien te provocó.                                        |
+| **Aterrorizado**    | No puedes acercarte voluntariamente al origen del miedo.                      |
+| **Fuera de Compás** | Tus aliados adyacentes reciben desventaja en sus tiradas.                     |
+| **Diminuendo**      | Cada acción que hagas este turno es −1 más débil que la anterior.             |
+| **Amortiguado**     | No puedes recuperar Resonancia por ningún medio.                              |
+
+### Estados Positivos
+
+| Estado | Efecto |
+|---|---|
+| **Suertudo** | Todas tus tiradas son con *ventaja*. |
+| **Serendipia** | Tus siguientes N tiradas son con *ventaja*. |
+| **Inspirado** | Puedes repetir una tirada fallida por turno. |
+| **Potenciado** | Tu daño se convierte en verdadero. |
+| **Furia** | Tu daño aumenta en X. |
+| **Crítico Asegurado** | Tu próximo ataque es crítico automático. |
+| **Escudo** | Absorbe los próximos X puntos de daño. |
+| **Inmune** | No puedes recibir estados negativos. |
+| **Resistente** | El daño recibido se reduce en X. |
+| **Intocable** | El próximo ataque contra ti falla automáticamente. |
+| **Acelerado** | Tu movimiento aumenta en +2 casillas. |
+| **Flujo** | Tus Rudimentos cuestan 1 menos de Resonancia (mínimo 0). |
+| **Turno Extra** | Ganas una acción adicional este turno. |
+| **En Sincronía** | Actúas justo después de un aliado designado. |
+| **Armónico** | Tus aliados adyacentes reciben +1 a sus tiradas. |
+| **Eco** | El próximo Rudimento que uses se repite con la mitad de efecto. |
+| **Crescendo** | Cada acción que hagas este turno es +1 más fuerte que la anterior. |
+| **Resonante** | Al inicio de tu turno, recuperas 1 de Resonancia. |
 
 # 4. Negociación
 

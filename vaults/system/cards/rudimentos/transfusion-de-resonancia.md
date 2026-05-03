@@ -9,5 +9,3 @@ coste: "2"
 ## Base
 Selecciona un objetivo en cuerpo a cuerpo. Cede tanta **Resonancia** como desees a ese objetivo.
 
-## Evolucionado
-Duplica el valor de cada punto de **Resonancia** cedido.

@@ -9,5 +9,3 @@ coste: "1"
 ## Base
 Inflige [DA] de daño al enemigo objetivo en cuerpo a cuerpo. Si el ataque impacta, puedes pagar 1 de **Resonancia** para atacar de nuevo.
 
-## Evolucionado
-Cada golpe sucesivo inflige [AT] de daño adicional.

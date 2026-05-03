@@ -54,12 +54,10 @@ Si no, haz estas preguntas **de una en una**:
 ### [Nombre]
 **Elemento:** [elemento]
 **Base:** [descripción. **negrita** para términos de juego, *cursiva* para tipos de daño o estados]
-**Evolucionado:** [versión mejorada — amplía sin cambiar por completo]
 
 ### [Nombre]
 **Elemento:** [elemento]
 **Base:** ...
-**Evolucionado:** ...
 
 ---
 
@@ -69,7 +67,6 @@ Si no, haz estas preguntas **de una en una**:
 **Elemento:** [elemento]
 **Coste:** [valor]
 **Base:** ...
-**Evolucionado:** ...
 
 [× 4 rudimentos]
 
@@ -109,9 +106,30 @@ Usa siempre esta notación entre corchetes en las descripciones. Elige la escala
 - Los fundamentos deben ser relevantes en casi cualquier turno, no solo en casos concretos
 - Al menos un rudimento debe costar 0 o 1 — el set necesita ser jugable con poca Resonancia
 - Cada habilidad hace algo único; no repetir el mismo efecto en dos cartas distintas
-- El Evolucionado amplía la habilidad sin cambiarla — debe seguir siendo reconocible
 - Si hay dos roles, cada uno aporta algo diferente al set: no duplicar función
 - Los nombres tienen sabor musical o sonoro, acordes con el universo Sonos
+
+## Revisión de balance
+
+Tras generar el set, analiza sistemáticamente los puntos siguientes **antes de presentarlo**. Señala cada problema con su severidad: 🔴 roto / 🟡 fuerte pero manejable / 🟢 aceptable.
+
+### Exploits y combos rotos
+- **Bucle de recursos**: ¿Puede el jugador generar EA (o Resonancia) indefinidamente sin coste real? ¿Alguna combinación produce más de lo que gasta?
+- **Daño sin techo**: ¿Puede la habilidad de explosión (o equivalente) escalar sin límite? ¿El daño máximo teórico es razonable?
+- **Escudo permanente**: ¿Puede el jugador mantener escudo activo en todos los aliados de forma indefinida sin contrapartida?
+- **Spam de estructuras**: ¿Puede colocar estructuras más rápido de lo que el enemigo las destruye? ¿El límite de estructuras es suficiente?
+- **Dominio en turno 1**: ¿Puede el set establecer una ventaja aplastante desde el primer turno sin que el rival pueda responder?
+
+### Nivel de poder
+- **Suelo**: ¿Es el set jugable con poca Resonancia? Debe haber al menos una opción útil con 0 o 1 de coste en casi cualquier turno.
+- **Techo**: ¿El potencial máximo (mejor turno posible) es desequilibrante respecto a otros sets?
+- **Dependencia**: ¿Depende el set de una sola carta para funcionar? Si esa carta no está disponible, ¿el set queda inoperativo?
+- **Combos externos**: ¿Hay habilidades de otros sets que, combinadas con este, resulten rotas? (ej: generación de EA gratuita + explosión masiva)
+
+### Veredicto
+Resume en 2-3 frases: qué funciona bien, qué está fuerte, qué está flojo. Si hay un problema 🔴, propón un ajuste concreto (coste, límite, valor numérico) antes de continuar.
+
+---
 
 ## Después de generar
 
@@ -131,9 +149,6 @@ coste: "[valor]"
 # [Nombre]
 
 ## Base
-[descripción]
-
-## Evolucionado
 [descripción]
 ```
 

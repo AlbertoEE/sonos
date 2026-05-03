@@ -9,5 +9,3 @@ coste: "3"
 ## Base
 Cualquier fuente que te inflija *daño verdadero* tiene un 50% de probabilidad de recibir un estado negativo aleatorio.
 
-## Evolucionado
-El estado aleatorio es siempre negativo.

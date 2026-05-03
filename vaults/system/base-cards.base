@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Tabla
+    filters:
+      and:
+        - file.inFolder("cards")
+    order:
+      - file.name
+      - set
+      - element
+      - type
+    sort:
+      - property: set
+        direction: ASC

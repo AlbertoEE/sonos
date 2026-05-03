@@ -10,5 +10,3 @@ coste: "3"
 ## Base
 Atrae o repele al enemigo objetivo [1d4+AT] casillas. El objetivo recibe 1 de *daño verdadero* por cada casilla que se mueva de esta manera.
 
-## Evolucionado
-En su lugar, elige hasta tres enemigos objetivo.

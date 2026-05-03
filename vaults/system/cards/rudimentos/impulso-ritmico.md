@@ -9,5 +9,3 @@ coste: "1"
 ## Base
 Muévete hasta 2 casillas e inflige [DA+AT] de daño al primer enemigo que encuentres en el camino.
 
-## Evolucionado
-Muévete hasta 4 casillas. Infliges daño a todos los enemigos en el camino.

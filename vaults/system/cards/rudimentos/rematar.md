@@ -9,5 +9,3 @@ coste: "2"
 ## Base
 Elige como objetivo a una criatura que ya haya recibido daño este turno. Inflige como golpe único todo el daño que no haya superado su **Silencio**.
 
-## Evolucionado
-Añade al daño [DA+AT].

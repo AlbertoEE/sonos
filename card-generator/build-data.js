@@ -59,7 +59,6 @@ function parseCard(filePath, defaultType) {
   }
 
   const baseText = (sections['base'] || []).join(' ').trim();
-  const evolText = (sections['evolucionado'] || []).join(' ').trim();
 
   return {
     bucket,
@@ -69,7 +68,6 @@ function parseCard(filePath, defaultType) {
       element,
       coste: meta.coste || '0',
       base: { description: mdToHtml(baseText) },
-      evolved: { description: mdToHtml(evolText) },
     },
   };
 }
