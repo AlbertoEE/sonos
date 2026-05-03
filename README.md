@@ -1,4 +1,4 @@
-# Sonos — AT: Afinación Total
+# Sonos
 
 Sonos es un sistema de rol de mesa (TTRPG) diseñado desde cero para resolver los problemas que ningún otro sistema resolvía del todo bien.
 
