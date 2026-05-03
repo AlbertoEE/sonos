@@ -1,0 +1,10 @@
+{
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "trashOption": "local",
+  "livePreview": false,
+  "attachmentFolderPath": "attachments",
+  "showInlineTitle": false,
+  "readableLineLength": false
+}

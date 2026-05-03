@@ -1,0 +1,84 @@
+views:
+  - type: table
+    name: Recetas
+    filters:
+      and:
+        - file.inFolder("TTRPGS/campañas/Sonos/sistema/items")
+        - tipo == ["receta"]
+    order:
+      - file.name
+      - precio
+      - gremio
+    sort:
+      - property: gremio
+        direction: ASC
+    columnSize:
+      file.name: 194
+      note.precio: 102
+  - type: table
+    name: Materiales
+    filters:
+      and:
+        - file.inFolder("TTRPGS/campañas/Sonos/sistema/items")
+        - tipo == ["material"]
+    order:
+      - file.name
+      - precio
+      - gremio
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: gremio
+        direction: ASC
+  - type: table
+    name: Consumibles
+    filters:
+      and:
+        - file.inFolder("TTRPGS/campañas/Sonos/sistema/items")
+        - tipo == ["consumible"]
+    order:
+      - file.name
+      - tipo
+      - precio
+      - gremio
+    sort:
+      - property: gremio
+        direction: ASC
+  - type: table
+    name: Equipo
+    filters:
+      and:
+        - file.inFolder("TTRPGS/campañas/Sonos/sistema/items")
+        - tipo == ["equipo"]
+    order:
+      - file.name
+      - subtipo
+      - uso
+      - precio
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Tienda
+    filters:
+      and:
+        - file.inFolder("TTRPGS/campañas/Sonos/sistema/items")
+        - tipo != ["material"]
+        - gremio == ["cocina"]
+    order:
+      - file.name
+      - precio
+      - gremio
+      - tipo
+    sort:
+      - property: gremio
+        direction: ASC
+      - property: tipo
+        direction: ASC
+      - property: file.name
+        direction: DESC
+      - property: precio
+        direction: DESC
+    columnSize:
+      file.name: 236
+      note.precio: 154
