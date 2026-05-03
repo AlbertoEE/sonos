@@ -45,7 +45,8 @@ Si no, haz estas preguntas **de una en una**:
 
 **Rol:** [rol(es)]  
 **Subtema:** [subtema]  
-**Mecánica central:** [una línea — qué hilo conecta las 6 habilidades]
+**Mecánica central:** [una línea — qué hilo conecta las 6 habilidades]  
+**Bonus de set:** [una línea — efecto que se activa al llevar todas las cartas del set]
 
 ---
 
@@ -135,7 +136,8 @@ Resume en 2-3 frases: qué funciona bien, qué está fuerte, qué está flojo. S
 
 Presenta el set completo y pregunta:
 1. ¿Algo que no encaje o quiera cambiar?
-2. ¿Quiere guardar las cartas como archivos Markdown en `vaults/system/cards/`?
+2. ¿El bonus de set te convence o quieres ajustarlo?
+3. ¿Quiere guardar las cartas como archivos Markdown en `vaults/system/cards/`?
 
 Si confirma guardar, genera cada carta en el formato exacto del vault:
 
@@ -144,6 +146,8 @@ Si confirma guardar, genera cada carta en el formato exacto del vault:
 type: [fundamento / rudimento]
 element: [elemento]
 coste: "[valor]"
+set: [Nombre del set]
+bonus_set: "[efecto del bonus de set]"
 ---
 
 # [Nombre]

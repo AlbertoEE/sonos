@@ -3,6 +3,7 @@ type: fundamento
 element: armonia
 coste: "0"
 set: El Escudo
+bonus_set: "Las explosiones de escudo no afectan a aliados."
 ---
 
 # Trasvasar
