@@ -176,8 +176,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "be28b2c9b83d84c7",
+  "active": "c8290b035eb369de",
   "lastOpenFiles": [
+    "rediseño-sets.md",
+    "rediseño-sets.md.tmp.997.1777819320161",
+    "guia-diseño-sets.md.tmp.997.1777817162924",
+    "guia-diseño-sets.md",
+    "guia-diseño-sets.md.tmp.997.1777817037193",
     "cards/rudimentos/se-avecina-tormenta.md",
     "cards/rudimentos/se-avecina-tormenta.md.tmp.997.1777813508435",
     "cards/rudimentos/mal-de-ojo.md",
@@ -193,11 +198,8 @@
     "cards/rudimentos/cancion-de-muerte.md",
     "cards/rudimentos/cancion-de-muerte.md.tmp.997.1777813492807",
     "cards/rudimentos/ecos-del-pasado.md",
-    "cards/rudimentos/ecos-del-pasado.md.tmp.997.1777813489174",
     "cards/rudimentos/desfase.md",
-    "cards/rudimentos/desfase.md.tmp.997.1777813486528",
     "cards/rudimentos/silencio-abrupto.md",
-    "cards/rudimentos/silencio-abrupto.md.tmp.997.1777813484568",
     "cards/rudimentos/vinculo-corrupto.md",
     "cards/rudimentos/interferencias-cruzadas.md",
     "cards/rudimentos/ejecucion-oportunista.md",
@@ -211,8 +213,6 @@
     "cards/rudimentos/impulso-ritmico.md",
     "cards/rudimentos/cadena-de-golpes.md",
     "cards/rudimentos/bonk.md",
-    "cards/rudimentos/redoble.md",
-    "cards/rudimentos/rotacion.md",
-    "cards/rudimentos/ultima-oportunidad.md"
+    "cards/rudimentos/redoble.md"
   ]
 }
