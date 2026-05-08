@@ -13,6 +13,17 @@
         }
       },
       {
+        "name": "Sobreflujo Armónico",
+        "type": "fundamento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Cuando curas a un aliado que ya está a vida máxima, en lugar de desperdiciarse recibe [AT] de <b>vida temporal</b> <i>(no se acumula consigo misma)</i>."
+        }
+      },
+      {
         "name": "Trasvasar",
         "type": "fundamento",
         "element": [
@@ -21,6 +32,17 @@
         "coste": "0",
         "base": {
           "description": "Al inicio de tu turno, puedes transferir cualquier cantidad de escudo de una criatura con escudo activo tuyo a otra criatura con escudo activo tuyo. El total entre ambas no cambia."
+        }
+      },
+      {
+        "name": "Vínculo Recíproco",
+        "type": "fundamento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Cuando un aliado te cura, tanto tú como ese aliado obtenéis un <b>estado positivo</b> aleatorio. Tira 1d4: <b>1)</b> ganas 1 de <b>Resonancia</b>. <b>2)</b> [AT] de <b>vida temporal</b>. <b>3)</b> <i>ventaja</i> en tu próxima tirada. <b>4)</b> +1 de movimiento en tu próximo turno."
         }
       }
     ]
@@ -61,6 +83,28 @@
         }
       },
       {
+        "name": "Caricia Vibrante",
+        "type": "rudimento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "1",
+        "base": {
+          "description": "Cura [1DI] de vida a un aliado adyacente."
+        }
+      },
+      {
+        "name": "Compás Lejano",
+        "type": "rudimento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Cura [AT] de vida a un aliado a hasta 4 casillas."
+        }
+      },
+      {
         "name": "Detonar",
         "type": "rudimento",
         "element": [
@@ -72,6 +116,17 @@
         }
       },
       {
+        "name": "Eco Multiplicado",
+        "type": "rudimento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "X",
+        "base": {
+          "description": "Destruye hasta X <b>Esquirlas Sanadoras</b> que controles. Por cada una destruida, todos los seres en un área de 2 casillas alrededor de su posición son curados [1DI]."
+        }
+      },
+      {
         "name": "Empalizada",
         "type": "rudimento",
         "element": [
@@ -80,6 +135,17 @@
         "coste": "1",
         "base": {
           "description": "Tira [1DI+AT]. Aplica el resultado como escudo a todos los aliados en melee contigo. Al final de la ronda, los escudos que sigan activos explotan automáticamente: cada aliado inflige daño igual a su escudo a todos los enemigos en melee con él, y el escudo desaparece."
+        }
+      },
+      {
+        "name": "Esquirla Sanadora",
+        "type": "rudimento",
+        "element": [
+          "armonia"
+        ],
+        "coste": "2",
+        "base": {
+          "description": "Coloca una <b>Esquirla</b> en una casilla a hasta 2 de distancia. Cualquier ser adyacente a la <b>Esquirla</b> puede gastar 1 uso como acción libre para curarse [1DI]. La <b>Esquirla</b> tiene [1/3 AT] usos antes de desvanecerse."
         }
       }
     ]

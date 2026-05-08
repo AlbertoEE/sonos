@@ -3,16 +3,28 @@ allowed-tools: Read
 description: Entrevista al usuario y genera un set de 6 habilidades coherentes (2 fundamentos + 4 rudimentos) para Sonos
 ---
 
-Eres diseñador de habilidades del sistema Sonos. Tu tarea es crear un **set de 6 habilidades** que funcionen juntas como el kit de un personaje de MOBA.
+Eres diseñador de habilidades del sistema Sonos. Tu tarea es crear un **set de 6 habilidades** temáticamente coherentes.
 
 **Set solicitado:** $ARGUMENTS
+
+## Filosofía de diseño de sets
+
+Un set comparte un **tema** (mecánica, fantasía, sabor), pero **no está diseñado para funcionar como un kit autosuficiente**. La intención es que los jugadores mezclen piezas de distintos sets para construir su personaje óptimo.
+
+**El set bonus es la recompensa por jugar de forma no óptima.** Llevar las 6 piezas de un mismo set es una apuesta temática, no la build más eficiente. El bonus debe ser suficientemente interesante para tentar al jugador, pero no tan poderoso que invalidar la mezcla de sets.
+
+Consecuencias prácticas de diseño:
+- Un set de curación no tiene por qué tener daño, CC ni movilidad.
+- Un set de burst no tiene por qué tener sostenimiento ni utilidad.
+- Las piezas son valiosas individualmente, y se mezclan bien con piezas de otros sets.
+- El bonus de set aparece cuando el jugador equipa todas las piezas, pero **no es el objetivo principal de construir el set**.
+
+**Sets de dos elementos no existen.** Las habilidades que cruzan dos elementos (ej: Armonía + Síncopa) son cartas sueltas — rudimentos o fundamentos independientes sin set.
 
 ## Estructura de un set
 
 - **2 Fundamentos** — pasivas siempre activas, coste 0
 - **4 Rudimentos** — activas que cuestan Resonancia (`0`, `1`, `2`, `3`, `4`, `M` = mitad del máximo, `X` = variable, `-` = sin coste fijo)
-
-Las 6 deben compartir un **tema** y una **mecánica interna** que las vincule — igual que las habilidades de un campeón de MOBA.
 
 ## Referencia de roles
 
@@ -25,7 +37,7 @@ Las 6 deben compartir un **tema** y una **mecánica interna** que las vincule �
 | **Tempo** | Control, interrupciones | Stuns, turnos extra, ralentizaciones |
 | **Síncopa** | Burst, asesino, movilidad | Ejecutar, reacciones, combos de daño verdadero |
 
-Un set puede ser de **un solo rol** o de **dos roles combinados** (ej: Ritmo + Síncopa para un bruiser).
+Los sets son siempre de **un solo rol**. Las combinaciones entre roles producen cartas sueltas, no sets.
 
 ## Proceso
 
@@ -33,9 +45,9 @@ Si el usuario ya ha dado suficiente información en `$ARGUMENTS`, genera el set 
 
 Si no, haz estas preguntas **de una en una**:
 
-1. **¿Qué rol o roles quieres?** — Muestra la tabla y espera respuesta.
+1. **¿Qué rol quieres?** — Muestra la tabla y espera respuesta.
 2. **¿Tienes un subtema?** — Da 2-3 ejemplos acordes al rol elegido. Ej: para Armonía → "escudos reactivos", "resonancia compartida", "auras de área".
-3. **¿Qué mecánica interna quieres que los conecte?** — Ej: acumular cargas, marcar y explotar, crear zonas, gestionar un recurso secundario. Si no tiene idea, propón tú una basándote en lo anterior y confirma.
+3. **¿Qué mecánica o elemento visual quieres que los conecte?** — El hilo conductor puede ser temático (ecos de sonido, sombras, redobles), mecánico (una condición compartida, un recurso secundario), o ambiental (zona de combate, estado de un aliado). Si no tiene idea, propón tú una y confirma.
 4. **¿Cómo quieres que se sienta jugarlo?** — Agresivo y rápido / lento y de control / reactivo (muchas reacciones) / de setup (preparar antes de explotar).
 
 ## Formato de salida
@@ -43,10 +55,10 @@ Si no, haz estas preguntas **de una en una**:
 ```markdown
 # Set: [Nombre]
 
-**Rol:** [rol(es)]  
+**Rol:** [rol único]  
 **Subtema:** [subtema]  
-**Mecánica central:** [una línea — qué hilo conecta las 6 habilidades]  
-**Bonus de set:** [una línea — efecto que se activa al llevar todas las cartas del set]
+**Hilo conductor:** [una línea — qué tema o mecánica da coherencia a las 6 habilidades]  
+**Bonus de set:** [una línea — efecto que se activa al llevar todas las cartas. Tentador pero no obligatorio]
 
 ---
 
@@ -73,9 +85,9 @@ Si no, haz estas preguntas **de una en una**:
 
 ---
 
-## Loop de juego
+## Coherencia temática
 
-[2-3 frases: qué activa qué, cuál es el combo principal, cómo los fundamentos potencian los rudimentos]
+[2-3 frases: qué une a estas habilidades temáticamente, qué piezas destacan como buenas individualmente, y qué tipo de mezcla con otros sets potenciaría esta colección]
 ```
 
 ## Stats de referencia para las descripciones
@@ -107,7 +119,8 @@ Usa siempre esta notación entre corchetes en las descripciones. Elige la escala
 - Los fundamentos deben ser relevantes en casi cualquier turno, no solo en casos concretos
 - Al menos un rudimento debe costar 0 o 1 — el set necesita ser jugable con poca Resonancia
 - Cada habilidad hace algo único; no repetir el mismo efecto en dos cartas distintas
-- Si hay dos roles, cada uno aporta algo diferente al set: no duplicar función
+- Las habilidades deben ser buenas por sí solas y potenciar combinaciones con otros sets
+- El bonus de set es interesante pero no imprescindible — no debe ser el único motivo para llevar las 6 piezas
 - Los nombres tienen sabor musical o sonoro, acordes con el universo Sonos
 
 ## Revisión de balance
@@ -115,17 +128,16 @@ Usa siempre esta notación entre corchetes en las descripciones. Elige la escala
 Tras generar el set, analiza sistemáticamente los puntos siguientes **antes de presentarlo**. Señala cada problema con su severidad: 🔴 roto / 🟡 fuerte pero manejable / 🟢 aceptable.
 
 ### Exploits y combos rotos
-- **Bucle de recursos**: ¿Puede el jugador generar EA (o Resonancia) indefinidamente sin coste real? ¿Alguna combinación produce más de lo que gasta?
-- **Daño sin techo**: ¿Puede la habilidad de explosión (o equivalente) escalar sin límite? ¿El daño máximo teórico es razonable?
+- **Bucle de recursos**: ¿Puede el jugador generar Resonancia indefinidamente sin coste real?
+- **Daño sin techo**: ¿Puede alguna habilidad escalar sin límite? ¿El daño máximo teórico es razonable?
 - **Escudo permanente**: ¿Puede el jugador mantener escudo activo en todos los aliados de forma indefinida sin contrapartida?
-- **Spam de estructuras**: ¿Puede colocar estructuras más rápido de lo que el enemigo las destruye? ¿El límite de estructuras es suficiente?
 - **Dominio en turno 1**: ¿Puede el set establecer una ventaja aplastante desde el primer turno sin que el rival pueda responder?
 
 ### Nivel de poder
 - **Suelo**: ¿Es el set jugable con poca Resonancia? Debe haber al menos una opción útil con 0 o 1 de coste en casi cualquier turno.
 - **Techo**: ¿El potencial máximo (mejor turno posible) es desequilibrante respecto a otros sets?
 - **Dependencia**: ¿Depende el set de una sola carta para funcionar? Si esa carta no está disponible, ¿el set queda inoperativo?
-- **Combos externos**: ¿Hay habilidades de otros sets que, combinadas con este, resulten rotas? (ej: generación de EA gratuita + explosión masiva)
+- **Bonus de set**: ¿El bonus es tan poderoso que obliga a llevar las 6 piezas aunque sea subóptimo? Debe tentar, no obligar.
 
 ### Veredicto
 Resume en 2-3 frases: qué funciona bien, qué está fuerte, qué está flojo. Si hay un problema 🔴, propón un ajuste concreto (coste, límite, valor numérico) antes de continuar.

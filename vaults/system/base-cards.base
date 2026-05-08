@@ -13,3 +13,5 @@ views:
     sort:
       - property: set
         direction: ASC
+    columnSize:
+      note.set: 135
