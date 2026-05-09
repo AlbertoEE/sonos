@@ -1,5 +1,29 @@
 {
   "fundamentos": {
+    "ritmo": [
+      {
+        "name": "Contrapunto",
+        "type": "fundamento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Cada Pulso que hagas contra un objetivo diferente al anterior inflige [2AT] de daño adicional."
+        }
+      },
+      {
+        "name": "Tercer Tiempo",
+        "type": "fundamento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "Llevas un contador de Pulsos. Cuando llega a 3, ese Pulso inflige [DI] de <i>daño verdadero</i> adicional y el contador vuelve a 0. El contador no se reinicia al cambiar de objetivo."
+        }
+      }
+    ],
     "armonia": [
       {
         "name": "Reflejo",
@@ -20,7 +44,7 @@
         ],
         "coste": "0",
         "base": {
-          "description": "Cuando curas a un aliado que ya está a vida máxima, en lugar de desperdiciarse recibe [AT] de <b>vida temporal</b> <i>(no se acumula consigo misma)</i>."
+          "description": "Cuando curas a un aliado que ya está a vida máxima, esa cantidad como <b>vida temporal</b>."
         }
       },
       {
@@ -90,7 +114,7 @@
         ],
         "coste": "1",
         "base": {
-          "description": "Cura [1DI] de vida a un aliado adyacente."
+          "description": "Cura [1DI+AT] de vida a un aliado adyacente."
         }
       },
       {
@@ -99,7 +123,7 @@
         "element": [
           "armonia"
         ],
-        "coste": "0",
+        "coste": "1",
         "base": {
           "description": "Cura [AT] de vida a un aliado a hasta 4 casillas."
         }
@@ -123,7 +147,7 @@
         ],
         "coste": "X",
         "base": {
-          "description": "Destruye hasta X <b>Esquirlas Sanadoras</b> que controles. Por cada una destruida, todos los seres en un área de 2 casillas alrededor de su posición son curados [1DI]."
+          "description": "Destruye hasta X <b>Esquirlas Sanadoras</b> que controles. Por cada una destruida, todos los seres en un área de 2 casillas alrededor de su posición son curados [DI+AT]."
         }
       },
       {
@@ -145,7 +169,55 @@
         ],
         "coste": "2",
         "base": {
-          "description": "Coloca una <b>Esquirla</b> en una casilla a hasta 2 de distancia. Cualquier ser adyacente a la <b>Esquirla</b> puede gastar 1 uso como acción libre para curarse [1DI]. La <b>Esquirla</b> tiene [1/3 AT] usos antes de desvanecerse."
+          "description": "Coloca una <b>Esquirla</b> en una casilla a hasta 2 de distancia. Cualquier ser adyacente a la <b>Esquirla</b> puede gastar 1 uso como acción libre para curarse [DI+AT]. La <b>Esquirla</b> tiene [1/3 AT] usos antes de desvanecerse. (El aliado obtiene 1 de Resonancia por usar un pulso)"
+        }
+      }
+    ],
+    "ritmo": [
+      {
+        "name": "Fortísimo",
+        "type": "rudimento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "2",
+        "base": {
+          "description": "<b><i>Activable.</i></b> Después de lanzar los dados de un Pulso y conocer el resultado, gasta 2 de <b>Resonancia</b> para duplicar el daño total de ese Pulso."
+        }
+      },
+      {
+        "name": "Síncopa Defensiva",
+        "type": "rudimento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "1",
+        "base": {
+          "description": "<b><i>Reacción.</i></b> Cuando recibas un ataque, gasta 1 de <b>Resonancia</b> para añadir [DI] a tu tirada de <b>Silencio</b> defensiva."
+        }
+      },
+      {
+        "name": "Transposición",
+        "type": "rudimento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "1",
+        "base": {
+          "description": "Cambia el rango de tu arma (cuerpo a cuerpo ↔ distancia) sin gastar <b>Puntos de Acción</b>. El nuevo rango dura hasta el inicio de tu próximo turno."
+        }
+      }
+    ],
+    "sincopa": [
+      {
+        "name": "Marcha Implacable",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "M",
+        "base": {
+          "description": "Hasta el final de tu turno, todos tus Pulsos infligen <i>daño verdadero</i>. Puedes activarlo antes o después de realizar un Pulso ese mismo turno."
         }
       }
     ]

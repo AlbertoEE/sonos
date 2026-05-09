@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Converts vaults/system/cards/fundamentos/*.md + rudimentos/*.md → card-generator/data.json
+// Converts vaults/system/cards/*.md → card-generator/data.json
 // Usage: node build-data.js
 // The MD files are the source of truth; run this after editing them.
 
@@ -72,18 +72,14 @@ function parseCard(filePath, defaultType) {
   };
 }
 
-function buildSection(dir, defaultType) {
-  const result = {};
-  for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md'))) {
-    const { bucket, card } = parseCard(path.join(dir, file), defaultType);
-    if (!result[bucket]) result[bucket] = [];
-    result[bucket].push(card);
-  }
-  return result;
+const fundamentos = {};
+const rudimentos = {};
+for (const file of fs.readdirSync(VAULT_DIR).filter(f => f.endsWith('.md'))) {
+  const { bucket, card } = parseCard(path.join(VAULT_DIR, file), '');
+  const target = card.type === 'fundamento' ? fundamentos : rudimentos;
+  if (!target[bucket]) target[bucket] = [];
+  target[bucket].push(card);
 }
-
-const fundamentos = buildSection(path.join(VAULT_DIR, 'fundamentos'), 'fundamento');
-const rudimentos = buildSection(path.join(VAULT_DIR, 'rudimentos'), 'rudimento');
 
 // Preserve estados from existing data.json
 let estados = {};

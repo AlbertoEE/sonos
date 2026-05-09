@@ -11,10 +11,14 @@
             "id": "83f57eb7b315655a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "main-plot-master.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "main-plot-master"
             }
           }
         ]
@@ -177,5 +181,14 @@
     }
   },
   "active": "83f57eb7b315655a",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "main-plot.md",
+    "main-plot-master.md",
+    "main-plot-master.md.tmp.8111.f347025a33c0",
+    "main-plot-narrative.md",
+    "main-plot-continuation.md",
+    "main-plot-narrative.md.tmp.8111.d959a0286f90",
+    "ideas/2026-05-09-pantalla-disonancia-duplica-daño.md",
+    "ideas/2026-05-09-pantalla-disonancia-duplica-daño.md.tmp.8111.5fe9d88bf46f"
+  ]
 }
