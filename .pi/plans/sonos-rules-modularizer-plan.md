@@ -1,0 +1,261 @@
+# Temporary Plan — Sonos Rules Modularizer Skill
+
+Date: 2026-05-10
+Status: temporary implementation plan
+
+## Goal
+
+Create a repo-specific Pi skill that can repeatedly split the human-readable master rules file:
+
+```text
+vaults/system/rules.md
+```
+
+into smaller AI-facing rule modules under:
+
+```text
+vaults/system/rules/
+```
+
+The master file remains the source of truth for now. The generated modular files are optimized for Pi/AI workflows and should be safe to regenerate whenever the master rules change.
+
+## Why
+
+The current `vaults/system/rules.md` is good for humans but too large for frequent AI use. Splitting it into stable modules will let future skills and commands read only the rule files relevant to a task, reducing context usage and improving answer quality.
+
+## Useful InfraNodus Skills Found
+
+### 1. `skill-llm-wiki`
+
+Already installed locally at:
+
+```text
+.pi/skills/llm-wiki/SKILL.md
+```
+
+Usefulness for this task: medium.
+
+It is useful as inspiration for maintaining structured markdown knowledge bases, indexes, workflows, and schemas. However, it is broader than needed for deterministic rules splitting, so it should not be the main implementation.
+
+### 2. `skill-ontology-creator`
+
+Available upstream at:
+
+```text
+https://github.com/infranodus/skills/tree/master/skill-ontology-creator
+```
+
+Usefulness for this task: high, but second-pass.
+
+After the modular rules exist, this skill can generate an ontology / knowledge graph from the generated rule files. That can later be fed into InfraNodus to find overloaded concepts, isolated mechanics, missing glossary entries, and weak links between rules.
+
+Potential future output:
+
+```text
+infranodus/rules-ontology.md
+output/rules-knowledge-graph-analysis.md
+```
+
+### 3. `critical-perspective` / `shifting-perspective`
+
+Usefulness for this task: low for implementation, medium for later design review.
+
+These could help audit the rule design, but they are not necessary for the first modularization skill.
+
+## Recommended Approach
+
+Create a custom Sonos skill instead of directly using `llm-wiki`:
+
+```text
+.pi/skills/sonos-rules-modularizer/
+├── SKILL.md
+└── scripts/
+    └── split-rules.py
+```
+
+The skill should explain when to run the workflow. The Python script should do the deterministic splitting so the operation is repeatable.
+
+## Proposed Generated Structure
+
+```text
+vaults/system/rules/
+├── index.md
+├── glossary.md
+├── core/
+│   ├── sonos-como-sistema.md
+│   ├── unidades-de-medida.md
+│   ├── categorias-de-dado.md
+│   └── checks-de-habilidades-en-rol.md
+├── character/
+│   ├── los-cantores.md
+│   ├── atributos.md
+│   ├── habilidades.md
+│   ├── progresion-de-habilidades.md
+│   ├── perks.md
+│   └── recursos.md
+├── instrument/
+│   ├── instrumento-vital.md
+│   ├── atributos-de-instrumento-vital.md
+│   ├── dano-de-instrumento-vital.md
+│   ├── pulsos.md
+│   ├── rudimentos.md
+│   ├── fundamentos.md
+│   ├── mejoras.md
+│   └── desafinacion.md
+├── combat/
+│   ├── combate.md
+│   ├── iniciativa.md
+│   ├── acciones-por-turno.md
+│   ├── resintonia.md
+│   ├── movimiento.md
+│   ├── malicia.md
+│   ├── tension.md
+│   └── estados.md
+└── negotiation/
+    ├── negociacion.md
+    ├── estadisticas-de-negociacion.md
+    ├── actitud-inicial-del-pnj.md
+    ├── idioma-y-paciencia.md
+    ├── hacer-argumentos.md
+    ├── oferta-del-pnj.md
+    ├── motivaciones-y-escollos.md
+    └── continuidad-de-la-negociacion.md
+```
+
+The exact filenames can be adjusted by the script based on headings in the master file.
+
+## Implementation Steps
+
+### Step 1 — Create the skill folder
+
+Create:
+
+```text
+.pi/skills/sonos-rules-modularizer/
+```
+
+### Step 2 — Write `SKILL.md`
+
+The skill should include:
+
+- Purpose and trigger conditions
+- Source-of-truth policy: `vaults/system/rules.md` remains canonical
+- Generated output path: `vaults/system/rules/`
+- Warning not to manually edit generated modules unless the workflow changes
+- Commands to run the script
+- Recommended next steps after splitting
+- Guidance for future Pi skills to reference small modular files instead of the whole master file
+
+### Step 3 — Write `scripts/split-rules.py`
+
+The script should:
+
+1. Read `vaults/system/rules.md`
+2. Parse markdown headings
+3. Split by meaningful sections using the current numbered heading structure
+4. Map top-level sections to folders:
+   - `1.*` → `core/`
+   - `2.1–2.3` → `character/`
+   - `2.4` → `instrument/`
+   - `3.*` → `combat/`
+   - `4.*` → `negotiation/`
+5. Generate YAML frontmatter in each module:
+
+```yaml
+---
+generated_from: vaults/system/rules.md
+generated_by: sonos-rules-modularizer
+source_section: "..."
+do_not_edit: true
+---
+```
+
+6. Generate `vaults/system/rules/index.md`
+7. Generate or refresh `vaults/system/rules/glossary.md` as a starter glossary from known Sonos terms
+8. Avoid deleting unrelated files unless they are clearly marked as generated by this skill
+9. Print a summary of generated files
+
+### Step 4 — Run a dry check
+
+Run the script once and inspect:
+
+```bash
+python3 .pi/skills/sonos-rules-modularizer/scripts/split-rules.py --dry-run
+```
+
+Expected output:
+
+- detected source headings
+- planned file paths
+- no file writes
+
+### Step 5 — Generate modular files
+
+Run:
+
+```bash
+python3 .pi/skills/sonos-rules-modularizer/scripts/split-rules.py
+```
+
+### Step 6 — Validate generated files
+
+Check:
+
+```bash
+find vaults/system/rules -type f -name '*.md' | sort
+```
+
+Verify:
+
+- all major sections from the master exist
+- index links are correct
+- generated files have frontmatter
+- no hand-written files were accidentally overwritten
+
+### Step 7 — Future optional InfraNodus pass
+
+After the split works, optionally install/use `skill-ontology-creator` to create:
+
+```text
+infranodus/rules-ontology.md
+```
+
+Then use InfraNodus to analyze:
+
+- central / overloaded concepts
+- isolated mechanics
+- missing links
+- terms used in rules but absent from glossary
+- sections that should maybe become separate modules
+
+### Step 8 — Future Pi skill improvements
+
+Once modular rules exist, update or create skills such as:
+
+```text
+.pi/skills/sonos-rules-consultant/
+.pi/skills/sonos-card-designer/
+.pi/skills/sonos-balance-auditor/
+.pi/skills/sonos-player-docs-writer/
+```
+
+Each skill should reference specific modular rule files instead of loading `vaults/system/rules.md` wholesale.
+
+## Safety Rules
+
+- Do not modify `vaults/system/rules.md` during modularization.
+- Treat `vaults/system/rules.md` as the source of truth.
+- Generated files should clearly state they are generated.
+- The script should not delete files unless they contain the generated-by marker.
+- First run should support `--dry-run`.
+
+## Acceptance Criteria
+
+The task is complete when:
+
+- `.pi/skills/sonos-rules-modularizer/SKILL.md` exists
+- `.pi/skills/sonos-rules-modularizer/scripts/split-rules.py` exists
+- The script supports `--dry-run`
+- Running the script creates `vaults/system/rules/` with modular files
+- `vaults/system/rules/index.md` links to every generated rule module
+- The original `vaults/system/rules.md` remains unchanged

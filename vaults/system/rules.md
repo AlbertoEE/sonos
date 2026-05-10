@@ -276,7 +276,6 @@ De los errores se aprende, cada vez que obtengas tier 1, de una habilidad al niv
 
 Si en algún momento obtuvieras un 2 natural, lanza 3d4 y suma el resultado a tu habilidad.
 
-
 ## 2.3 Recursos de un Cantor
 Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Los siguientes recursos pueden ser mejorados de manera "temporal" o "permanente".
 
@@ -408,7 +407,6 @@ El alcance se tiene en cuenta al calcular el daño:
 El Cantor puede elegir el modo de su pulso al invocar su Instrumento Vital, durante el combate puede usar su acción principal en reinvocar su Instrumento Vital en otro modo.
 
 El equipamiento de un Cantor puede afectar a las características de alcance del Puslo.
-
 
 #### B) Rudimentos
 Si el Pulso es la forma más básica de inflingir daño el Rudimento es la forma más refinada. Los rudimentos son las habilidades que un Instrumento Vital puede ejecutar.

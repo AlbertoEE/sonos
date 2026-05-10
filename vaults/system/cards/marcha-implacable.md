@@ -1,9 +1,9 @@
 ---
 type: rudimento
-element: sincopa
-coste: "M"
+element: ritmo
+coste: M
 set: El Percutor
-bonus_set: "Tu primer Pulso cada ronda no tiene coste de Puntos de Acción."
+bonus_set: Tu primer Pulso cada ronda no tiene coste de Puntos de Acción.
 ---
 
 # Marcha Implacable

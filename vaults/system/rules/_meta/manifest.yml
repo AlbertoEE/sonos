@@ -1,0 +1,186 @@
+# Canonical print order for Sonos modular rules.
+# Edit this when adding, removing, or reordering rule modules.
+modules:
+  - path: "core/sonos-como-sistema.md"
+    level: 1
+    heading: "1. Sonos como Sistema"
+  - path: "core/unidades-de-medidas-en-sonos.md"
+    level: 2
+    heading: "1.1 Unidades de medidas en Sonos"
+  - path: "core/categorias-de-dado.md"
+    level: 2
+    heading: "1.2 Categorías de dado"
+  - path: "core/checks-de-habilidades-en-rol.md"
+    level: 2
+    heading: "1.3 Checks de Habilidades en Rol"
+  - path: "character/los-cantores.md"
+    level: 1
+    heading: "2. Los Cantores"
+  - path: "character/atributos-de-un-cantor.md"
+    level: 2
+    heading: "2.1 Atributos de un Cantor"
+  - path: "character/habilidades-de-un-cantor.md"
+    level: 2
+    heading: "2.2 Habilidades de un Cantor"
+  - path: "character/habilidades.md"
+    level: 3
+    heading: "2.2.1 Habilidades"
+  - path: "character/nivel-de-habilidad.md"
+    level: 3
+    heading: "2.2.2 Nivel de Habilidad"
+  - path: "character/progresion-de-habilidades.md"
+    level: 3
+    heading: "2.2.3 Progresión de Habilidades"
+  - path: "character/perks.md"
+    level: 3
+    heading: "2.2.4 Perks"
+  - path: "character/recursos-de-un-cantor.md"
+    level: 2
+    heading: "2.3 Recursos de un Cantor"
+  - path: "character/vitalidad.md"
+    level: 3
+    heading: "2.3.1 Vitalidad"
+  - path: "character/silencio.md"
+    level: 3
+    heading: "2.3.2 Silencio"
+  - path: "character/resonancia.md"
+    level: 3
+    heading: "2.3.3 Resonancia"
+  - path: "character/auralium.md"
+    level: 3
+    heading: "2.3.4 Auralium"
+  - path: "instrument/instrumento-vital.md"
+    level: 2
+    heading: "2.4 Instrumento Vital"
+  - path: "instrument/atributos-de-un-insrumento-vital.md"
+    level: 3
+    heading: "2.4.1 Atributos de un insrumento Vital"
+  - path: "instrument/dano-de-un-instrumento-vital.md"
+    level: 3
+    heading: "2.4.2 Daño de un Instrumento Vital"
+  - path: "instrument/pulsos.md"
+    level: 4
+    heading: "A) Pulsos"
+  - path: "instrument/rudimentos.md"
+    level: 4
+    heading: "B) Rudimentos"
+  - path: "instrument/fundamentos.md"
+    level: 4
+    heading: "C) Fundamentos"
+  - path: "instrument/mejoras-del-instrumento-vital.md"
+    level: 3
+    heading: "2.4.3 Mejoras del Instrumento Vital"
+  - path: "instrument/desafinacion.md"
+    level: 3
+    heading: "2.4.4 Desafinación"
+  - path: "combat/combate.md"
+    level: 1
+    heading: "3. Combate"
+  - path: "combat/iniciativa.md"
+    level: 2
+    heading: "3.1 Iniciativa"
+  - path: "combat/acciones-por-turno.md"
+    level: 2
+    heading: "3.2 Acciones por Turno"
+  - path: "combat/resintonia.md"
+    level: 3
+    heading: "3.2.1 Resintonía"
+  - path: "combat/movimiento.md"
+    level: 2
+    heading: "3.3 Movimiento"
+  - path: "combat/malicia.md"
+    level: 2
+    heading: "3.4 Malicia"
+  - path: "combat/tension.md"
+    level: 2
+    heading: "3.5 Tensión"
+  - path: "combat/subidas-de-tension.md"
+    level: 3
+    heading: "Subidas de Tensión"
+  - path: "combat/bajada-de-tension.md"
+    level: 3
+    heading: "Bajada de Tensión"
+  - path: "combat/efectos-de-la-tension.md"
+    level: 3
+    heading: "Efectos de la Tensión"
+  - path: "combat/estados.md"
+    level: 2
+    heading: "3.6 Estados"
+  - path: "combat/estados-negativos.md"
+    level: 3
+    heading: "Estados Negativos"
+  - path: "combat/estados-positivos.md"
+    level: 3
+    heading: "Estados Positivos"
+  - path: "negotiation/negociacion.md"
+    level: 1
+    heading: "4. Negociación"
+  - path: "negotiation/estadisticas-de-negociacion.md"
+    level: 2
+    heading: "4.1 Estadísticas de Negociación"
+  - path: "negotiation/actitud-inicial-del-pnj.md"
+    level: 2
+    heading: "4.2 Actitud Inicial del PNJ"
+  - path: "negotiation/idioma-y-paciencia.md"
+    level: 2
+    heading: "4.3 Idioma y Paciencia"
+  - path: "negotiation/hacer-argumentos.md"
+    level: 2
+    heading: "4.4 Hacer Argumentos"
+  - path: "negotiation/apelando-a-una-motivacion.md"
+    level: 3
+    heading: "Apelando a una Motivación"
+  - path: "negotiation/sin-motivacion-ni-escollo.md"
+    level: 3
+    heading: "Sin Motivación ni Escollo"
+  - path: "negotiation/usando-un-escollo.md"
+    level: 3
+    heading: "Usando un Escollo"
+  - path: "negotiation/atrapado-en-una-mentira.md"
+    level: 3
+    heading: "Atrapado en una Mentira"
+  - path: "negotiation/oferta-del-pnj.md"
+    level: 2
+    heading: "4.5 Oferta del PNJ"
+  - path: "negotiation/motivaciones-y-escollos.md"
+    level: 2
+    heading: "4.6 Motivaciones y Escollos"
+  - path: "negotiation/benevolencia-motivacion.md"
+    level: 3
+    heading: "Benevolencia (Motivación)"
+  - path: "negotiation/descubrimiento-motivacion.md"
+    level: 3
+    heading: "Descubrimiento (Motivación)"
+  - path: "negotiation/libertad-motivacion.md"
+    level: 3
+    heading: "Libertad (Motivación)"
+  - path: "negotiation/codicia-motivacion.md"
+    level: 3
+    heading: "Codicia (Motivación)"
+  - path: "negotiation/autoridad-superior-motivacion.md"
+    level: 3
+    heading: "Autoridad Superior (Motivación)"
+  - path: "negotiation/justicia-motivacion.md"
+    level: 3
+    heading: "Justicia (Motivación)"
+  - path: "negotiation/legado-motivacion.md"
+    level: 3
+    heading: "Legado (Motivación)"
+  - path: "negotiation/paz-motivacion.md"
+    level: 3
+    heading: "Paz (Motivación)"
+  - path: "negotiation/poder-motivacion.md"
+    level: 3
+    heading: "Poder (Motivación)"
+  - path: "negotiation/proteccion-motivacion.md"
+    level: 3
+    heading: "Protección (Motivación)"
+  - path: "negotiation/juerga-motivacion.md"
+    level: 3
+    heading: "Juerga (Motivación)"
+  - path: "negotiation/venganza-motivacion.md"
+    level: 3
+    heading: "Venganza (Motivación)"
+  - path: "negotiation/continuidad-de-la-negociacion.md"
+    level: 2
+    heading: "4.7 Continuidad de la Negociación"

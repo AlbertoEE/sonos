@@ -24,6 +24,41 @@
         }
       }
     ],
+    "sincopa": [
+      {
+        "name": "Geometría Cruel",
+        "type": "fundamento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: personal. Efecto: efectos de área que causes. Una vez por ronda, cuando un efecto de daño en área que causes afecte exactamente a un objetivo, ese objetivo recibe [AT] de <i>daño verdadero</i> adicional."
+        }
+      },
+      {
+        "name": "Oído al Futuro",
+        "type": "fundamento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: personal. Efecto: personal. La primera vez por ronda que preparas, colocas o ejecutas un efecto de daño en área, ganas [1DI+AT] de <b>Escudo</b> hasta el inicio de tu siguiente turno."
+        }
+      },
+      {
+        "name": "Paso al Futuro Fallido",
+        "type": "fundamento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "0",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: personal. Efecto: predicciones de este set. Cuando una predicción de este set falla al resolverse, puedes teletransportarte a cualquier casilla del área donde el efecto se habría resuelto."
+        }
+      }
+    ],
     "armonia": [
       {
         "name": "Reflejo",
@@ -72,6 +107,52 @@
     ]
   },
   "rudimentos": {
+    "sincopa": [
+      {
+        "name": "Aguja del Compás",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "1",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: punto a 5 casillas. Efecto: 1 casilla. Coloca una predicción en una casilla dentro del alcance. Solo puedes tener una predicción activa de <b>Aguja del Compás</b> a la vez; si colocas otra, la anterior desaparece sin efecto. La predicción dura hasta el inicio de tu siguiente turno. Si un objetivo termina su turno en esa casilla antes de que expire, la predicción detona e inflige [DIx3+AT] de <i>daño verdadero</i> a todos los objetivos en esa casilla. Si nadie termina su turno ahí, falla sin efecto."
+        }
+      },
+      {
+        "name": "Cuadrante Muerto",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "3",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: punto a 6 casillas. Efecto: área de 2x2 casillas. Coloca una predicción en un área de 2x2 casillas dentro del alcance. Solo puedes tener una predicción activa de <b>Cuadrante Muerto</b> a la vez; si colocas otra, la anterior desaparece sin efecto. La predicción dura hasta el inicio de tu siguiente turno. Si un objetivo termina su turno en el área antes de que expire, la predicción detona e inflige [DIx2+AT] a todos los objetivos en el área. Los objetivos dañados quedan <b>Lentos</b> hasta el final de su siguiente turno. Si nadie termina su turno ahí, falla sin efecto."
+        }
+      },
+      {
+        "name": "Fosa del Último Paso",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "4",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: punto a 6 casillas. Efecto: área de 3x3 casillas. Coloca una predicción en un área de 3x3 casillas dentro del alcance. Solo puedes tener una predicción activa de <b>Fosa del Último Paso</b> a la vez; si colocas otra, la anterior desaparece sin efecto. La predicción dura hasta el inicio de tu siguiente turno. Si un objetivo termina su turno en el área antes de que expire, la predicción detona e inflige [DI+AT] a todos los objetivos en el área. Si solo afecta a un objetivo, ese objetivo recibe además <b>Herido</b> 2. Si nadie termina su turno ahí, falla sin efecto."
+        }
+      },
+      {
+        "name": "Línea de Degüello",
+        "type": "rudimento",
+        "element": [
+          "sincopa"
+        ],
+        "coste": "2",
+        "base": {
+          "description": "<b>Alcance:</b> Ejecución: punto inicial a 5 casillas. Efecto: línea recta de 3 casillas. Coloca una predicción en una línea recta de 3 casillas dentro del alcance. Solo puedes tener una predicción activa de <b>Línea de Degüello</b> a la vez; si colocas otra, la anterior desaparece sin efecto. La predicción dura hasta el inicio de tu siguiente turno. Si un objetivo termina su turno en la línea antes de que expire, la predicción detona e inflige [DIx2+AT] a todos los objetivos en el área. Si nadie termina su turno ahí, falla sin efecto."
+        }
+      }
+    ],
     "armonia": [
       {
         "name": "¡Al Quite!",
@@ -186,6 +267,17 @@
         }
       },
       {
+        "name": "Marcha Implacable",
+        "type": "rudimento",
+        "element": [
+          "ritmo"
+        ],
+        "coste": "M",
+        "base": {
+          "description": "Hasta el final de tu turno, todos tus Pulsos infligen <i>daño verdadero</i>. Puedes activarlo antes o después de realizar un Pulso ese mismo turno."
+        }
+      },
+      {
         "name": "Síncopa Defensiva",
         "type": "rudimento",
         "element": [
@@ -205,19 +297,6 @@
         "coste": "1",
         "base": {
           "description": "Cambia el rango de tu arma (cuerpo a cuerpo ↔ distancia) sin gastar <b>Puntos de Acción</b>. El nuevo rango dura hasta el inicio de tu próximo turno."
-        }
-      }
-    ],
-    "sincopa": [
-      {
-        "name": "Marcha Implacable",
-        "type": "rudimento",
-        "element": [
-          "sincopa"
-        ],
-        "coste": "M",
-        "base": {
-          "description": "Hasta el final de tu turno, todos tus Pulsos infligen <i>daño verdadero</i>. Puedes activarlo antes o después de realizar un Pulso ese mismo turno."
         }
       }
     ]

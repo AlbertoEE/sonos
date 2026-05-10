@@ -1,0 +1,30 @@
+---
+title: "Resonancia"
+rules_status: canonical
+source_section: "2.3.3 Resonancia"
+version_introduced: "Alpha 0.1.0"
+last_reviewed: "2026-05-10"
+---
+
+# Resonancia
+La Resonancia es lo que le permite a un Cantor ejecutar sus Rudimentos. Todos los Rudimentos tienen un coste de Resonancia asociado.
+
+Todos los Cantores tienen el mismo dado de Resonancia 1d4 pero diferentes valores máximos
+
+| Atributo        | Valor máximo |
+|-----------------|--------------|
+| **Ritmo**       | 4            |
+| **Melodía**     | 6            |
+| **Armonía**     | 6            |
+| **Disonancia**  | 4            |
+| **Síncopa**     | 4            |
+| **Tempo**       | 6            |
+
+Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo. 
+
+Existen diferentes maneras de recuperar Resonancia:
+
+- Al ejecutar a un enemigo → recupera 1 de Resonancia
+- Al realizar un Silencio Perfecto (crítico) → recupera 1 de Resonancia
+- Al realizar cualquier Pulso → recupera 1 de Resonancia
+- Al usar Meditar (2 PA) → recupera 1dAT de Resonancia
