@@ -1,6 +1,6 @@
 ---
 name: sonos-armor-set-designer
-description: Diseña sets de armadura para Sonos: 3 piezas por slots Cabeza/Cuerpo/Piernas, bonuses pasivos individuales, pasiva de set, revisión de balance y guardado opcional en vaults/system/armor/. Use when creating armor sets, equipment set bonuses, defensive gear, or converting armor-set ideas into Sonos markdown.
+description: "Diseña sets de armadura para Sonos: 3 piezas por slots Cabeza/Cuerpo/Piernas, bonuses pasivos individuales, pasiva de set, revisión de balance y guardado opcional en vaults/system/armor/. Use when creating armor sets, equipment set bonuses, defensive gear, or converting armor-set ideas into Sonos markdown."
 ---
 
 # Sonos Armor Set Designer

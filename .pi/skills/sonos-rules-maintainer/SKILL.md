@@ -1,6 +1,6 @@
 ---
 name: sonos-rules-maintainer
-description: Maintain Sonos rules through versioned patches using modular rule files as the source of truth, then compile the printable vaults/system/rules.md. Use when modifying, clarifying, adding, versioning, or publishing Sonos TTRPG rules.
+description: Maintain Sonos rules through versioned patches only after interviewing the user, who is the sole source of rule creation. Use when the user explicitly asks to turn their own Sonos rule ideas into canonical modular rules.
 ---
 
 # Sonos Rules Maintainer
@@ -15,6 +15,22 @@ vaults/system/rules.md   # generated printable document
 ```
 
 Do **not** edit the printable `vaults/system/rules.md` by hand. Edit modular rule files, record a patch, then compile.
+
+## Autoría y fuente creativa
+
+The user is the **only creative source** for Sonos rules.
+
+Your role is not to invent mechanics, subsystems, rewards, numbers, procedures, or edge-case rulings. Your role is to interview the user, extract their intent, organize their words, detect gaps or contradictions, and translate their approved ideas into clear, table-ready rules.
+
+Mandatory behavior:
+
+- Do **not** generate new rules from a task title or vague instruction.
+- Do **not** decide mechanics, costs, limits, reward methods, examples, or procedures unless the user has supplied the idea.
+- Do **not** edit files, create patches, update versions, mark tasks complete, or compile rules unless the user explicitly authorizes applying/saving the rule change.
+- When the user says things like "vamos con esa tarea", start an interview. Ask questions and capture their answers; do not implement.
+- You may suggest options only when the user explicitly asks for suggestions, brainstorming, alternatives, or examples.
+- If a gap exists, ask the user to fill it. Do not fill it yourself.
+- Before editing, summarize the proposed rule in the user's terms and ask for explicit confirmation to apply it.
 
 ## Replaces / supersedes
 
@@ -53,42 +69,50 @@ Migration/bootstrap:
 
 ## Core workflow
 
-When the user asks to change rules:
+When the user asks to work on rules:
 
-1. **Understand intent**
-   - Restate the desired change.
-   - Ask clarifying questions only if the rule would be ambiguous.
+1. **Interview first**
+   - Treat the user as the source of the rule.
+   - Ask targeted questions to elicit the desired mechanic, limits, costs, triggers, exceptions, and examples.
+   - If the user has not supplied a decision, leave it open and ask. Do not invent it.
 
-2. **Locate affected modules**
+2. **Restate and validate**
+   - Summarize the user's idea in clear terms.
+   - Point out gaps, contradictions, or unclear edge cases as questions.
+   - Do not suggest solutions unless the user asks for suggestions.
+
+3. **Locate affected modules**
    - Start with `vaults/system/rules/index.md` and `_meta/manifest.yml`.
    - Read only relevant modular files.
    - Do not load `vaults/system/rules.md` unless debugging compilation or checking legacy text.
 
-3. **Draft a patch**
+4. **Draft only after the idea is complete**
+   - Convert the user's approved idea into proposed rules text.
    - Decide version bump:
      - Patch: wording, clarification, small balance tweak.
      - Minor: new subsystem, new rule family, meaningful mechanic.
      - Major: incompatible redesign.
    - Summarize intent, affected files, rule changes, and balance/design notes.
+   - Ask for explicit permission to apply the draft.
 
-4. **Apply edits to modular files**
-   - Edit canonical modules in `vaults/system/rules/`.
-   - Add new module files only if needed.
+5. **Apply edits only with explicit permission**
+   - Edit canonical modules in `vaults/system/rules/` only after the user confirms.
+   - Add new module files only if the user confirms.
    - If adding a module, also update `_meta/manifest.yml` in the desired print order.
 
-5. **Record versioned patch**
+6. **Record versioned patch**
    - Create a patch note in `vaults/system/rules-patches/`.
    - Update `_meta/version.yml`.
    - Append to `_meta/changelog.md`.
 
-6. **Compile printable rules**
+7. **Compile printable rules**
    - Run:
 
 ```bash
 python3 .pi/skills/sonos-rules-maintainer/scripts/compile-rules.py
 ```
 
-7. **Validate**
+8. **Validate**
    - Check the changed files.
    - Ensure `vaults/system/rules.md` was generated, not hand-edited.
    - If cards are affected, consider whether card files or prompts/skills need updates.
@@ -199,8 +223,9 @@ last_reviewed: "YYYY-MM-DD"
 
 ## Rules for AI edits
 
-- Do not invent hidden rules.
-- If the user gives a design thought, convert it into clear procedure.
+- Do not invent hidden rules or visible rules.
+- Do not turn an unresolved task into mechanics without interviewing the user first.
+- If the user gives a design thought, convert it into clear procedure only after confirming that interpretation with the user.
 - Keep wording table-friendly.
 - Prefer small localized changes over sweeping rewrites.
 - Preserve Spanish terminology used by the rules.

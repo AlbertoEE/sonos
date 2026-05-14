@@ -1,6 +1,6 @@
 ---
 name: sonos-travel-planner
-description: Planifica viajes para la campaña de Sonos mediante eventos por duración y color: combate, social, investigación y combinados. Use when creating travel sequences, route events, journey complications, road encounters, or converting travel ideas into session material.
+description: "Planifica viajes para la campaña de Sonos mediante eventos por duración y color: combate, social, investigación y combinados. Use when creating travel sequences, route events, journey complications, road encounters, or converting travel ideas into session material."
 ---
 
 # Sonos Travel Planner

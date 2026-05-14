@@ -1,6 +1,6 @@
 ---
 name: sonos-skill-set-designer
-description: Diseña sets de habilidades para Sonos: 2 fundamentos y 4 rudimentos de un solo elemento, con bonus de set, revisión de balance y opción de guardarlos como cartas Markdown en vaults/system/cards/. Use when creating Sonos skill/card sets, rudimentos, fundamentos, set bonuses, or converting set ideas into cards.
+description: "Diseña sets de habilidades para Sonos: 2 fundamentos y 4 rudimentos de un solo elemento, con bonus de set, revisión de balance y opción de guardarlos como cartas Markdown en vaults/system/cards/. Use when creating Sonos skill/card sets, rudimentos, fundamentos, set bonuses, or converting set ideas into cards."
 ---
 
 # Sonos Skill Set Designer
