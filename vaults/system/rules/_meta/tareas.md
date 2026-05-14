@@ -45,10 +45,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
 
 ## Diseño pendiente
 
-- [ ] **RT-003 · Media:** Decidir cómo se debería otorgar la Auralita Refinada a un grupo de jugadores.  
+- [x] **RT-003 · Media:** Decidir cómo se debería otorgar la Auralita Refinada a un grupo de jugadores.  
   Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/desafinacion.md]]  
   Notas: definir ritmo de entrega, si es recompensa grupal o individual, y cómo escala con el tamaño del grupo.  
-  Origen: conversación 2026-05-14.
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-14. Patch: [[../../rules-patches/2026-05-14-alpha-0.2.1-ritmo-auralita-refinada.md]].
 
 - [x] **RT-004 · Media:** Decidir cómo los jugadores pueden acceder a las habilidades en forma de cartas de Fundamentos y Rudimentos.  
   Módulos: [[instrument/fundamentos.md]], [[instrument/rudimentos.md]], [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/obtencion-de-cartas.md]]  

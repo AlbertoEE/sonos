@@ -1,13 +1,48 @@
 ---
 title: "Mejoras del Instrumento Vital"
 rules_status: canonical
-source_section: "2.4.3 Mejoras del Instrumento Vital"
+source_section: "2.4.4 Mejoras del Instrumento Vital"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-10"
+last_reviewed: "2026-05-14"
 ---
 
 # Mejoras del Instrumento Vital
 A lo largo de la campaña, los jugadores obtendrán recursos para mejorar su Instrumento Vital, en concreto Auralita Refinada.
+
+## Ritmo de entrega de Auralita Refinada
+La Auralita Refinada es el principal recurso de progresión de un Cantor. Sonos no usa niveles: cada Cantor invierte su Auralita Refinada en mejorar su Instrumento Vital y decide qué áreas quiere desarrollar.
+
+La recomendación estándar es entregar **5 Auralita Refinada por Cantor al final de cada sesión**.
+
+La Auralita Refinada es un recurso tangible: aunque se entregue por Cantor, los jugadores pueden compartirla entre ellos.
+
+El DM puede ajustar la progresión de la campaña cambiando la cantidad entregada por sesión. Si sabe cuántas sesiones quiere que dure la campaña o un tramo concreto de progreso, puede usar esta fórmula:
+
+```text
+Auralita por Cantor por sesión = Coste objetivo de progreso / Número de sesiones deseadas
+```
+
+Por ejemplo, si el progreso objetivo cuesta 100 Auralita Refinada y el DM quiere alcanzarlo en 20 sesiones:
+
+```text
+100 / 20 = 5 Auralita Refinada por Cantor por sesión
+```
+
+Si el DM quiere dar Auralita Refinada extra, puede hacerlo al final de la sesión con premios de mesa como el jugador más gracioso, el momento más épico o la mejor tirada.
+
+## Costes de referencia de progreso
+Estos costes sirven como objetivos para que el DM use la fórmula anterior y calcule cuánta Auralita Refinada entregar por sesión.
+
+Los costes asumen un Instrumento Vital inicial con **un atributo en C**, no incluyen compra de cartas, no incluyen Purificación de Desafinación y toman como referencia el coste base de las mejoras antes de posibles recuperaciones de Auralita o fallos.
+
+| Objetivo de progreso | Cálculo | Coste objetivo | A 5 Auralita por sesión |
+|---|---|---:|---:|
+| **Desarrollo natural completo** | 68 en mejoras base y Resonancia + 26 para subir el atributo inicial de C a S + 10 de Despertar Armónico + 30 para subir el nuevo atributo de D a S | **134 Auralita** | **~27 sesiones** |
+| **Instrumento extremo mediante corrupción** | 134 del desarrollo natural + 4 × (20 por repetir Despertar Armónico como Mejora Corrupta + 30 para subir ese atributo de D a S) | **334+ Auralita** | **~67+ sesiones** |
+
+El desarrollo natural completo representa el límite ordinario del Instrumento Vital según la tabla de mejoras. El Instrumento extremo mediante corrupción representa una referencia para llevar los 6 atributos del Instrumento Vital hasta S usando Mejoras Corruptas.
+
+El símbolo **+** indica que el coste real puede aumentar por fallos, Desafinación, Purificación de Desafinación u otros costes derivados de forzar mejoras prohibidas. Si el DM permite seguir repitiendo mejoras corruptas más allá de este punto, no existe un máximo absoluto cerrado.
 
 ## Luthiering para mejoras
 Para mejorar el Instrumento Vital será necesario disponer de la Auralita Refinada necesaria además de un aliado PC/NPC que cuente con la habilidad "Luthiering".

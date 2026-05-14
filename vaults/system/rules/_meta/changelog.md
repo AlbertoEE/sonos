@@ -1,5 +1,15 @@
 # Sonos Rules Changelog
 
+## Alpha 0.2.2 — 2026-05-14
+
+- Added reference progression costs for natural Instrumento Vital development and extreme corrupt development.
+- Added session estimates using the default 5 Auralita Refinada per Cantor per session.
+
+## Alpha 0.2.1 — 2026-05-14
+
+- Added guidance for Auralita Refinada as the main character progression resource.
+- Defined the recommended session reward and a formula for DMs to adjust Auralita Refinada per session based on desired campaign length.
+
 ## Alpha 0.2.0 — 2026-05-14
 
 - Added the card acquisition system for Fundamentos and Rudimentos.
