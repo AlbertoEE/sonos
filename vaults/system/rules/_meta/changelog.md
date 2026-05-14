@@ -1,5 +1,11 @@
 # Sonos Rules Changelog
 
+## Alpha 0.2.3 — 2026-05-14
+
+- Clarified default and current Pulso modes for Instrumentos Vitales.
+- Added the 1 PA combat action to change Pulso mode, including Resonance loss.
+- Clarified that Fundamentos and Rudimentos keep their own range.
+
 ## Alpha 0.2.2 — 2026-05-14
 
 - Added reference progression costs for natural Instrumento Vital development and extreme corrupt development.

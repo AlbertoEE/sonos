@@ -79,10 +79,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
 
 ## Clarificaciones pendientes
 
-- [ ] **RT-006 · Media:** Clarificar el sistema de rangos/distancias de los Pulsos de cada Instrumento Vital.  
+- [x] **RT-006 · Media:** Clarificar el sistema de rangos/distancias de los Pulsos de cada Instrumento Vital.  
   Módulos: [[instrument/pulsos.md]], [[instrument/dano-de-un-instrumento-vital.md]], [[combat/acciones-por-turno.md]], [[combat/movimiento.md]]  
   Notas: actualmente cada Instrumento Vital tiene 3 rangos, pero no se explica cómo se elige o cambia entre ellos, si requiere acción/coste, ni qué restricciones tiene durante el combate.  
-  Origen: conversación 2026-05-14.
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-14. Patch: [[../../rules-patches/2026-05-14-alpha-0.2.3-modos-de-pulso.md]].
 
 - [ ] **RT-009 · Media:** Revisar si existe y, si falta, crear una guía clara para elegir qué atributo sumar en acciones de rol.  
   Módulos: [[character/atributos-de-un-cantor.md]], [[character/habilidades.md]], [[character/habilidades-de-un-cantor.md]], [[core/checks-de-habilidades-en-rol.md]]  

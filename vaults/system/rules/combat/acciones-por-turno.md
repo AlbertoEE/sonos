@@ -3,7 +3,7 @@ title: "Acciones por Turno"
 rules_status: canonical
 source_section: "3.2 Acciones por Turno"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-10"
+last_reviewed: "2026-05-14"
 ---
 
 # Acciones por Turno
@@ -13,6 +13,7 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | Acción             | Coste | Descripción                                                                                                    |
 |:------------------:|:-----:|:---------------------------------------------------------------------------------------------------------------|
 | **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia                                                             |
+| **Cambiar forma**  | 1 PA  | Cambia el modo de Pulso actual del Instrumento Vital y pierdes toda tu Resonancia acumulada                    |
 | **Meditar**        | 2 PA  | Recupera 1dAT de Resonancia sin atacar                                                                         |
 | **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
 | **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
