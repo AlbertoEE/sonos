@@ -67,12 +67,15 @@ modules:
   - path: "instrument/fundamentos.md"
     level: 4
     heading: "C) Fundamentos"
+  - path: "instrument/obtencion-de-cartas.md"
+    level: 3
+    heading: "2.4.3 Obtención de Cartas"
   - path: "instrument/mejoras-del-instrumento-vital.md"
     level: 3
-    heading: "2.4.3 Mejoras del Instrumento Vital"
+    heading: "2.4.4 Mejoras del Instrumento Vital"
   - path: "instrument/desafinacion.md"
     level: 3
-    heading: "2.4.4 Desafinación"
+    heading: "2.4.5 Desafinación"
   - path: "combat/combate.md"
     level: 1
     heading: "3. Combate"

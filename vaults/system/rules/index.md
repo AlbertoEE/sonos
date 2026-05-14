@@ -39,8 +39,9 @@ The modular files are the source of truth; `vaults/system/rules.md` is compiled 
 - [A) Pulsos](instrument/pulsos.md) — print heading `A) Pulsos`
 - [B) Rudimentos](instrument/rudimentos.md) — print heading `B) Rudimentos`
 - [C) Fundamentos](instrument/fundamentos.md) — print heading `C) Fundamentos`
-- [Mejoras del Instrumento Vital](instrument/mejoras-del-instrumento-vital.md) — print heading `2.4.3 Mejoras del Instrumento Vital`
-- [Desafinación](instrument/desafinacion.md) — print heading `2.4.4 Desafinación`
+- [Obtención de Cartas](instrument/obtencion-de-cartas.md) — print heading `2.4.3 Obtención de Cartas`
+- [Mejoras del Instrumento Vital](instrument/mejoras-del-instrumento-vital.md) — print heading `2.4.4 Mejoras del Instrumento Vital`
+- [Desafinación](instrument/desafinacion.md) — print heading `2.4.5 Desafinación`
 
 ## Combat
 
