@@ -52,6 +52,18 @@ Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 
 Natural 19 o 20 (antes de mods) en un test = Éxito con recompensa, incluso en Medium/Hard.
 
+### Ventaja y desventaja en rol
+En checks de rol, ventaja y desventaja modifican el power roll o el tier final según su intensidad.
+
+| Situación | Efecto |
+|---|---|
+| **Ventaja** | +2 al power roll. |
+| **Desventaja** | −2 al power roll. |
+| **Doble ventaja** | Sustituye el +2 y sube el resultado final 1 tier. |
+| **Doble desventaja** | Sustituye el −2 y baja el resultado final 1 tier. |
+
+La doble ventaja y la doble desventaja no se acumulan con el modificador de ventaja o desventaja simple. Ningún resultado puede subir por encima de Tier 3 ni bajar por debajo de Tier 1.
+
 # 2. Los Cantores
 En Sonos los aventureros de alguna manera acabarán terminando como Cantores, seres capaces de sentir la música latente de Sonos y su energía. Los Cantores son capaces de aprovecharse de esta energía y la pueden manifestar de diferentes maneras.
 
@@ -393,6 +405,15 @@ El DI puede mejorarse de manera individual y permanente mediante Auralita Refina
 | A     | 1d12                |
 | S     | 2d8                 |
 
+#### Notación de DI
+Cuando una regla o carta indica **DI** sin número delante, se refiere al daño máximo del Dado de Instrumento.
+
+Cuando una regla o carta indica **1DI**, se tira el Dado de Instrumento y se usa el resultado obtenido.
+
+Por ejemplo, si el DI de un Cantor es 1d8:
+- **DI** equivale a 8 de daño.
+- **1DI** equivale a tirar 1d8 de daño.
+
 #### A) Pulsos
 Un Pulso es la forma más básica que tiene nuestro IV de inflingir daño a un enemigo. El daño de nuestro Pulso está determinado por el Dado de Instrumento + Atributo Total.
 
@@ -686,6 +707,18 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | **Resolver**       | 0 PA  | Acción de grupo decidida por mayoría absoluta; solo 1 vez por combate; baja la Tensión a 0                     |
 | **Afinar**         | 2 PA  | Reduce la Tensión en 1                                                                                         |
 | **Movimiento**     | 1 PA  | Desplázate hasta el máximo de tu movimiento base                                                               |
+
+### Ventaja y desventaja en combate
+En combate, ventaja y desventaja no modifican tiers. En su lugar modifican cómo se resuelve el daño de la acción afectada.
+
+Todas las divisiones de daño se redondean hacia abajo, salvo que una regla indique lo contrario.
+
+| Tipo de daño | Doble desventaja | Desventaja | Normal | Ventaja | Doble ventaja |
+|---|---|---|---|---|---|
+| **Daño con dado** | Tira el dado y aplica 1/4 del resultado. | Tira el dado y aplica la mitad del resultado. | Tira el dado y aplica el resultado. | El dado no se tira y aplica la mitad de su valor máximo. | El dado no se tira y aplica su valor máximo. |
+| **Daño fijo derivado de dado** | El daño fijo se convierte en tirar el dado que lo origina y aplicar la mitad del resultado. | El daño fijo se convierte en tirar el dado que lo origina. | Aplica el daño fijo normal. | La mitad del daño fijo atraviesa el Silencio. | Todo el daño fijo cuenta como daño verdadero. |
+
+Cuando un efecto convierte **DI** en una tirada, pasa a resolverse como **1DI**. Con doble desventaja, **DI** pasa a resolverse como **1DI / 2**.
 
 ### 3.2.1 Resintonía
 

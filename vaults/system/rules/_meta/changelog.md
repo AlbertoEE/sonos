@@ -1,5 +1,11 @@
 # Sonos Rules Changelog
 
+## Alpha 0.5.1 — 2026-05-15
+
+- Defined advantage, disadvantage, double advantage, and double disadvantage for role checks.
+- Added combat resolution for advantage/disadvantage on damage with dice and fixed damage derived from dice.
+- Clarified DI notation: `DI` means maximum Dado de Instrumento damage, while `1DI` means rolling the Dado de Instrumento.
+
 ## Alpha 0.5.0 — 2026-05-15
 
 - Added Gem Slots as Instrumento Vital improvements, up to 3 total slots.

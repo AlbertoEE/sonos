@@ -63,10 +63,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Origen: conversación 2026-05-14.  
   Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.4.0-progresion-di-silencio-vitalidad.md]].
 
-- [ ] **RT-008 · Media:** Diseñar cómo funciona la ventaja y la doble ventaja en combate cuando no hay tiers de resultado.  
+- [x] **RT-008 · Media:** Diseñar cómo funciona la ventaja y la doble ventaja en combate cuando no hay tiers de resultado.  
   Módulos: [[core/checks-de-habilidades-en-rol.md]], [[combat/acciones-por-turno.md]], [[combat/estados-positivos.md]], [[combat/estados-negativos.md]], [[character/silencio.md]], [[instrument/dano-de-un-instrumento-vital.md]]  
-  Notas: fuera de combate mantener el enfoque tipo Draw Steel de subir/bajar tier; en combate revisar propuesta: si el daño requiere tirar dado, ventaja convierte el dado en mitad de daño asegurado y doble ventaja en daño máximo; si la carta ya hace daño fijo/máximo, ventaja hace que la mitad del daño atraviese el Silencio y doble ventaja lo trata como daño verdadero. Evaluar balance, edge cases y redacción final.  
-  Origen: conversación 2026-05-14.
+  Notas: fuera de combate la ventaja/desventaja simple modifica el power roll en ±2, y la doble ventaja/desventaja sustituye ese modificador por subir o bajar 1 tier; en combate se define una tabla para daño con dado y daño fijo derivado de dado.  
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.5.1-ventaja-desventaja.md]].
 
 - [ ] **RT-010 · Media:** Incluir en las reglas una guía para que los Dungeon Masters creen sus propios Fundamentos y Rudimentos.  
   Módulos: [[instrument/fundamentos.md]], [[instrument/rudimentos.md]], [[instrument/evoluciones.md]]  

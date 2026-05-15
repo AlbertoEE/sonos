@@ -26,3 +26,15 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | **Resolver**       | 0 PA  | Acción de grupo decidida por mayoría absoluta; solo 1 vez por combate; baja la Tensión a 0                     |
 | **Afinar**         | 2 PA  | Reduce la Tensión en 1                                                                                         |
 | **Movimiento**     | 1 PA  | Desplázate hasta el máximo de tu movimiento base                                                               |
+
+## Ventaja y desventaja en combate
+En combate, ventaja y desventaja no modifican tiers. En su lugar modifican cómo se resuelve el daño de la acción afectada.
+
+Todas las divisiones de daño se redondean hacia abajo, salvo que una regla indique lo contrario.
+
+| Tipo de daño | Doble desventaja | Desventaja | Normal | Ventaja | Doble ventaja |
+|---|---|---|---|---|---|
+| **Daño con dado** | Tira el dado y aplica 1/4 del resultado. | Tira el dado y aplica la mitad del resultado. | Tira el dado y aplica el resultado. | El dado no se tira y aplica la mitad de su valor máximo. | El dado no se tira y aplica su valor máximo. |
+| **Daño fijo derivado de dado** | El daño fijo se convierte en tirar el dado que lo origina y aplicar la mitad del resultado. | El daño fijo se convierte en tirar el dado que lo origina. | Aplica el daño fijo normal. | La mitad del daño fijo atraviesa el Silencio. | Todo el daño fijo cuenta como daño verdadero. |
+
+Cuando un efecto convierte **DI** en una tirada, pasa a resolverse como **1DI**. Con doble desventaja, **DI** pasa a resolverse como **1DI / 2**.

@@ -3,7 +3,7 @@ title: "Checks de Habilidades en Rol"
 rules_status: canonical
 source_section: "1.3 Checks de Habilidades en Rol"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-10"
+last_reviewed: "2026-05-15"
 ---
 
 # Checks de Habilidades en Rol
@@ -22,3 +22,15 @@ Sonos sigue la filosofía de Draw Steel, 2d10 => 3 diferentes tiers
 | Hard       | Fallo con consecuencia             | Fallo                                      | Éxito                            |
 
 Natural 19 o 20 (antes de mods) en un test = Éxito con recompensa, incluso en Medium/Hard.
+
+## Ventaja y desventaja en rol
+En checks de rol, ventaja y desventaja modifican el power roll o el tier final según su intensidad.
+
+| Situación | Efecto |
+|---|---|
+| **Ventaja** | +2 al power roll. |
+| **Desventaja** | −2 al power roll. |
+| **Doble ventaja** | Sustituye el +2 y sube el resultado final 1 tier. |
+| **Doble desventaja** | Sustituye el −2 y baja el resultado final 1 tier. |
+
+La doble ventaja y la doble desventaja no se acumulan con el modificador de ventaja o desventaja simple. Ningún resultado puede subir por encima de Tier 3 ni bajar por debajo de Tier 1.

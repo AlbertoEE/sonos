@@ -22,3 +22,12 @@ El DI puede mejorarse de manera individual y permanente mediante Auralita Refina
 | B     | 1d10                |
 | A     | 1d12                |
 | S     | 2d8                 |
+
+## Notación de DI
+Cuando una regla o carta indica **DI** sin número delante, se refiere al daño máximo del Dado de Instrumento.
+
+Cuando una regla o carta indica **1DI**, se tira el Dado de Instrumento y se usa el resultado obtenido.
+
+Por ejemplo, si el DI de un Cantor es 1d8:
+- **DI** equivale a 8 de daño.
+- **1DI** equivale a tirar 1d8 de daño.
