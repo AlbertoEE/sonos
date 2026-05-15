@@ -338,14 +338,18 @@ Todos los Cantores tienen el mismo dado de Resonancia 1d4 pero diferentes valore
 | **Síncopa**     | 4            |
 | **Tempo**       | 6            |
 
-Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo. 
+Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo.
+
+La Resonancia recuperada nunca puede superar el valor máximo del Cantor.
 
 Existen diferentes maneras de recuperar Resonancia:
 
 - Al ejecutar a un enemigo → recupera 1 de Resonancia
 - Al realizar un Silencio Perfecto (crítico) → recupera 1 de Resonancia
-- Al realizar cualquier Pulso → recupera 1 de Resonancia
-- Al usar Meditar (2 PA) → recupera 1dAT de Resonancia
+- Al realizar cualquier Pulso, impacte o falle → recupera 1 de Resonancia
+- Al usar Meditar (2 PA) → recupera 1d4 de Resonancia
+
+El estado **Amortiguado** predomina sobre cualquier recuperación de Resonancia. Mientras esté activo, el Cantor no recupera Resonancia por ningún medio, incluido un Pulso que impacte o falle.
 
 ### 2.3.4 Auralium
 Todos los Cantores invocan su Instrumento Vital desde una pieza de Auralita a la que han dado forma y personalizado, esta pieza se considera su catalizador, también llamada Auralium.
@@ -631,9 +635,9 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 
 | Acción             | Coste | Descripción                                                                                                    |
 |:------------------:|:-----:|:---------------------------------------------------------------------------------------------------------------|
-| **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia                                                             |
+| **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia, impacte o falle                                            |
 | **Cambiar forma**  | 1 PA  | Cambia el modo de Pulso actual del Instrumento Vital y pierdes toda tu Resonancia acumulada                    |
-| **Meditar**        | 2 PA  | Recupera 1dAT de Resonancia sin atacar                                                                         |
+| **Meditar**        | 2 PA  | Recupera 1d4 de Resonancia sin atacar                                                                          |
 | **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
 | **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
 | **Acompañamiento** | 1 PA  | Otorgas ventaja de un dado a un aliado                                                                         |
@@ -735,7 +739,7 @@ Los estados son condiciones temporales que afectan a un Cantor o enemigo durante
 | **Aterrorizado**    | No puedes acercarte voluntariamente al origen del miedo.                      |
 | **Fuera de Compás** | Tus aliados adyacentes reciben desventaja en sus tiradas.                     |
 | **Diminuendo**      | Cada acción que hagas este turno es −1 más débil que la anterior.             |
-| **Amortiguado**     | No puedes recuperar Resonancia por ningún medio.                              |
+| **Amortiguado**     | No puedes recuperar Resonancia por ningún medio; predomina incluso sobre la recuperación de un Pulso. |
 
 ### Estados Positivos
 

@@ -1,5 +1,11 @@
 # Sonos Rules Changelog
 
+## Alpha 0.2.5 — 2026-05-15
+
+- Clarified that Pulso recovers 1 Resonance whether it hits or misses.
+- Changed Meditar in combat from 1dAT Resonance recovery to fixed 1d4.
+- Clarified that Amortiguado blocks all Resonance recovery, including Pulso recovery.
+
 ## Alpha 0.2.4 — 2026-05-15
 
 - Clarified that the default Pulso mode is chosen during character creation.

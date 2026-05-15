@@ -1,7 +1,7 @@
 ---
 type: rules_task_tracker
 status: active
-updated: "2026-05-14"
+updated: "2026-05-15"
 source_of_truth: "vaults/system/rules/"
 managed_by: "sonos-rules-task-tracker"
 printable: false
@@ -92,10 +92,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
 
 ## Balance pendiente
 
-- [ ] **RT-005 · Media:** Modificar el sistema de obtención de Resonancia durante el combate.  
+- [x] **RT-005 · Media:** Modificar el sistema de obtención de Resonancia durante el combate.  
   Módulos: [[character/resonancia.md]], [[combat/combate.md]], [[combat/acciones-por-turno.md]], [[combat/resintonia.md]]  
   Notas: revisar cuándo se genera Resonancia, cuánto se obtiene, límites por turno/combate y cómo afecta al ritmo de uso de Rudimentos.  
-  Origen: conversación 2026-05-14.
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.2.5-resonancia-pulso-meditar.md]].
 
 ## Publicación / documentación
 

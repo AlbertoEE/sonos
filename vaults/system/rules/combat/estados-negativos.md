@@ -3,7 +3,7 @@ title: "Estados Negativos"
 rules_status: canonical
 source_section: "Estados Negativos"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-10"
+last_reviewed: "2026-05-15"
 ---
 
 # Estados Negativos
@@ -30,4 +30,4 @@ last_reviewed: "2026-05-10"
 | **Aterrorizado**    | No puedes acercarte voluntariamente al origen del miedo.                      |
 | **Fuera de Compás** | Tus aliados adyacentes reciben desventaja en sus tiradas.                     |
 | **Diminuendo**      | Cada acción que hagas este turno es −1 más débil que la anterior.             |
-| **Amortiguado**     | No puedes recuperar Resonancia por ningún medio.                              |
+| **Amortiguado**     | No puedes recuperar Resonancia por ningún medio; predomina incluso sobre la recuperación de un Pulso. |
