@@ -15,7 +15,7 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia, impacte o falle                                            |
 | **Cambiar forma**  | 1 PA  | Cambia el modo de Pulso actual del Instrumento Vital y pierdes toda tu Resonancia acumulada                    |
 | **Meditar**        | 2 PA  | Recupera 1d4 de Resonancia sin atacar                                                                          |
-| **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
+| **Resintonía**     | 1 PA  | Resintoniza a un aliado caído en una casilla adyacente, consumiendo Resonancia restante y 1 Resintonización de la bolsa común |
 | **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
 | **Acompañamiento** | 1 PA  | Otorgas ventaja de un dado a un aliado                                                                         |
 | **On Garde**       | 2 PA  | En la siguiente ronda, si tu Silencio cubre todo el daño entrante de un ataque, devuelve todo el daño como daño verdadero |

@@ -286,10 +286,9 @@ Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Lo
 Mucho de los recursos de un Cantor, están ligados al atributo más fuerte de su Instrumento Vital, en que caso de que cambiaran, de manera permanente, habría que recalcularlos, sin embargo si estos cambian de manera temporal en el transcurso de un enfrentamiento, no hace falta.
 
 ### 2.3.1 Vitalidad
-La Vitalidad es lo que permite a un Cantor seguir adelante, una vez el Cantor llega a 0 de Vitalidad pueden ocurrir dos cosas:
-- Si el Cantor se encontraba en forma animal: vuelve a su forma original con 1 punto de vitalidad
-- Si el Cantor se encontraba en su forma original: queda inconsciente
-- Si el Cantor queda inconsciente en su forma original y recibe la mitad de daño de su Vitalidad máxima en forma animal, muere.
+La Vitalidad es lo que permite a un Cantor seguir adelante. Cuando un Cantor llega a 0 de Vitalidad, abandona su forma cantora y vuelve a su raza base, quedando inconsciente en la casilla donde cayó.
+
+La supervivencia del Cantor caído, su posible recuperación y la derrota del combate se gestionan mediante la regla de [[Resintonía]].
 
 Los cantores comienzan con diferente Vitalidad dependiendo del atributo más fuerte de su Instrumento Vital:
 
@@ -638,7 +637,7 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | **Pulso**          | 1 PA  | Inflige daño a un objetivo y recupera 1 Resonancia, impacte o falle                                            |
 | **Cambiar forma**  | 1 PA  | Cambia el modo de Pulso actual del Instrumento Vital y pierdes toda tu Resonancia acumulada                    |
 | **Meditar**        | 2 PA  | Recupera 1d4 de Resonancia sin atacar                                                                          |
-| **Resintonía**     | 2 PA  | Ayuda a un aliado a recuperar su forma de Cantor                                                               |
+| **Resintonía**     | 1 PA  | Resintoniza a un aliado caído en una casilla adyacente, consumiendo Resonancia restante y 1 Resintonización de la bolsa común |
 | **Defenderse**     | 2 PA  | Obtienes el doble de dados de Silencio durante la siguiente ronda                                              |
 | **Acompañamiento** | 1 PA  | Otorgas ventaja de un dado a un aliado                                                                         |
 | **On Garde**       | 2 PA  | En la siguiente ronda, si tu Silencio cubre todo el daño entrante de un ataque, devuelve todo el daño como daño verdadero |
@@ -651,19 +650,58 @@ En su turno, cada Cantor tiene **3 Puntos de Acción (PA)**, los cuales puede ga
 | **Movimiento**     | 1 PA  | Desplázate hasta el máximo de tu movimiento base                                                               |
 
 ### 3.2.1 Resintonía
-Cuando un Cantor llega 0 puntos de Vitalidad vuelve a su forma orignal abandonando su forma Animal. 
 
-Para volver a su forma Animal necesitará 10 minutos de concentración, o en su defecto, un compañero puede ayudar a un Cantor a volver a su forma Animal potenciando la melodía oculta en Sonos con su Instrumento Vital.
+Cuando un Cantor llega a 0 puntos de Vitalidad, abandona su forma cantora y vuelve a su raza base, quedando inconsciente en la casilla donde cayó.
 
-Existen dos procedimientos:
+La Resintonía es el sistema arcade de Sonos para gestionar la caída de los Cantores durante el combate. La party dispone de una bolsa común de Resintonizaciones, determinada por el modo de juego.
 
-#### Resintonía Simple
-El Cantor ayudante simplemente gasta su turno en Resintonizar a un Cantor aliado, el Cantor aliado vuelve a su forma animal con 1d4 de Vitalidad.
+#### Bolsa de Resintonizaciones
 
-#### Resintonía Interactiva
-El DM otorgará al Cantor que esté ejecutando la acción Resintonía una serie de notas que tendrá que hacer sonar con un instrumento de su elección.
+Las Resintonizaciones pertenecen al grupo, no a personajes individuales. Si la bolsa común tiene varias Resintonizaciones disponibles, un mismo Cantor puede ser resintonizado varias veces usando esa misma reserva compartida.
 
-Por cada nota que el Cantor caído sea capaz de reconocer, recupera 1d6 de Vitalidad. Por cada nota que el Cantor caído no pueda reconocer, el Cantor ayudante perderá 1 de Resonancia hasta llegar a 0.
+La cantidad inicial depende del modo de juego:
+
+| Modo | Resintonizaciones disponibles |
+|------|--------------------------------|
+| **Fácil** | Igual a la cantidad de jugadores |
+| **Normal** | Igual a la mitad de la cantidad de jugadores; el DM y el grupo deciden si redondean hacia arriba o hacia abajo |
+| **Difícil** | Igual que Normal, y además los Cantores inconscientes en raza base pueden morir si reciben golpes |
+| **Extra difícil** | Igual que Difícil, pero los golpes recibidos en raza base no se limpian al ser Resintonizado |
+
+#### Cantor caído en raza base
+
+Un Cantor caído en raza base queda inconsciente y no puede moverse ni actuar.
+
+En modo Fácil y Normal, el Cantor caído permanece inconsciente mientras no sea resintonizado.
+
+En modo Difícil y Extra difícil, un Cantor inconsciente en raza base puede recibir golpes. Si recibe 3 golpes de fuentes distintas, muere y el combate se pierde.
+
+Un golpe cuenta aunque el daño final sea 0. Una misma fuente solo puede aportar 1 golpe al contador, aunque genere varios impactos. Por ejemplo, si un único hechizo dispara 3 misiles contra el Cantor caído, cuenta como 1 golpe.
+
+En modo Difícil, el contador de golpes recibidos en raza base se limpia cuando el Cantor es resintonizado.
+
+En modo Extra difícil, el contador de golpes recibidos en raza base no se limpia al ser resintonizado. Si el Cantor vuelve a caer más adelante, conserva los golpes acumulados previamente.
+
+#### Acción: Resintonizar
+
+Un Cantor puede Resintonizar a un aliado caído si está en una casilla adyacente a él.
+
+Para hacerlo, el Cantor que Resintoniza debe:
+
+- gastar 1 PA;
+- gastar toda su Resonancia restante, incluso si su Resonancia restante es 0;
+- consumir 1 Resintonización de la bolsa común.
+
+El Cantor resintonizado:
+
+- recupera la consciencia;
+- recupera su forma cantora;
+- vuelve con la mitad de su Vitalidad máxima;
+- conserva la Resonancia que tenía antes de llegar a 0 Vitalidad.
+
+#### Derrota por falta de Resintonizaciones
+
+Si la bolsa común no tiene Resintonizaciones disponibles, el siguiente Cantor que caiga a 0 Vitalidad muere y el combate se pierde.
 
 ## 3.3 Movimiento
 El movimiento durante un combate en Sonos cuesta **1 PA** y permite desplazarse hasta el máximo del movimiento base del Cantor (normalmente 5 casillas), salvo que algún efecto indique lo contrario.

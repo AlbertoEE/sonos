@@ -92,13 +92,13 @@ Escalada de combate que afecta a todos.
 |---------|--------|---|---|
 | **Vitalidad** | 100% | Según atributo dominante | Auralium (50%) |
 | **Silencio** | Dinámico | Dado cada turno | Crítico = bloqueo total |
-| **Resonancia** | 50% del máximo | 4-6 según atributo | Pulso, Crítico, Ejecutar |
+| **Resonancia** | 50% del máximo | 4-6 según atributo | Pulso, Crítico, Ejecutar, Meditar |
 | **Auralium** | 3 cargas | 3 cargas | Descanso |
 
 ### Puntos de Acción (PA)
 Tienes **3 PA por turno** para:
-- 1 PA: Pulso, Movimiento, Acompañamiento, Rudimento, Consumible
-- 2 PA: Defenderse, Resintonía, On Garde, Súplica, Afinar
+- 1 PA: Pulso, Movimiento, Acompañamiento, Rudimento, Consumible, Resintonía
+- 2 PA: Defenderse, On Garde, Súplica, Afinar, Meditar
 
 ---
 
@@ -114,7 +114,7 @@ Tienes **3 PA por turno** para:
 - Memoriza tu tabla de "Atributos" para calcular daño rápido
 
 ✅ **Durante Combate:**
-- Turno típico: Pulso (1 PA) + Movimiento (1 PA) + Acción defensiva (2 PA)
+- Turno típico: Pulso (1 PA) + Movimiento (1 PA) + Acompañamiento/Rudimento/Resintonía si aplica (1 PA), o Pulso (1 PA) + acción de 2 PA
 - Apunta tu Tensión en papel
 - Coordina con tu equipo
 
@@ -143,5 +143,5 @@ Tienes **3 PA por turno** para:
 
 ---
 
-**Last Updated:** Febrero 2026
+**Last Updated:** Mayo 2026
 

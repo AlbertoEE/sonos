@@ -116,9 +116,10 @@ El máximo **no aumenta con mejoras directas**, pero:
 
 | Efecto | Recuperación |
 |--------|---|
-| Nuevo Pulso | +1 Resonancia |
+| Cualquier Pulso, impacte o falle | +1 Resonancia |
 | Crítico en Silencio | +1 Resonancia |
 | Ejecutar enemigo | +1 Resonancia |
+| Meditar (2 PA) | +1d4 Resonancia |
 
 ---
 

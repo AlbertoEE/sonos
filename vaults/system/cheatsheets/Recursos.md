@@ -16,9 +16,11 @@ Determina **cuánto daño puedes recibir** antes de caer.
 | **Tempo** | 16 | +5 |
 
 ### A 0 de Vitalidad
-- **Forma animal:** Retornas a forma original con 1 PV
-- **Forma original:** Quedas inconsciente
-- **Inconsciente + Daño = 50% Vitalidad máxima:** Mueres
+- Abandonas tu **forma cantora**, vuelves a tu **raza base** y quedas **inconsciente** en tu casilla.
+- La recuperación depende de la **bolsa común de Resintonizaciones** del grupo.
+- **Resintonizar:** un aliado adyacente gasta 1 PA, toda su Resonancia restante y 1 Resintonización común. Vuelves con 50% de Vitalidad máxima y la Resonancia que tenías antes de caer.
+- Si no quedan Resintonizaciones, la siguiente caída a 0 PV provoca muerte y derrota del combate.
+- En Difícil/Extra difícil, 3 golpes de fuentes distintas sobre un Cantor caído provocan muerte y derrota.
 
 ---
 
@@ -66,10 +68,10 @@ Recurso para **ejecutar rudimentos**. Comienza el combate con LA MITAD de máxim
 
 | Acción | Recuperación |
 |--------|--------------|
-| Primer Pulso de tu turno | +1 |
-| Pulso posterior que inflige daño | +1 |
+| Cualquier Pulso, impacte o falle | +1 |
 | Crítico en Silencio | +1 |
 | Ejecutar a un enemigo | +1 |
+| Meditar (2 PA) | +1d4 |
 
 ### Efectos de Tensión
 Ver [[Tensión]] para efectos adicionales sobre Resonancia.
@@ -84,7 +86,7 @@ Recurso para **regenerar Vitalidad** rápidamente en combate.
 |---|---|
 | **Cargas iniciales** | 3 |
 | **Máximo** | 3 |
-| **PV recuperados** | 50% de Vitalidad máxima (forma animal) |
+| **PV recuperados** | 50% de Vitalidad máxima |
 | **Costo en combate** | 2 PA (Acción "Súplica") |
 | **Recarga** | Descanso completo o "Nana de la Súplica" |
 

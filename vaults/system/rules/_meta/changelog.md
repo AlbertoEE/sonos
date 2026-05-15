@@ -1,5 +1,12 @@
 # Sonos Rules Changelog
 
+## Alpha 0.3.0 — 2026-05-15
+
+- Replaced the old Resintonía procedure with the new Caída y Resintonía subsystem.
+- Added Fácil, Normal, Difícil and Extra difícil Resintonía modes.
+- Defined the common Resintonization pool, the 1 PA adjacent Resintonizar action, and defeat conditions when the pool runs out.
+- Defined the 3-hit death risk for fallen Cantores in Difícil and Extra difícil.
+
 ## Alpha 0.2.5 — 2026-05-15
 
 - Clarified that Pulso recovers 1 Resonance whether it hits or misses.

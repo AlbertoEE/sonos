@@ -5,10 +5,10 @@
 | Acción | Coste | Qué Hace |
 |--------|-------|----------|
 | **Pulso** | 1 PA | Inflige daño + Recupera 1 Resonancia (siempre) |
-| **Meditar** | 2 PA | Recupera 1dAT de Resonancia sin atacar |
+| **Meditar** | 2 PA | Recupera 1d4 de Resonancia sin atacar |
 | **Defenderse** | 2 PA | Duplica Silencio en la siguiente ronda |
 | **On Garde** | 2 PA | Si Silencio cubre todo el daño, devuelve todo como daño verdadero |
-| **Resintonía** | 2 PA | Ayuda a un aliado a recuperar forma de Cantor |
+| **Resintonía** | 1 PA | Resintoniza a un aliado caído adyacente |
 | **Acompañamiento** | 1 PA | Ventaja de un dado a un aliado |
 | **Rudimento** | 1 PA | Usa un rudimento (cuesta Resonancia) |
 | **Súplica** | 2 PA | Usa Auralium para recuperar mitad de Vitalidad |
@@ -42,10 +42,13 @@
 
 ## Situaciones Especiales
 
-### Vitalidad a 0
-- **Forma animal → Forma original:** Retorna con 1 PV
-- **Forma original:** Inconsciente
-- **Inconsciente + Daño = Mitad Vitalidad máxima → Muere**
+### Vitalidad a 0 / Resintonía
+- Al llegar a **0 PV**, el Cantor abandona su forma cantora, vuelve a su **raza base** y queda **inconsciente** en su casilla.
+- **Bolsa común de Resintonizaciones:** Fácil = nº jugadores; Normal = mitad de jugadores, con redondeo decidido por DM + grupo; Difícil = Normal + riesgo de muerte por golpes; Extra difícil = Difícil + los golpes no se limpian.
+- **Resintonizar:** 1 PA, casilla adyacente, gastas toda tu Resonancia restante y consumes 1 Resintonización común.
+- El aliado vuelve a forma cantora con **50% de Vitalidad máxima** y conserva la Resonancia que tenía antes de caer.
+- **Sin Resintonizaciones:** la siguiente caída a 0 PV provoca muerte y derrota del combate.
+- **Difícil / Extra difícil:** 3 golpes de fuentes distintas sobre un Cantor caído provocan muerte y derrota. Cuentan aunque hagan 0 daño; una fuente multiimpacto cuenta como 1 golpe. En Difícil el contador se limpia al Resintonizar; en Extra difícil no.
 
 ### Silencio Crítico (Éxito)
 - **Bloqueo total** del daño entrante
