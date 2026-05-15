@@ -1,5 +1,13 @@
 # Sonos Rules Changelog
 
+## Alpha 0.5.0 — 2026-05-15
+
+- Added Gem Slots as Instrumento Vital improvements, up to 3 total slots.
+- Set each Gem Slot cost at 7 Auralita Refinada using the normal Luthiering improvement roll.
+- Defined gems as physical craftable objects requiring a jeweler, recipe, and materials.
+- Clarified that gems can be inserted, removed, or changed outside combat without roll or cost, but cannot be changed during combat.
+- Defined the limit of 3 equipped gems and no repeated gems in the same Instrumento Vital.
+
 ## Alpha 0.4.1 — 2026-05-15
 
 - Standardized initial Resonancia máxima at 4 for all Cantores.

@@ -3,7 +3,7 @@ title: "Mejoras del Instrumento Vital"
 rules_status: canonical
 source_section: "2.4.4 Mejoras del Instrumento Vital"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-14"
+last_reviewed: "2026-05-15"
 ---
 
 # Mejoras del Instrumento Vital
@@ -71,8 +71,20 @@ Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 | **Purificación de Desafinación**                      | **2 Auralita**  |
 | **+1 Resonancia (Hasta 4 veces)**                     | **10 Auralita** |
 | **+2 Vitalidad máxima**                               | **5 Auralita**  |
+| **+1 Hueco de Gema (hasta 3 veces)**                  | **7 Auralita**  |
 
 La mejora de **+2 Vitalidad máxima** puede comprarse cualquier número de veces.
+
+## Huecos de Gema
+Un Instrumento Vital puede mejorarse para obtener hasta **3 Huecos de Gema**. Cada Hueco de Gema cuesta **7 Auralita Refinada** y requiere la tirada normal de **Luthiering** para mejoras del Instrumento Vital.
+
+Las gemas son objetos físicos crafteables. Para crear una gema se necesita un **joyero**, la **receta** correspondiente y los **materiales** necesarios.
+
+Insertar, retirar o cambiar una gema en un Hueco de Gema no requiere tirada, coste ni procedimiento especial, pero no puede hacerse durante el combate.
+
+Un Instrumento Vital puede tener hasta **3 gemas equipadas** y no puede tener **gemas repetidas** al mismo tiempo.
+
+Cada gema tiene su propio efecto, normalmente **pasivo**, indicado en la descripción de la gema.
 
 ## Escalado de Dado de Instrumento y Silencio
 El Dado de Instrumento y el Silencio pueden mejorarse de manera individual y permanente mediante Auralita Refinada.
