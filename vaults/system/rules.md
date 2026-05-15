@@ -326,16 +326,7 @@ Normalmente los enemigos no podrán hacer uso del Silencio ya que es una carater
 ### 2.3.3 Resonancia
 La Resonancia es lo que le permite a un Cantor ejecutar sus Rudimentos. Todos los Rudimentos tienen un coste de Resonancia asociado.
 
-Todos los Cantores tienen el mismo dado de Resonancia 1d4 pero diferentes valores máximos
-
-| Atributo        | Valor máximo |
-|-----------------|--------------|
-| **Ritmo**       | 4            |
-| **Melodía**     | 6            |
-| **Armonía**     | 6            |
-| **Disonancia**  | 4            |
-| **Síncopa**     | 4            |
-| **Tempo**       | 6            |
+Todos los Cantores comienzan con una Resonancia máxima de 4.
 
 Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo.
 
@@ -582,18 +573,18 @@ Para relizar una mejora a un Instrumento vital se requerirá de una tirada de Ha
 #### Mejoras
 Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 
-| Mejora | Coste |
-|--------|--------|
-| **+1 Espacio de Rudimento** | **3 Auralita** |
-| **+1 Espacio de Rudimento adicional** | **5 Auralita** |
-| **+1 Espacio de Fundamento** | **4 Auralita** |
-| **+1 Espacio de Fundamento adicional** | **6 Auralita** |
-| **Evolución de Espacio de Rudimento** | **5 Auralita** |
-| **Evolución de Espacio de Fundamento** | **5 Auralita** |
+| Mejora                                                | Coste           |
+| ----------------------------------------------------- | --------------- |
+| **+1 Espacio de Rudimento**                           | **3 Auralita**  |
+| **+1 Espacio de Rudimento adicional**                 | **5 Auralita**  |
+| **+1 Espacio de Fundamento**                          | **4 Auralita**  |
+| **+1 Espacio de Fundamento adicional**                | **6 Auralita**  |
+| **Evolución de Espacio de Rudimento**                 | **5 Auralita**  |
+| **Evolución de Espacio de Fundamento**                | **5 Auralita**  |
 | **Despertar Armónico (Escalado  D en otro atributo)** | **10 Auralita** |
-| **Purificación de Desafinación** | **2 Auralita** |
-| **+1 Resonancia (Hasta 4 veces)** | **10 Auralita** |
-| **+2 Vitalidad máxima** | **5 Auralita** |
+| **Purificación de Desafinación**                      | **2 Auralita**  |
+| **+1 Resonancia (Hasta 4 veces)**                     | **10 Auralita** |
+| **+2 Vitalidad máxima**                               | **5 Auralita**  |
 
 La mejora de **+2 Vitalidad máxima** puede comprarse cualquier número de veces.
 

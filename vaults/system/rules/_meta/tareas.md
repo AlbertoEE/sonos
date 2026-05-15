@@ -93,7 +93,7 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Notas: modo Hardcore: si el personaje muere, muere definitivamente. Modo Arcade: si el grupo pierde una pelea, puede reiniciar el combate como en un videojuego. Diseñar variantes de dificultad Arcade: reinicio cuando muere cualquier jugador, modo fácil cuando mueren todos los jugadores, y modo con X muertes compartidas estilo Monster Hunter, consumibles por el mismo jugador o por distintos jugadores, tras las cuales se reinicia.  
   Origen: conversación 2026-05-15.
 
-- [ ] **RT-017 · Media:** Modificar las reglas para que la construcción de personajes sea totalmente flexible y la Resonancia máxima no dependa de atributos.  
+- [x] **RT-017 · Media:** Modificar las reglas para que la construcción de personajes sea totalmente flexible y la Resonancia máxima no dependa de atributos.  
   Módulos: [[character/resonancia.md]], [[character/atributos-de-un-cantor.md]], [[character/recursos-de-un-cantor.md]], [[instrument/mejoras-del-instrumento-vital.md]]  
   Notas: todos los personajes comienzan con 4 de Resonancia máxima; a partir de ahí, cada jugador invierte libremente donde quiera mediante la tabla de Auralita Refinada, sin que la Resonancia máxima esté ligada a un atributo.  
   Origen: conversación 2026-05-15.

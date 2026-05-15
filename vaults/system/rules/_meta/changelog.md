@@ -1,5 +1,11 @@
 # Sonos Rules Changelog
 
+## Alpha 0.4.1 — 2026-05-15
+
+- Standardized initial Resonancia máxima at 4 for all Cantores.
+- Removed attribute-based Resonancia maximums and the concept of each Cantor having a Resonance die.
+- Kept Meditar as a 1d4 Resonancia recovery action.
+
 ## Alpha 0.4.0 — 2026-05-15
 
 - Added permanent individual Auralita Refinada progression for Dado de Instrumento and Silencio.

@@ -9,16 +9,7 @@ last_reviewed: "2026-05-15"
 # Resonancia
 La Resonancia es lo que le permite a un Cantor ejecutar sus Rudimentos. Todos los Rudimentos tienen un coste de Resonancia asociado.
 
-Todos los Cantores tienen el mismo dado de Resonancia 1d4 pero diferentes valores máximos
-
-| Atributo        | Valor máximo |
-|-----------------|--------------|
-| **Ritmo**       | 4            |
-| **Melodía**     | 6            |
-| **Armonía**     | 6            |
-| **Disonancia**  | 4            |
-| **Síncopa**     | 4            |
-| **Tempo**       | 6            |
+Todos los Cantores comienzan con una Resonancia máxima de 4.
 
 Al empezar un Combate el Cantor tiene disponible la mitad de su valor máximo.
 
