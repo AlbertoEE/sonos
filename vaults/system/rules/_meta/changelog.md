@@ -1,5 +1,9 @@
 # Sonos Rules Changelog
 
+## Alpha 0.2.4 — 2026-05-15
+
+- Clarified that the default Pulso mode is chosen during character creation.
+
 ## Alpha 0.2.3 — 2026-05-14
 
 - Clarified default and current Pulso modes for Instrumentos Vitales.

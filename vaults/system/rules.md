@@ -404,7 +404,7 @@ El alcance se tiene en cuenta al calcular el daño:
 - Cualquier objetivo por debajo del alcance Óptimo recibirá la mitad de daño.
 - Cualquier objetivo por encima del alcance máximo recibirá la mitad de daño.
 
-Cada Cantor elige un modo de Pulso por defecto para su Instrumento Vital. Al invocar su Instrumento Vital, este aparece en su modo de Pulso por defecto.
+Cada Cantor elige un modo de Pulso por defecto para su Instrumento Vital durante la creación de personaje. Al invocar su Instrumento Vital, este aparece en su modo de Pulso por defecto.
 
 El modo de Pulso por defecto puede cambiarse de una de estas formas:
 - Gratis al final de una sesión.
