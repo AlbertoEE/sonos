@@ -11,13 +11,12 @@ La Vitalidad es lo que permite a un Cantor seguir adelante. Cuando un Cantor lle
 
 La supervivencia del Cantor caído, su posible recuperación y la derrota del combate se gestionan mediante la regla de [[Resintonía]].
 
-Los cantores comienzan con diferente Vitalidad dependiendo del atributo más fuerte de su Instrumento Vital:
+Los Cantores comienzan con **18 de Vitalidad máxima**.
 
-| Atributo        | Base | Progresión |
-|-----------------|------|------------|
-| **Ritmo**       | 21   | +10        |
-| **Melodía**     | 16   | +5         |
-| **Armonía**     | 16   | +5         |
-| **Disonancia**  | 18   | +7         |
-| **Síncopa**     | 18   | +7         |
-| **Tempo**       | 16   | +5         |
+La Vitalidad puede mejorarse de manera individual y permanente mediante Auralita Refinada.
+
+| Mejora | Coste |
+|--------|------:|
+| +2 Vitalidad máxima | 5 Auralita Refinada |
+
+Esta mejora puede comprarse cualquier número de veces.

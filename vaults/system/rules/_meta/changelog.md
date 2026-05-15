@@ -1,5 +1,13 @@
 # Sonos Rules Changelog
 
+## Alpha 0.4.0 — 2026-05-15
+
+- Added permanent individual Auralita Refinada progression for Dado de Instrumento and Silencio.
+- Standardized initial Dado de Instrumento and Silencio at rango C, equivalent to 1d8.
+- Replaced attribute-based initial Vitalidad with a fixed 18 Vitalidad máxima.
+- Added an indefinite +2 Vitalidad máxima improvement for 5 Auralita Refinada.
+- Clarified that Pulso ranges are unchanged by this progression.
+
 ## Alpha 0.3.0 — 2026-05-15
 
 - Replaced the old Resintonía procedure with the new Caída y Resintonía subsystem.

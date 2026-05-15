@@ -281,39 +281,39 @@ Un cantor tiene diferentes recursos que debe tener en cuenta en todo momento. Lo
 
 - Las mejoras "temporales" pueden venir de Rudimentos, Fundamentos o Partituras y normalemente tienen una duración limitad o se pierden al usarse.
 
-- Las mejoras "permanentes" siempre vienen de equipamiento. Puede que un recurso avance de diferente manera dependiendo de los atributos más fuertes del Instrumento Vital, por ejemplo, una pieza de armadura puede ofrecer +2 de Vitalidad que para un Cantor de Ritmo significará una mejora de 20 de Vitalidad, sin embargo, para un Cantor de Armonía implicará una mejora de 10 de vitalidad.
+- Las mejoras "permanentes" pueden venir de equipamiento o de mejoras del Instrumento Vital compradas con Auralita Refinada.
 
-Mucho de los recursos de un Cantor, están ligados al atributo más fuerte de su Instrumento Vital, en que caso de que cambiaran, de manera permanente, habría que recalcularlos, sin embargo si estos cambian de manera temporal en el transcurso de un enfrentamiento, no hace falta.
+La Vitalidad, el Silencio y el Dado de Instrumento tienen progresiones propias y no dependen del atributo más fuerte del Instrumento Vital.
 
 ### 2.3.1 Vitalidad
 La Vitalidad es lo que permite a un Cantor seguir adelante. Cuando un Cantor llega a 0 de Vitalidad, abandona su forma cantora y vuelve a su raza base, quedando inconsciente en la casilla donde cayó.
 
 La supervivencia del Cantor caído, su posible recuperación y la derrota del combate se gestionan mediante la regla de [[Resintonía]].
 
-Los cantores comienzan con diferente Vitalidad dependiendo del atributo más fuerte de su Instrumento Vital:
+Los Cantores comienzan con **18 de Vitalidad máxima**.
 
-| Atributo        | Base | Progresión |
-|-----------------|------|------------|
-| **Ritmo**       | 21   | +10        |
-| **Melodía**     | 16   | +5         |
-| **Armonía**     | 16   | +5         |
-| **Disonancia**  | 18   | +7         |
-| **Síncopa**     | 18   | +7         |
-| **Tempo**       | 16   | +5         |
+La Vitalidad puede mejorarse de manera individual y permanente mediante Auralita Refinada.
+
+| Mejora | Coste |
+|--------|------:|
+| +2 Vitalidad máxima | 5 Auralita Refinada |
+
+Esta mejora puede comprarse cualquier número de veces.
 
 ### 2.3.2 Silencio
 El Silencio es el recurso defensivo más importante de un Cantor. Cualquier daño que reciba un Cantor se verá reducido por su dado de Silencio.
 
-Los cantores comienzan con diferentes dados de silencio dependiendo del atributo más fuerte de su Instrumento Vital:
+Los Cantores comienzan con **rango C de Silencio**, equivalente a **1d8**.
 
-| Atributo        | Dado | Progresión |
-|-----------------|------|------------|
-| **Ritmo**       | 3d4  | +3         |
-| **Melodía**     | 1d10 | +1         |
-| **Armonía**     | 1d10 | +1         |
-| **Disonancia**  | 2d6  | +2         |
-| **Síncopa**     | 2d6  | +2         |
-| **Tempo**       | 1d10 | +1         |
+El Silencio puede mejorarse de manera individual y permanente mediante Auralita Refinada. Usa la misma escala de dados que el Dado de Instrumento.
+
+| Rango | Dado de Silencio |
+|:-----:|:----------------:|
+| D     | 1d6              |
+| C     | 1d8              |
+| B     | 1d10             |
+| A     | 1d12             |
+| S     | 2d8              |
 
 #### Resultados de Silencio
 - **Chirrido**: Al obtener una pifia en la tirada de Silencio el daño entrante se considera daño verdadero.
@@ -390,7 +390,17 @@ El Instrumento Vital es nuestra arma principal a la hora de enfrentarnos a desaf
 
 Hablando especificamente de combate, nuestro IV puede ejecutar 3 tipos de magias que nos servirán para enfrentarnos a enemigos. Independientemente de los tipos de daños concretos un Instrumento siempre tendrá asociado un dado de daño al que llamaremos DI (Dado de Instrumento).
 
-Un Instrumento Vital en su forma más básica tendrá 1d8 de DI.
+Un Instrumento Vital en su forma estándar inicial tendrá **rango C de DI**, equivalente a **1d8**.
+
+El DI puede mejorarse de manera individual y permanente mediante Auralita Refinada.
+
+| Rango | Dado de Instrumento |
+|:-----:|:-------------------:|
+| D     | 1d6                 |
+| C     | 1d8                 |
+| B     | 1d10                |
+| A     | 1d12                |
+| S     | 2d8                 |
 
 #### A) Pulsos
 Un Pulso es la forma más básica que tiene nuestro IV de inflingir daño a un enemigo. El daño de nuestro Pulso está determinado por el Dado de Instrumento + Atributo Total.
@@ -546,16 +556,16 @@ Si el DM quiere dar Auralita Refinada extra, puede hacerlo al final de la sesió
 #### Costes de referencia de progreso
 Estos costes sirven como objetivos para que el DM use la fórmula anterior y calcule cuánta Auralita Refinada entregar por sesión.
 
-Los costes asumen un Instrumento Vital inicial con **un atributo en C**, no incluyen compra de cartas, no incluyen Purificación de Desafinación y toman como referencia el coste base de las mejoras antes de posibles recuperaciones de Auralita o fallos.
+Los costes asumen un Instrumento Vital inicial con **un atributo en C**, no incluyen compra de cartas, no incluyen Purificación de Desafinación, no incluyen mejoras de Dado de Instrumento, Silencio ni Vitalidad, y toman como referencia el coste base de las mejoras antes de posibles recuperaciones de Auralita o fallos.
 
 | Objetivo de progreso | Cálculo | Coste objetivo | A 5 Auralita por sesión |
 |---|---|---:|---:|
 | **Desarrollo natural completo** | 68 en mejoras base y Resonancia + 26 para subir el atributo inicial de C a S + 10 de Despertar Armónico + 30 para subir el nuevo atributo de D a S | **134 Auralita** | **~27 sesiones** |
 | **Instrumento extremo mediante corrupción** | 134 del desarrollo natural + 4 × (20 por repetir Despertar Armónico como Mejora Corrupta + 30 para subir ese atributo de D a S) | **334+ Auralita** | **~67+ sesiones** |
 
-El desarrollo natural completo representa el límite ordinario del Instrumento Vital según la tabla de mejoras. El Instrumento extremo mediante corrupción representa una referencia para llevar los 6 atributos del Instrumento Vital hasta S usando Mejoras Corruptas.
+El desarrollo natural completo representa una referencia para las mejoras base no repetibles del Instrumento Vital. El Instrumento extremo mediante corrupción representa una referencia para llevar los 6 atributos del Instrumento Vital hasta S usando Mejoras Corruptas.
 
-El símbolo **+** indica que el coste real puede aumentar por fallos, Desafinación, Purificación de Desafinación u otros costes derivados de forzar mejoras prohibidas. Si el DM permite seguir repitiendo mejoras corruptas más allá de este punto, no existe un máximo absoluto cerrado.
+El símbolo **+** indica que el coste real puede aumentar por fallos, Desafinación, Purificación de Desafinación, mejoras repetibles de Vitalidad u otros costes derivados de forzar mejoras prohibidas. No existe un máximo absoluto cerrado para las inversiones repetibles.
 
 #### Luthiering para mejoras
 Para mejorar el Instrumento Vital será necesario disponer de la Auralita Refinada necesaria además de un aliado PC/NPC que cuente con la habilidad "Luthiering".
@@ -583,6 +593,31 @@ Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 | **Despertar Armónico (Escalado  D en otro atributo)** | **10 Auralita** |
 | **Purificación de Desafinación** | **2 Auralita** |
 | **+1 Resonancia (Hasta 4 veces)** | **10 Auralita** |
+| **+2 Vitalidad máxima** | **5 Auralita** |
+
+La mejora de **+2 Vitalidad máxima** puede comprarse cualquier número de veces.
+
+#### Escalado de Dado de Instrumento y Silencio
+El Dado de Instrumento y el Silencio pueden mejorarse de manera individual y permanente mediante Auralita Refinada.
+
+Ambas progresiones se compran por separado. Mejorar el Dado de Instrumento no mejora el Silencio, y mejorar el Silencio no mejora el Dado de Instrumento.
+
+| Ruta  | Coste |
+|:-----:|:-----:|
+| D → C | 8     |
+| C → B | 12    |
+| B → A | 18    |
+| A → S | 26    |
+
+| Rango | Dado |
+|:-----:|:----:|
+| D     | 1d6  |
+| C     | 1d8  |
+| B     | 1d10 |
+| A     | 1d12 |
+| S     | 2d8  |
+
+Un Cantor comienza normalmente con **rango C** en Dado de Instrumento y **rango C** en Silencio.
 
 #### Escalado  de Atributos de Instrumento Vital
 Los Cantores también pueden usar la Auralita Refinada con el fin de mejorar los atributos de los Instrumentos Vitales para hacer de sus Rudimentos y Fundamentos habilidades más efectivas.

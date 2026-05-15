@@ -57,10 +57,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Origen: conversación 2026-05-14.  
   Resuelta: 2026-05-14. Patch: [[../../rules-patches/2026-05-14-alpha-0.2.0-obtencion-de-cartas.md]].
 
-- [ ] **RT-007 · Media:** Brainstormear e incluir en las reglas una forma de mejorar el Dado de Instrumento y los rangos/distancias de Pulsos de un Instrumento Vital.  
-  Módulos: [[instrument/dano-de-un-instrumento-vital.md]], [[instrument/pulsos.md]], [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/instrumento-vital.md]]  
-  Notas: explorar si la mejora ocurre mediante prestigios, add-ons/modificaciones del Instrumento Vital, cambio a un Instrumento Vital superior u otro sistema equivalente.  
-  Origen: conversación 2026-05-14.
+- [x] **RT-007 · Media:** Brainstormear e incluir en las reglas una forma de mejorar el Dado de Instrumento y los rangos/distancias de Pulsos de un Instrumento Vital.  
+  Módulos: [[instrument/dano-de-un-instrumento-vital.md]], [[character/silencio.md]], [[character/vitalidad.md]], [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/instrumento-vital.md]]  
+  Notas: resuelto como progresión individual y permanente de Dado de Instrumento, Silencio y Vitalidad mediante Auralita Refinada; los Pulsos no cambian.  
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.4.0-progresion-di-silencio-vitalidad.md]].
 
 - [ ] **RT-008 · Media:** Diseñar cómo funciona la ventaja y la doble ventaja en combate cuando no hay tiers de resultado.  
   Módulos: [[core/checks-de-habilidades-en-rol.md]], [[combat/acciones-por-turno.md]], [[combat/estados-positivos.md]], [[combat/estados-negativos.md]], [[character/silencio.md]], [[instrument/dano-de-un-instrumento-vital.md]]  
@@ -76,6 +77,36 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Módulos: [[instrument/fundamentos.md]], [[instrument/rudimentos.md]], [[instrument/dano-de-un-instrumento-vital.md]], [[character/atributos-de-un-cantor.md]], [[core/checks-de-habilidades-en-rol.md]]  
   Notas: definir hechizos no centrados en combate que puedan usar DI o AT para determinar potencia, alcance, duración o calidad del efecto; establecer tipos de Partituras, costes, límites de uso, relación con Fundamentos/Rudimentos y ejemplos de efectos útiles en exploración, social e investigación.  
   Origen: conversación 2026-05-14.
+
+- [ ] **RT-012 · Media:** Revisar cómo funciona la muerte de un Cantor durante combate y diseñar el sistema de revivir.  
+  Módulos: [[character/silencio.md]], [[character/recursos-de-un-cantor.md]], [[combat/combate.md]], [[combat/acciones-por-turno.md]], [[combat/estados.md]]  
+  Notas: definir cuándo un Cantor queda fuera de combate o muere, qué ocurre durante sus turnos, qué ventanas tienen los aliados para intervenir, costes/requisitos para revivir y consecuencias mecánicas o narrativas tras volver.  
+  Origen: conversación 2026-05-14.
+
+- [ ] **RT-014 · Media:** Añadir a la tabla de mejoras con Auralita Refinada el concepto de huecos de gemas para el Instrumento Vital.  
+  Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/instrumento-vital.md]]  
+  Notas: definir cómo se desbloquean hasta 3 huecos de gemas y cómo las gemas otorgan pequeñas mejoras al Instrumento Vital.  
+  Origen: conversación 2026-05-15.
+
+- [ ] **RT-016 · Media:** Preparar dos modos de juego para la gestión de muerte y derrota: Hardcore y Arcade.  
+  Módulos: [[character/silencio.md]], [[character/recursos-de-un-cantor.md]], [[combat/combate.md]], [[combat/acciones-por-turno.md]], [[combat/estados.md]]  
+  Notas: modo Hardcore: si el personaje muere, muere definitivamente. Modo Arcade: si el grupo pierde una pelea, puede reiniciar el combate como en un videojuego. Diseñar variantes de dificultad Arcade: reinicio cuando muere cualquier jugador, modo fácil cuando mueren todos los jugadores, y modo con X muertes compartidas estilo Monster Hunter, consumibles por el mismo jugador o por distintos jugadores, tras las cuales se reinicia.  
+  Origen: conversación 2026-05-15.
+
+- [ ] **RT-017 · Media:** Modificar las reglas para que la construcción de personajes sea totalmente flexible y la Resonancia máxima no dependa de atributos.  
+  Módulos: [[character/resonancia.md]], [[character/atributos-de-un-cantor.md]], [[character/recursos-de-un-cantor.md]], [[instrument/mejoras-del-instrumento-vital.md]]  
+  Notas: todos los personajes comienzan con 4 de Resonancia máxima; a partir de ahí, cada jugador invierte libremente donde quiera mediante la tabla de Auralita Refinada, sin que la Resonancia máxima esté ligada a un atributo.  
+  Origen: conversación 2026-05-15.
+
+- [ ] **RT-018 · Media:** Diseñar opciones para que los jugadores puedan reinvertir su Auralita Refinada mediante un reset de build.  
+  Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[character/auralium.md]], [[character/recursos-de-un-cantor.md]], [[combat/combate.md]]  
+  Notas: permitir recuperar toda la Auralita Refinada invertida y volver a asignarla. Al comenzar una campaña, DM y jugadores deberían acordar una opción: reset pagando X de Auralita Refinada, reset libre al final de sesión, sin reset, o reset permitido en modo Arcade al perder una batalla, entre otras posibles variantes.  
+  Origen: conversación 2026-05-15.
+
+- [ ] **RT-019 · Media:** Aclarar que en modo Arcade, al perder una batalla, los jugadores pueden invertir la Auralita Refinada acumulada antes de repetir el combate.  
+  Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[character/auralium.md]], [[combat/combate.md]]  
+  Notas: permitir mejorar el Instrumento Vital con Auralita Refinada acumulada tras una derrota en modo Arcade, sin tener que esperar al final de la sesión o al inicio de la siguiente.  
+  Origen: conversación 2026-05-15.
 
 ## Clarificaciones pendientes
 
@@ -98,9 +129,17 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Origen: conversación 2026-05-14.  
   Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.2.5-resonancia-pulso-meditar.md]].
 
+- [ ] **RT-013 · Media:** Revisar la mecánica de Tensión.  
+  Módulos: [[combat/tension.md]], [[combat/subidas-de-tension.md]], [[combat/bajada-de-tension.md]], [[combat/efectos-de-la-tension.md]], [[combat/acciones-por-turno.md]]  
+  Notas: evaluar si la subida, bajada, efectos por umbral y acciones relacionadas con Tensión funcionan bien en mesa y están balanceadas.  
+  Origen: conversación 2026-05-15.
+
 ## Publicación / documentación
 
-_Empty._
+- [ ] **RT-015 · Media:** Aclarar en la documentación que en Sonos no hay niveles de personaje.  
+  Módulos: [[character/perks.md]], [[character/progresion-de-habilidades.md]], [[instrument/mejoras-del-instrumento-vital.md]], [[character/vitalidad.md]], [[character/silencio.md]], [[character/resonancia.md]], [[instrument/dano-de-un-instrumento-vital.md]], [[instrument/obtencion-de-cartas.md]]  
+  Notas: explicar que al final de cada sesión se invierte en construir el personaje mediante mejoras como Vida, Silencio, Resonancia, DI, capacidad de cartas u otros elementos de build.  
+  Origen: conversación 2026-05-15.
 
 ## Completadas
 

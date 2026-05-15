@@ -33,16 +33,16 @@ Si el DM quiere dar Auralita Refinada extra, puede hacerlo al final de la sesió
 ## Costes de referencia de progreso
 Estos costes sirven como objetivos para que el DM use la fórmula anterior y calcule cuánta Auralita Refinada entregar por sesión.
 
-Los costes asumen un Instrumento Vital inicial con **un atributo en C**, no incluyen compra de cartas, no incluyen Purificación de Desafinación y toman como referencia el coste base de las mejoras antes de posibles recuperaciones de Auralita o fallos.
+Los costes asumen un Instrumento Vital inicial con **un atributo en C**, no incluyen compra de cartas, no incluyen Purificación de Desafinación, no incluyen mejoras de Dado de Instrumento, Silencio ni Vitalidad, y toman como referencia el coste base de las mejoras antes de posibles recuperaciones de Auralita o fallos.
 
 | Objetivo de progreso | Cálculo | Coste objetivo | A 5 Auralita por sesión |
 |---|---|---:|---:|
 | **Desarrollo natural completo** | 68 en mejoras base y Resonancia + 26 para subir el atributo inicial de C a S + 10 de Despertar Armónico + 30 para subir el nuevo atributo de D a S | **134 Auralita** | **~27 sesiones** |
 | **Instrumento extremo mediante corrupción** | 134 del desarrollo natural + 4 × (20 por repetir Despertar Armónico como Mejora Corrupta + 30 para subir ese atributo de D a S) | **334+ Auralita** | **~67+ sesiones** |
 
-El desarrollo natural completo representa el límite ordinario del Instrumento Vital según la tabla de mejoras. El Instrumento extremo mediante corrupción representa una referencia para llevar los 6 atributos del Instrumento Vital hasta S usando Mejoras Corruptas.
+El desarrollo natural completo representa una referencia para las mejoras base no repetibles del Instrumento Vital. El Instrumento extremo mediante corrupción representa una referencia para llevar los 6 atributos del Instrumento Vital hasta S usando Mejoras Corruptas.
 
-El símbolo **+** indica que el coste real puede aumentar por fallos, Desafinación, Purificación de Desafinación u otros costes derivados de forzar mejoras prohibidas. Si el DM permite seguir repitiendo mejoras corruptas más allá de este punto, no existe un máximo absoluto cerrado.
+El símbolo **+** indica que el coste real puede aumentar por fallos, Desafinación, Purificación de Desafinación, mejoras repetibles de Vitalidad u otros costes derivados de forzar mejoras prohibidas. No existe un máximo absoluto cerrado para las inversiones repetibles.
 
 ## Luthiering para mejoras
 Para mejorar el Instrumento Vital será necesario disponer de la Auralita Refinada necesaria además de un aliado PC/NPC que cuente con la habilidad "Luthiering".
@@ -59,17 +59,42 @@ Para relizar una mejora a un Instrumento vital se requerirá de una tirada de Ha
 ## Mejoras
 Cada mejora solo puede comprarse **una vez**, salvo que se indique lo contrario.
 
-| Mejora | Coste |
-|--------|--------|
-| **+1 Espacio de Rudimento** | **3 Auralita** |
-| **+1 Espacio de Rudimento adicional** | **5 Auralita** |
-| **+1 Espacio de Fundamento** | **4 Auralita** |
-| **+1 Espacio de Fundamento adicional** | **6 Auralita** |
-| **Evolución de Espacio de Rudimento** | **5 Auralita** |
-| **Evolución de Espacio de Fundamento** | **5 Auralita** |
+| Mejora                                                | Coste           |
+| ----------------------------------------------------- | --------------- |
+| **+1 Espacio de Rudimento**                           | **3 Auralita**  |
+| **+1 Espacio de Rudimento adicional**                 | **5 Auralita**  |
+| **+1 Espacio de Fundamento**                          | **4 Auralita**  |
+| **+1 Espacio de Fundamento adicional**                | **6 Auralita**  |
+| **Evolución de Espacio de Rudimento**                 | **5 Auralita**  |
+| **Evolución de Espacio de Fundamento**                | **5 Auralita**  |
 | **Despertar Armónico (Escalado  D en otro atributo)** | **10 Auralita** |
-| **Purificación de Desafinación** | **2 Auralita** |
-| **+1 Resonancia (Hasta 4 veces)** | **10 Auralita** |
+| **Purificación de Desafinación**                      | **2 Auralita**  |
+| **+1 Resonancia (Hasta 4 veces)**                     | **10 Auralita** |
+| **+2 Vitalidad máxima**                               | **5 Auralita**  |
+
+La mejora de **+2 Vitalidad máxima** puede comprarse cualquier número de veces.
+
+## Escalado de Dado de Instrumento y Silencio
+El Dado de Instrumento y el Silencio pueden mejorarse de manera individual y permanente mediante Auralita Refinada.
+
+Ambas progresiones se compran por separado. Mejorar el Dado de Instrumento no mejora el Silencio, y mejorar el Silencio no mejora el Dado de Instrumento.
+
+| Ruta  | Coste |
+|:-----:|:-----:|
+| D → C | 8     |
+| C → B | 12    |
+| B → A | 18    |
+| A → S | 26    |
+
+| Rango | Dado |
+|:-----:|:----:|
+| D     | 1d6  |
+| C     | 1d8  |
+| B     | 1d10 |
+| A     | 1d12 |
+| S     | 2d8  |
+
+Un Cantor comienza normalmente con **rango C** en Dado de Instrumento y **rango C** en Silencio.
 
 ## Escalado  de Atributos de Instrumento Vital
 Los Cantores también pueden usar la Auralita Refinada con el fin de mejorar los atributos de los Instrumentos Vitales para hacer de sus Rudimentos y Fundamentos habilidades más efectivas.

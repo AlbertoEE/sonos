@@ -3,22 +3,23 @@ title: "Silencio"
 rules_status: canonical
 source_section: "2.3.2 Silencio"
 version_introduced: "Alpha 0.1.0"
-last_reviewed: "2026-05-10"
+last_reviewed: "2026-05-15"
 ---
 
 # Silencio
 El Silencio es el recurso defensivo más importante de un Cantor. Cualquier daño que reciba un Cantor se verá reducido por su dado de Silencio.
 
-Los cantores comienzan con diferentes dados de silencio dependiendo del atributo más fuerte de su Instrumento Vital:
+Los Cantores comienzan con **rango C de Silencio**, equivalente a **1d8**.
 
-| Atributo        | Dado | Progresión |
-|-----------------|------|------------|
-| **Ritmo**       | 3d4  | +3         |
-| **Melodía**     | 1d10 | +1         |
-| **Armonía**     | 1d10 | +1         |
-| **Disonancia**  | 2d6  | +2         |
-| **Síncopa**     | 2d6  | +2         |
-| **Tempo**       | 1d10 | +1         |
+El Silencio puede mejorarse de manera individual y permanente mediante Auralita Refinada. Usa la misma escala de dados que el Dado de Instrumento.
+
+| Rango | Dado de Silencio |
+|:-----:|:----------------:|
+| D     | 1d6              |
+| C     | 1d8              |
+| B     | 1d10             |
+| A     | 1d12             |
+| S     | 2d8              |
 
 ## Resultados de Silencio
 - **Chirrido**: Al obtener una pifia en la tirada de Silencio el daño entrante se considera daño verdadero.
