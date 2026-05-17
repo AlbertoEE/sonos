@@ -1,5 +1,11 @@
 # Sonos Rules Changelog
 
+## Alpha 0.5.3 — 2026-05-17
+
+- Added the recommended optional Arcade retry window to spend accumulated Auralita Refinada before repeating a lost combat.
+- Clarified that losing combat never grants Auralita Refinada and cannot be used to farm rewards.
+- Added the Observador, its defeat counter, and the d6 Caprichos del Observador table for chaotic retry penalties.
+
 ## Alpha 0.5.2 — 2026-05-15
 
 - Clarified that Sonos defaults to the Arcade approach for Resintonía.

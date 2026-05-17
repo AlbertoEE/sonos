@@ -1,7 +1,7 @@
 ---
 type: rules_task_tracker
 status: active
-updated: "2026-05-15"
+updated: "2026-05-17"
 source_of_truth: "vaults/system/rules/"
 managed_by: "sonos-rules-task-tracker"
 printable: false
@@ -106,10 +106,11 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Notas: permitir recuperar toda la Auralita Refinada invertida y volver a asignarla. Al comenzar una campaña, DM y jugadores deberían acordar una opción: reset pagando X de Auralita Refinada, reset libre al final de sesión, sin reset, o reset permitido en modo Arcade al perder una batalla, entre otras posibles variantes.  
   Origen: conversación 2026-05-15.
 
-- [ ] **RT-019 · Media:** Aclarar que en modo Arcade, al perder una batalla, los jugadores pueden invertir la Auralita Refinada acumulada antes de repetir el combate.  
-  Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[character/auralium.md]], [[combat/combate.md]]  
-  Notas: permitir mejorar el Instrumento Vital con Auralita Refinada acumulada tras una derrota en modo Arcade, sin tener que esperar al final de la sesión o al inicio de la siguiente.  
-  Origen: conversación 2026-05-15.
+- [x] **RT-019 · Media:** Aclarar que en modo Arcade, al perder una batalla, los jugadores pueden invertir la Auralita Refinada acumulada antes de repetir el combate.  
+  Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[character/auralium.md]], [[combat/combate.md]], [[combat/resintonia.md]]  
+  Notas: resuelto con ventana recomendada pero opcional para gastar Auralita Refinada acumulada antes del retry, anti-farmeo de derrotas y Caprichos del Observador cada 3 derrotas con reinicio.  
+  Origen: conversación 2026-05-15.  
+  Resuelta: 2026-05-17. Patch: [[../../rules-patches/2026-05-17-alpha-0.5.3-reinicio-arcade-observador.md]].
 
 ## Clarificaciones pendientes
 

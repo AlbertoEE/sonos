@@ -780,6 +780,41 @@ El Cantor resintonizado:
 
 Si la bolsa común no tiene Resintonizaciones disponibles, el siguiente Cantor que caiga a 0 Vitalidad muere y el combate se pierde.
 
+#### Reinicio Arcade e inversión de Auralita Refinada
+
+En Modo Arcade, cuando el grupo pierde un combate y debe reiniciarlo, el DM puede permitir que los jugadores inviertan Auralita Refinada acumulada antes de volver a intentar ese mismo combate.
+
+Esta norma es la recomendación por defecto para mantener el ritmo arcade: una derrota puede dar lugar a una estrategia distinta en el siguiente intento gracias a una mejora comprada entre intentos. Aun así, sigue siendo opcional y queda a discreción del DM.
+
+La Auralita Refinada que se puede gastar debe ser Auralita Refinada acumulada por vías normales. Perder un combate nunca otorga Auralita Refinada por sí mismo, y una recompensa asociada a ganar ese combate solo se obtiene cuando el combate se gana.
+
+La inversión entre intentos sigue las reglas normales de mejoras disponibles para los Cantores. Esta ventana no implica por sí misma un reset de build ni permite recuperar Auralita Refinada ya invertida.
+
+La narrativa de este reinicio queda a elección del DM. Puede representarse dentro del mundo, tratarse como una mecánica puramente arcade o no recibir explicación narrativa si la mesa lo prefiere.
+
+#### El Observador
+
+En Modo Arcade, cada vez que el grupo pierde un combate y debe reiniciarlo, el Observador puede manifestarse antes de devolverlos al inicio del combate. Normalmente lo hace con un comentario, burla, queja o advertencia sobre la derrota.
+
+El Observador es una presencia opcional de tono arcade. El DM puede desarrollarlo como una entidad real de la campaña, usarlo solo como recurso humorístico o ignorar su narrativa y aplicar únicamente la mecánica.
+
+Cada vez que el grupo pierde un combate que debe reiniciarse, aumenta en 1 el contador de derrotas del Observador. Cuando el contador llega a 3, se reinicia a 0 y el siguiente intento de combate queda afectado por un **Capricho del Observador** durante todo ese intento.
+
+Las derrotas no tienen que ser consecutivas: el contador mide combates perdidos con reinicio en Modo Arcade.
+
+##### Tabla de Caprichos del Observador
+
+Cuando se active un Capricho del Observador, el DM tira 1d6 o elige un resultado apropiado para la mesa.
+
+| d6 | Capricho | Efecto |
+|---:|---|---|
+| 1 | **Pulso caprichoso** | Cada vez que un ser use un Pulso o un ataque con objetivo, el objetivo se determina aleatoriamente entre todos los objetivos válidos dentro de alcance. |
+| 2 | **Dirección equivocada** | Cada vez que un ser se mueve voluntariamente, el DM determina aleatoriamente la dirección real del movimiento. La distancia sigue siendo la elegida por quien se mueve. |
+| 3 | **Resonancia inestable** | Cuando un Cantor vaya a ganar Resonancia al inicio de su turno, tira 2d6. El primer dado suma y el segundo dado resta. La Resonancia ganada es el resultado final, con mínimo 0. |
+| 4 | **Estados cruzados** | Al inicio de cada ronda, cada jugador tira en la tabla de estados positivos y en la tabla de estados negativos, recibiendo un estado de cada tipo. Al inicio de la siguiente ronda, esos estados se limpian y se vuelve a tirar. |
+| 5 | **Reset mal colocado** | Al inicio de cada ronda, los personajes aparecen en posiciones aleatorias distintas dentro de la escena de combate, decididas por el DM. |
+| 6 | **Caos compuesto** | El DM tira dos veces en esta tabla y aplica ambos efectos. Si vuelve a salir 6, repite esa tirada hasta obtener otro resultado. |
+
 ## 3.3 Movimiento
 El movimiento durante un combate en Sonos cuesta **1 PA** y permite desplazarse hasta el máximo del movimiento base del Cantor (normalmente 5 casillas), salvo que algún efecto indique lo contrario.
 
