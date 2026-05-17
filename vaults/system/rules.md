@@ -726,6 +726,12 @@ Cuando un Cantor llega a 0 puntos de Vitalidad, abandona su forma cantora y vuel
 
 La Resintonía es el sistema arcade de Sonos para gestionar la caída de los Cantores durante el combate. La party dispone de una bolsa común de Resintonizaciones, determinada por el modo de juego.
 
+#### Modo Arcade y Modo Hardcore
+
+Por defecto, Sonos asume el enfoque **Arcade**, donde la caída, recuperación y posible derrota del grupo se gestionan mediante las reglas de Resintonía.
+
+Como modo alternativo y clásico, el grupo puede jugar en **Modo Hardcore**. En Modo Hardcore, cuando un personaje muere, el combate no se reinicia: la muerte del personaje es definitiva y el jugador debe crear otro personaje.
+
 #### Bolsa de Resintonizaciones
 
 Las Resintonizaciones pertenecen al grupo, no a personajes individuales. Si la bolsa común tiene varias Resintonizaciones disponibles, un mismo Cantor puede ser resintonizado varias veces usando esa misma reserva compartida.

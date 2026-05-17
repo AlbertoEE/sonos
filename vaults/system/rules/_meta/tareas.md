@@ -79,15 +79,17 @@ Los IDs `RT-###` son estables: no se reutilizan al completar tareas.
   Notas: definir hechizos no centrados en combate que puedan usar DI o AT para determinar potencia, alcance, duración o calidad del efecto; establecer tipos de Partituras, costes, límites de uso, relación con Fundamentos/Rudimentos y ejemplos de efectos útiles en exploración, social e investigación.  
   Origen: conversación 2026-05-14.
 
-- [ ] **RT-012 · Media:** Revisar cómo funciona la muerte de un Cantor durante combate y diseñar el sistema de revivir.  
+- [x] **RT-012 · Media:** Revisar cómo funciona la muerte de un Cantor durante combate y diseñar el sistema de revivir.  
   Módulos: [[character/silencio.md]], [[character/recursos-de-un-cantor.md]], [[combat/combate.md]], [[combat/acciones-por-turno.md]], [[combat/estados.md]]  
   Notas: definir cuándo un Cantor queda fuera de combate o muere, qué ocurre durante sus turnos, qué ventanas tienen los aliados para intervenir, costes/requisitos para revivir y consecuencias mecánicas o narrativas tras volver.  
-  Origen: conversación 2026-05-14.
+  Origen: conversación 2026-05-14.  
+  Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.3.0-caida-y-resintonia.md]].
 
-- [ ] **RT-014 · Media:** Añadir a la tabla de mejoras con Auralita Refinada el concepto de huecos de gemas para el Instrumento Vital.  
+- [x] **RT-014 · Media:** Añadir a la tabla de mejoras con Auralita Refinada el concepto de huecos de gemas para el Instrumento Vital.  
   Módulos: [[instrument/mejoras-del-instrumento-vital.md]], [[instrument/instrumento-vital.md]]  
   Notas: definir cómo se desbloquean hasta 3 huecos de gemas y cómo las gemas otorgan pequeñas mejoras al Instrumento Vital.  
-  Origen: conversación 2026-05-15.
+  Origen: conversación 2026-05-15.  
+  Resuelta: 2026-05-15. Patch: [[../../rules-patches/2026-05-15-alpha-0.5.0-huecos-de-gema.md]].
 
 - [ ] **RT-016 · Media:** Preparar dos modos de juego para la gestión de muerte y derrota: Hardcore y Arcade.  
   Módulos: [[character/silencio.md]], [[character/recursos-de-un-cantor.md]], [[combat/combate.md]], [[combat/acciones-por-turno.md]], [[combat/estados.md]]  

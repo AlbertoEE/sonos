@@ -1,5 +1,10 @@
 # Sonos Rules Changelog
 
+## Alpha 0.5.2 — 2026-05-15
+
+- Clarified that Sonos defaults to the Arcade approach for Resintonía.
+- Added Hardcore as an alternate classic mode where character death does not restart combat and the player must create a new character.
+
 ## Alpha 0.5.1 — 2026-05-15
 
 - Defined advantage, disadvantage, double advantage, and double disadvantage for role checks.
